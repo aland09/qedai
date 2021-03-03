@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, shrink-to-fit=no">
+    <meta name="description" content="Suha - Multipurpose Ecommerce Mobile HTML Template">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#100DD1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- The above tags *must* come first in the head, any other head content must come *after* these tags-->
+    <!-- Title-->
+    <title>Suha - Multipurpose Ecommerce Mobile HTML Template</title>
+    <!-- Favicon-->
+    <link rel="icon" href="img/icons/icon-72x72.png">
+    <!-- Apple Touch Icon-->
+    <link rel="apple-touch-icon" href="img/icons/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/icons/icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/icon-180x180.png">
+    <!-- Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Web App Manifest-->
+    <link rel="manifest" href="manifest.json">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <style media="screen">
+    .btn.btn-danger.ml-3.btncancel {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+  margin-left: 5px !important;
+}
+    </style>
+  </head>
+  <body>
+    <!-- Preloader-->
+    <div class="preloader" id="preloader">
+      <div class="spinner-grow text-secondary" role="status">
+        <div class="sr-only">Loading...</div>
+      </div>
+    </div>
+    <!-- Header Area-->
+    <div class="header-area" id="headerArea">
+      <div class="container h-100 d-flex align-items-center justify-content-between">
+        <!-- Back Button-->
+        <!-- <div class="back-button"><a href="shop-grid.html"><i class="lni lni-arrow-left"></i></a></div> -->
+        <!-- Page Title-->
+        <div class="page-heading">
+          <h6 class="mb-0">Product Details</h6>
+        </div>
+        <!-- Navbar Toggler-->
+        <!-- <div class="suha-navbar-toggler d-flex justify-content-between flex-wrap" id="suhaNavbarToggler"><span></span><span></span><span></span></div> -->
+      </div>
+    </div>
+    <!-- Sidenav Black Overlay-->
+    <div class="sidenav-black-overlay"></div>
+    <!-- Side Nav Wrapper-->
+    <div class="suha-sidenav-wrapper" id="sidenavWrapper">
+      <!-- Sidenav Profile-->
+      <div class="sidenav-profile">
+        <div class="user-profile"><img src="img/bg-img/9.jpg" alt=""></div>
+        <div class="user-info">
+          <h6 class="user-name mb-0">Suha Jannat</h6>
+          <p class="available-balance">Balance <span>$<span class="counter">523.98</span></span></p>
+        </div>
+      </div>
+      <!-- Sidenav Nav-->
+      <ul class="sidenav-nav pl-0">
+        <li><a href="profile.html"><i class="lni lni-user"></i>My Profile</a></li>
+        <li><a href="notifications.html"><i class="lni lni-alarm lni-tada-effect"></i>Notifications<span class="ml-3 badge badge-warning">3</span></a></li>
+        <li class="suha-dropdown-menu"><a href="#"><i class="lni lni-cart"></i>Shop Pages</a>
+          <ul>
+            <li><a href="shop-grid.html">- Shop Grid</a></li>
+            <li><a href="shop-list.html">- Shop List</a></li>
+            <li><a href="single-product.html">- Product Details</a></li>
+            <li><a href="featured-products.html">- Featured Products</a></li>
+            <li><a href="flash-sale.html">- Flash Sale</a></li>
+          </ul>
+        </li>
+        <li><a href="pages.html"><i class="lni lni-empty-file"></i>All Pages</a></li>
+        <li class="suha-dropdown-menu"><a href="wishlist-grid.html"><i class="lni lni-heart"></i>My Wishlist</a>
+          <ul>
+            <li><a href="wishlist-grid.html">- Wishlist Grid</a></li>
+            <li><a href="wishlist-list.html">- Wishlist List</a></li>
+          </ul>
+        </li>
+        <li><a href="settings.html"><i class="lni lni-cog"></i>Settings</a></li>
+        <li><a href="intro.html"><i class="lni lni-power-switch"></i>Sign Out</a></li>
+      </ul>
+      <!-- Go Back Button-->
+      <div class="go-home-btn" id="goHomeBtn"><i class="lni lni-arrow-left"></i></div>
+    </div>
+    <div class="page-content-wrapper">
+      <!-- Product Slides-->
+      <div class="product-slides owl-carousel">
+        <!-- Single Hero Slide-->
+        <div class="single-product-slide" id="imgnya" style="background-image: url('img/bg-img/6.jpg')"></div>
+        <!-- Single Hero Slide-->
+        <!-- <div class="single-product-slide" style="background-image: url('img/bg-img/10.jpg')"></div> -->
+        <!-- Single Hero Slide-->
+        <!-- <div class="single-product-slide" style="background-image: url('img/bg-img/11.jpg')"></div> -->
+      </div>
+      <div class="product-description pb-3">
+        <!-- Product Title & Meta Data-->
+        <div class="product-title-meta-data bg-white mb-3 py-3">
+          <div class="container d-flex justify-content-between">
+            <div class="p-title-price">
+              <h6 class="mb-1" id="name"></h6>
+              <p class="sale-price mb-0"  id="harga"></p>
+            </div>
+            <!-- <div class="p-wishlist-share"><a href="wishlist-grid.html"><i class="lni lni-heart"></i></a></div> -->
+          </div>
+          <!-- Ratings-->
+          <!-- <div class="product-ratings">
+            <div class="container d-flex align-items-center justify-content-between">
+              <div class="ratings"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><span class="pl-1">3 ratings</span></div>
+              <div class="total-result-of-ratings"><span>5.0</span><span>Very Good                                </span></div>
+            </div>
+          </div> -->
+        </div>
+        <!-- Flash Sale Panel-->
+
+        <!-- Selection Panel-->
+
+        <!-- Add To Cart-->
+        <div class="cart-form-wrapper bg-white mb-3 py-3">
+          <div class="container">
+            <form class="cart-form" action="#" method="">
+              <div class="order-plus-minus d-flex align-items-center">
+                <div class="quantity-button-handler">-</div>
+                <input class="form-control cart-quantity-input" type="text" step="1" name="quantity" id="qty" value="">
+                <div class="quantity-button-handler">+</div>
+                <!-- <p>Total: Rp <span id="totalnya"></span> </p> -->
+              </div>
+              <!-- <button class="btn btn-danger ml-3" type="submit">Masuk Keranjang</button> -->
+              <input type="submit" name="submit" class="btn btn-danger ml-3" id="hSubmit" value="Masuk Keranjang" />
+              <div class="btn btn-danger ml-3 btncancel" onclick="batal()">Batal</div>
+            </form>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <!-- Internet Connection Status-->
+    <div class="internet-connection-status" id="internetStatus"></div>
+
+
+    <script type="text/javascript">
+
+
+
+    var idt ="";
+
+     $(document).ready(function() {
+
+       var queryString = decodeURIComponent(window.location.search);
+       queryString = queryString.substring(1);
+       var queries = queryString.split("=");
+        // alert(queries[1]);
+        var idtrans = queries[1].split("|@|");
+         idt = idtrans[0];
+        var idItem = idtrans[1];
+        // alert(idt);
+
+       $("#hSubmit").click(function() {
+
+
+         var qty = $("#qty").val();
+         // alert(qty);
+         // alert(idt);
+         //
+         // alert(idItem);
+
+
+           // var hJual = $("#hJual").val();
+           // var hBeli = $("#hBeli").val();
+           // var hPPN = $("#hPPN").val();
+           // var hProfit = $("#hProfit").val();
+           // var hDate = $("#hDate").val();
+
+
+           // //alert(hProd+" --- "+hJual+" --- "+hBeli+" --- "+hPPN+" --- "+hProfit+" --- "+hDate);
+           // // var price = $("#price").val();
+           var dataString = "qty=" + qty + "&idt=" + idt + "&idItem=" + idItem + "&insert=";
+               //alert(dataString);
+               $.ajax({
+                   type: "POST",
+                   url: "http://qedai.id/mobile/setTransItem.php",
+                   data: dataString,
+                   crossDomain: true,
+                   cache: false,
+                   beforeSend: function() {
+                       // $("#btnLogin").val('Connecting...');
+                        // document.getElementById("loadingscreen").style.display = "block";
+                   },
+                   success: function(data) {
+                       //alert(data);
+                       // $("#hasilnya").append(data);
+                       // document.getElementById("loadingscreen").style.display = "none";
+                       // alert(data);
+                       // $("#hasilnya3").append(data);
+                       // var xxx = "?datanya=" + IDnya;
+                       location.href = 'http://qedai.id/beta/cart.html?datanya='+idt;
+
+                   }
+
+               });
+
+           return false;
+       });
+
+
+
+         // alert(spbunya);
+         // var dataString = "IDnya=" + res[1]  + "&insert=";
+         // var queryString = decodeURIComponent(window.location.search);
+         // queryString = queryString.substring(1);
+         // var datanyaa = queryString.replace("datanya=", "");
+         // const IDR = value => currency(value, { precision: 0, symbol: 'Rp. ' });
+         // alert(datanyaa);
+
+          // alert(idItem);
+
+          var name = "";
+          var harga = "";
+          var image = "";
+          var qty = 0;
+
+
+         var dataString = "IDnya=" + idt+ "&iditem="+ idItem + "&insert=";
+
+             $.ajax({
+                 type: "POST",
+                 url: "http://qedai.id/mobile/getsingletrans.php",
+                 data: dataString,
+                 crossDomain: true,
+                 cache: false,
+                 beforeSend: function() {
+                     // $("#btnLogin").val('Connecting...');
+                      // document.getElementById("loadingscreen").style.display = "block";
+                 },
+                 success: function(data) {
+                   // alert(data);
+                     if (data != "error") {
+                         // alert(data);
+
+                         // var dataSrv = data.split("|@|");
+                         //
+                         var prod = JSON.parse(data);
+                         // var totPemasukan = dataSrv[1];
+                         // var totPenjualan = dataSrv[2];
+                         // var saldoAkhir = dataSrv[3];
+                         // var bln = dataSrv[4];
+                         // var thn = dataSrv[5];
+                         // var dataStock = JSON.parse(dataSrv[0]);
+                         // alert(data);
+                          // alert(prod.length);
+                         // var konten ="";
+                         // var datenya;
+                         // var cont=0;
+                         // for (var i = 0; i < datagroupdate.length; i++) {
+                         //   if (datenya != datastok[i].dataupdate) {
+
+                           for (var i = 0; i < prod.length; i++) {
+                             // alert(prod[i].itemName);
+
+                             name = prod[i].itemName;
+                             harga = prod[i].harga;
+                             image = prod[i].image;
+                             qty = qty+1;
+                             // konten +='<div class="col-6 col-md-4 col-lg-3">';
+                             //   konten +='<div class="card top-product-card">';
+                             //   konten +='  <div class="card-body"><span class="badge badge-success"></span><a class="product-thumbnail d-block" href="single-product.html"><img class="mb-2" src="gambar/'+prod[i].image+'" alt=""></a><a class="product-title d-block" href="single-product.html">'+prod[i].nama+'</a>';
+                             //   konten +='    <p class="sale-price">'+IDR(prod[i].harga).format()+'</p>';
+                             //   konten +='    <div class="btn btn-success btn-sm add2cart-notify"  onclick="addcart(\''+prod[i].id+'\',\''+prod[i].nama+'\',\''+prod[i].harga+'\');"><i class="lni lni-plus"></i></div>';
+                             //   konten +='  </div>';
+                             // konten +='  </div>';
+                             // konten +='</div>';
+                           }
+
+                           // alert(name);
+                           // alert(harga);
+                           // alert(image);
+                           // alert(qty);
+
+                           document.getElementById("imgnya").style.backgroundImage = "url('gambar/"+image+"')";
+                           // document.getElementById("imgnya").style.backgroundImage = "url('gambar/"+image+"')";
+                           document.getElementById("name").innerHTML = name;
+                           document.getElementById("harga").innerHTML = "Rp"+harga;
+                           document.getElementById("qty").value = qty;
+
+
+
+                         // $("#prodlist").append(konten);
+
+                         // var datst="";
+
+
+
+
+
+                       }
+                 }
+
+             });
+       });
+
+       function batal(){
+         // alert(idt);
+         var xxx = "?datanya=" + idt;
+         location.href = 'cart.html'+xxx;
+       }
+
+
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/default/jquery.passwordstrength.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jarallax.min.js"></script>
+    <script src="js/jarallax-video.min.js"></script>
+    <script src="js/default/dark-mode-switch.js"></script>
+    <script src="js/default/no-internet.js"></script>
+    <script src="js/default/active.js"></script>
+    <script src="js/pwa.js"></script>
+  </body>
+</html>

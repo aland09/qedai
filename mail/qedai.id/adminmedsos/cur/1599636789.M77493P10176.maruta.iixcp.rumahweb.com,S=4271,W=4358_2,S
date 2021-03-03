@@ -1,0 +1,87 @@
+Return-Path: <mauli.chrisman@gmail.com>
+Delivered-To: Adminmedsos@qedai.id
+Received: from maruta.iixcp.rumahweb.com
+	by maruta.iixcp.rumahweb.com with LMTP
+	id 4PGDBDWFWF/AJwAATxegfw
+	(envelope-from <mauli.chrisman@gmail.com>)
+	for <Adminmedsos@qedai.id>; Wed, 09 Sep 2020 14:33:09 +0700
+Return-path: <mauli.chrisman@gmail.com>
+Envelope-to: Adminmedsos@qedai.id
+Delivery-date: Wed, 09 Sep 2020 14:33:09 +0700
+Received: from mail-yb1-f172.google.com ([209.85.219.172]:43507)
+	by maruta.iixcp.rumahweb.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <mauli.chrisman@gmail.com>)
+	id 1kFubF-0005tg-6t
+	for Adminmedsos@qedai.id; Wed, 09 Sep 2020 14:33:09 +0700
+Received: by mail-yb1-f172.google.com with SMTP id p6so1139219ybk.10
+        for <Adminmedsos@qedai.id>; Wed, 09 Sep 2020 00:32:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=K8L/Tg50IwVsHHEskdOjXF6hoNlb5B4Vsr7a/SHeHwM=;
+        b=I3P9eluHrvrdGi4clFNR0j3OzqIe6NCde8fXaVwBVm05SjNDhU7NKAAEPzVyaFcxxc
+         7P7YSx9t3meyvKnfqRwDUKt1YcptdRdFx4PwcswCj2fZKkAnZ4sDD0Fj8xZHaEhrgAyF
+         2HrtStxyWdxrwk50mNU4Et3Q6oo/0OEVac5SZBWBMhExvm5/om2Ef9GhPp58IalyF9lQ
+         vemIXX6WElQ7H849oZkhFDr421J7lksl7THClc1Gaq6wG2faStnKbK5DMI76W4VNO0oR
+         r6piVnCa/fmmb6oGE6p85N0MVUaloGrxUD+0amo9Vi2+MXbwtusclHswqs/4sTuMqWeq
+         dC5A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=K8L/Tg50IwVsHHEskdOjXF6hoNlb5B4Vsr7a/SHeHwM=;
+        b=U62KnthugExXD0IUC2P5xXsN1iIi4fqMbPf6LqbZlACv4BSThW9wuFrK2/dpQuMzHB
+         gJCfyjFkCPDNdz/csdo+9yC10KiFLJ8nt7Pt9AedNSIfvBQyxxOW39QILUcaG9xlrj/T
+         k0iT2FoPI45/8kaIFcjCzT55mTluhjxBhI5RPz0+GhzFblL5gopZzeIcV5IwMeITDwG6
+         DDnbFVW/opc79lArdVHUIekokxDTZqLuDTWdyUyvyQHgPztQxkE5QDIqvzk60f4yqcaU
+         KXYrKrK3SL3TNRDFcaNCX4vJv6FocYxMTnZgfQFYesHHEa/mZ6QaNxuJSI2Trrtejp5k
+         xccw==
+X-Gm-Message-State: AOAM530J/5WRwDhazo4WlKPvFJ3yuUT2ko3dLKTxF9xGx6sNMdAUaWYU
+	xtMCGTptQJtmGFxEL8uFdmP5a+JeruisWkYlifuWYveD
+X-Google-Smtp-Source: ABdhPJwsRsvEnomKAPkvhpIpJDhZFtitcxJZ5wFMODYXOBDEHr0J7iYdBR6KX4EQMbumn8Spqkj5GFhI0Zd4tnAMINg=
+X-Received: by 2002:a25:7e41:: with SMTP id z62mr3866197ybc.444.1599636063037;
+ Wed, 09 Sep 2020 00:21:03 -0700 (PDT)
+MIME-Version: 1.0
+From: Mauli Chrisman <mauli.chrisman@gmail.com>
+Date: Wed, 9 Sep 2020 14:20:52 +0700
+Message-ID: <CAAy7SCa0prA0wxGD-L3axQG=MxZW+mrZnUr-JitAHtNvJudfJw@mail.gmail.com>
+Subject: Tes
+To: Adminmedsos@qedai.id
+Content-Type: multipart/alternative; boundary="0000000000004eab5405aedc4b5b"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "maruta.iixcp.rumahweb.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Tes Tes 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [mauli.chrisman[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+--0000000000004eab5405aedc4b5b
+Content-Type: text/plain; charset="UTF-8"
+
+Tes
+
+--0000000000004eab5405aedc4b5b
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="auto">Tes</div>
+
+--0000000000004eab5405aedc4b5b--

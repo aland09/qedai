@@ -1,0 +1,509 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202101 will be lost/reset.
+# Last config file used to build this data file was /home/qedy1629/tmp/awstats/awstats.qedai.id.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2005                
+POS_TIME 2677                
+POS_VISITOR 10177               
+POS_DAY 11759               
+POS_DOMAIN 3399                
+POS_LOGIN 3682                
+POS_ROBOT 3837                
+POS_WORMS 4160                
+POS_EMAILSENDER 4291                
+POS_EMAILRECEIVER 4434                
+POS_SESSION 12178               
+POS_SIDER 12384               
+POS_FILETYPES 4569                
+POS_DOWNLOADS 4956                
+POS_OS 5287                
+POS_BROWSER 5503                
+POS_SCREENSIZE 5976                
+POS_UNKNOWNREFERER 6050                
+POS_UNKNOWNREFERERBROWSER 6294                
+POS_ORIGIN 6448                
+POS_SEREFERRALS 6587                
+POS_PAGEREFS 6731                
+POS_SEARCHWORDS 6879                
+POS_KEYWORDS 7031                
+POS_MISC 2340                
+POS_ERRORS 7090                
+POS_CLUSTER 3538                
+POS_SIDER_404 7214                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210201061055 1 0 2911185273881
+FirstTime 20210101033451
+LastTime 20210131174509
+LastUpdate 20210201191030 1 0 0 0 0
+TotalVisits 55                  
+TotalUnique 38                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 38                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 27 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 130 162 306738 202 203 251987
+1 2 2 5414 1 2 5173
+2 26 42 645358 0 1 1237
+3 2 2 4181 0 3 3711
+4 0 0 0 0 0 0
+5 0 0 0 2 2 2474
+6 0 0 0 16 16 3936
+7 37 42 9518542 3 6 7395
+8 5 15 96228 1 1 1237
+9 12 45 740985 6 6 7422
+10 61 113 823370 68 69 84116
+11 10 44 717296 31 31 38347
+12 32 82 4579588 2 4 8215
+13 24 74 3094422 6 8 7422
+14 185 309 2681525 154 274 337170
+15 266 413 2413036 416 418 497304
+16 77 166 3719339 32 36 48162
+17 114 169 1810634 25 51 43431
+18 5 25 631287 3 4 11565
+19 3 3 837 0 0 0
+20 22 28 15121 2 6 7869
+21 2 6 4319 0 2 1237
+22 6 9 69646 7 7 10776
+23 82 100 181054 81 81 100197
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+id 1051 1794 22529960
+us 45 50 9525078
+se 3 3 2354
+ru 3 3 1528
+cz 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+no_user_agent 25 38775 20210131060439 0
+bot[\s_+:,\.\;\/\\-] 5 16758 20210110001924 0
+bingbot/ 2 0 20210131153005 0
+Apache\-HttpClient/ 1 804 20210122200257 0
+Dalvik/ 1 3220 20210119162941 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 18
+bat 1 2314 0 0
+png 253 820177 0 0
+htm 2 252 0 0
+zip 2 2447260 0 0
+js 237 2662882 0 0
+rar 2 6699896 0 0
+jpg 164 13368405 0 0
+css 81 1220791 0 0
+woff2 30 2001892 0 0
+sql 1 566 0 0
+Unknown 9 85071 0 0
+json 10 2490 0 0
+woff 9 347780 0 0
+xls 1 88328 0 0
+html 812 2175285 0 0
+svg 8 76233 0 0
+php 227 58087 0 0
+gradle 2 1211 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 5
+/testing/BARCODEwAREHOUSE/Sample-CRUD-Greendao-master.zip 1 0 1223630
+/testing/pbr.xls 1 0 88328
+/KULIKPROJECT/BARCODEwAREHOUSE/Sample-CRUD-Greendao-master.zip 1 0 1223630
+/KULIKPROJECT/BARCODEwAREHOUSE/CrudSqlite.rar 1 0 4556856
+/testing/BARCODEwAREHOUSE/CrudSqlite.rar 1 0 2143040
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+Unknown 8 8
+macosx9 1 1
+win7 1 1
+win10 359 127
+macosx 97 61
+ios_ipad 102 89
+win2003 1 1
+macosx8 1 1
+macosx10 2 2
+ios_iphone 3 3
+linuxandroid 1276 809
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 21
+chrome88.0.4324.96 2 2
+mozilla 1 1
+chrome71.0.3578.141 5 1
+chrome73.0.3683.90 1 1
+safari11.0 102 89
+firefox57.0 1 1
+chrome84.0.4147.105 1 1
+firefox84.0 55 18
+chrome26.0.1410.65 1 1
+firefox78.0 26 3
+msie8.0 1 1
+chrome71.0.3578.98 3 3
+firefox70.0 41 36
+safari10.0 3 3
+Unknown 7 7
+firefox59.0 2 2
+chrome87.0.4280.141 1055 660
+chrome83.0.4103.106 501 260
+chrome35.0.1916.47 1 1
+chrome88.0.4324.93 41 11
+chrome79.0.3945.88 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Go-http-client/1.1 20210126030653
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20210101033451
+WhatsApp/2.20.206.24_A 20210124011113
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Go-http-client/1.1 20210126030653
+WhatsApp/2.20.206.24_A 20210124011113
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 159 160
+From1 0 0
+From2 0 0
+From3 0 0
+From4 944 1691
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+500 15 0
+403 3 3684
+404 1137 1406469
+301 2 1412
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 72
+/beta/img/core-img/curve.png 1 http://qedai.id/beta/style.css
+/temp/ 1 -
+/beta/gambar/redvelvet 3 http://qedai.id/beta/home.html
+/beta/img/core-img/logo-small.png 1 http://qedai.id/beta/
+/beta/js/jarallax-video.min.js.map 290 -
+/betaadmin/assets/js/plugins/bootstrap.min.js.map 19 -
+/bak/ 1 -
+/home/ 1 -
+/beta/js/jquery.countdown.min.js 8 http://qedai.id/beta/home.html
+/beta/img/demo-img/gulp.png 1 http://qedai.id/beta/
+/beta/js/waypoints.min.js 8 http://qedai.id/beta/home.html
+/cms/ 1 -
+/site/ 1 -
+/web/ 1 -
+/wp/ 1 -
+/v1/ 1 -
+/beta/img/demo-img/pwa.png 1 http://qedai.id/beta/
+/beta/img/core-img/dot-blue.png 1 http://qedai.id/beta/style.css
+/beta/img/demo-img/bootstrap.png 1 http://qedai.id/beta/
+/beta/js/default/no-internet.js 2 http://qedai.id/beta/home.html
+/beta/js/default/dark-mode-switch.js 8 http://qedai.id/beta/home.html
+/getDataTrans.php 2 http://qedai.id/beta/cart.html
+/humans.txt 3 -
+/wordpress/ 1 -
+/beta/fonts/fontawesome-webfont.woff 1 http://qedai.id/beta/css/font-awesome.min.css
+/beta/img/demo-img/pug.png 1 http://qedai.id/beta/
+/beta/js/default/active.js 8 http://qedai.id/beta/home.html
+/blog/ 1 -
+/beta/fonts/fontawesome-webfont.ttf 1 http://qedai.id/beta/css/font-awesome.min.css
+/beta/js/jarallax.min.js 7 http://qedai.id/beta/home.html
+/backup/ 1 -
+/beta/js/jarallax-video.min.js 6 http://qedai.id/beta/
+/beta/js/jarallax.min.js.map 362 -
+/tmp/ 1 -
+/beta/js/owl.carousel.min.js 8 http://qedai.id/beta/home.html
+/robots.txt 7 -
+/2018/ 1 -
+/beta/img/core-img/logo-white.png 2 http://qedai.id/beta/intro.html
+/v2/ 1 -
+/beta/js/wow.min.js 8 http://qedai.id/beta/home.html
+/new-site/ 1 -
+/2020/ 1 -
+/beta/js/bootstrap.bundle.min.js.map 290 -
+/wp-login.php 4 -
+/wp1/ 1 -
+/beta/img/demo-img/npm.png 1 http://qedai.id/beta/
+/beta/js/jquery.counterup.min.js 8 http://qedai.id/beta/home.html
+/wp2/ 1 -
+/dev/ 1 -
+/ads.txt 3 -
+/beta/img/demo-img/sass.png 1 http://qedai.id/beta/
+/test/ 1 -
+/beta/img/demo-img/qr-code.svg 1 http://qedai.id/beta/
+/beta/js/jquery.easing.min.js 8 http://qedai.id/beta/home.html
+/old-site/ 1 -
+/beta/img/demo-img/jquery.png 1 http://qedai.id/beta/
+/main/ 1 -
+/beta/js/bootstrap.bundle.min.js 6 http://qedai.id/beta/home.html
+/bk/ 1 -
+/old-wp/ 1 -
+/beta/gambar/undefined 2 http://qedai.id/beta/home.html
+/new/ 1 -
+/beta/js/default/jquery.passwordstrength.js 8 http://qedai.id/beta/home.html
+/beta/fonts/fontawesome-webfont.woff2 1 http://qedai.id/beta/css/font-awesome.min.css
+/demo/ 1 -
+/2019/ 1 -
+/beta/img/icons/icon-72x72.png 1 http://qedai.id/beta/
+/beta/js/pwa.js 8 http://qedai.id/beta/home.html
+/beta/main.html 1 -
+/beta/js/jquery.min.js 4 http://qedai.id/beta/home.html
+/old/ 1 -
+/install/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 38
+114.4.213.90 167 189 331826 20210126155711
+120.188.95.134 159 194 436738 20210124011113
+114.5.212.57 152 244 1920512 20210125181732
+120.188.66.199 149 254 4182524 20210119172937
+114.5.218.109 84 156 1572575 20210119172935
+120.188.35.180 58 72 123698 20210129234207
+120.188.6.212 58 110 821707 20210123105420
+114.4.218.142 37 114 3778826 20210126183900
+3.17.210.127 36 41 9517775 20210113074700
+125.166.74.37 35 96 3141362 20210125122457
+114.5.252.91 29 78 837365 20210125144311
+114.4.212.82 28 35 251661 20210124125752
+103.29.184.38 21 27 14360 20210115203141
+114.5.219.228 18 24 40062 20210125162050
+114.5.249.102 15 59 826712 20210123111902
+203.77.251.27 10 43 727797 20210127093608
+125.160.235.253 10 44 544610 20210119155030
+120.188.6.146 8 15 555650 20210127153401
+114.4.213.238 6 6 2511 20210123191325
+223.255.230.1 3 26 2415145 20210125122242
+114.5.210.26 2 2 0 20210128164152
+129.213.109.135 2 2 0 20210129110345
+77.74.177.114 1 1 0 20210131152656
+34.220.240.15 1 1 826 20210126105214
+114.5.254.220 1 1 0 20210119191129
+104.236.52.146 1 1 3355 20210101033451
+134.209.214.176 1 1 761 20210105143215
+192.36.53.165 1 1 826 20210126030653
+93.170.123.14 1 1 0 20210131174509
+77.74.177.113 1 1 767 20210117152651
+64.246.165.50 1 1 764 20210102014259
+199.244.88.132 1 1 767 20210119135026
+192.71.103.173 1 1 761 20210101200448
+216.145.5.42 1 1 830 20210126025432
+192.36.71.133 1 1 767 20210117070842
+54.74.191.58 1 1 0 20210129212831
+93.159.230.28 1 1 761 20210103152647
+103.10.66.23 1 5 4319 20210115213535
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20210101 2 2 4116 2
+20210102 1 1 764 1
+20210103 1 1 761 1
+20210105 1 1 761 1
+20210113 36 41 9517775 1
+20210115 22 32 18679 2
+20210117 2 2 1534 2
+20210119 245 456 6300476 5
+20210123 114 238 2359495 9
+20210124 165 213 965650 6
+20210125 224 421 7368630 7
+20210126 207 306 4113134 8
+20210127 18 58 1283447 3
+20210128 2 2 0 1
+20210129 61 75 123698 4
+20210131 2 2 0 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+30s-2mn 7
+5mn-15mn 2
+15mn-30mn 3
+2mn-5mn 3
+30mn-1h 2
+0s-30s 34
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 85
+/beta/home.html 244 728040 13 1
+/beta/cart.html 165 372093 1 2
+/mobile/getprod.php 160 51948 6 0
+/beta/gambar/ 135 66260 0 13
+/betaadmin/dashboard-project.html 36 268950 1 2
+/beta/checkout-payment.html 35 25555 0 0
+/betaadmin/ 35 173642 0 0
+/ 34 22385 26 19
+/mobile/getDataTrans.php 26 4798 0 3
+/mobile/setTrans.php 25 551 0 0
+/beta/fonts/fontawesome-webfont.woff2 12 905376 0 0
+/beta/checkout.html 11 14142 0 1
+/beta/single-product.html 11 32445 0 1
+/beta/shop-grid.html 11 15504 0 1
+/beta/fonts/LineIcons.woff2 11 568436 2 0
+/beta/manifest.json 10 2490 3 1
+/betaadmin/assets/fonts/feather.woff 7 185024 1 1
+/betaadmin/assets/fonts/fa-solid-900.woff2 7 528080 0 4
+/cpanel 6 79002 2 1
+/KULIKPROJECT/ 6 2785 0 0
+/beta/payment-success.html 5 4680 0 0
+/KULIKPROJECT/BARCODEwAREHOUSE/CrudSqlite/ 4 2664 0 0
+/beta/checkout-credit-card.html 4 8568 0 0
+/beta/checkout-cash.html 4 7632 0 0
+/beta/checkout-paypal.html 4 8116 0 0
+/testing/BARCODEwAREHOUSE/ 1 577 0 0
+/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/ 1 572 0 0
+/KULIKPROJECT/BARCODEwAREHOUSE/CrudSqlite/build.gradle 1 521 0 0
+/KULIKPROJECT/BARCODEwAREHOUSE/CrudSqlite/projectFilesBackup/ 3 1395 0 0
+/masterapk/Android-Login-Register-MySQL-master/ 1 717 0 0
+/testing/data/ 1 261155 0 0
+/beta/profile.html 2 4426 0 0
+/betaadmin/school-dashboard.html 1 7764 0 0
+/masterapk/Android-Login-Register-MySQL-master/kuncoro_login.sql 1 566 0 0
+/testing/cgi-bin/ 1 423 0 0
+/beta/featured-products.html 1 2402 0 0
+/masterapk/Android-Login-Register-MySQL-master/build/ 1 503 0 0
+/betaadmin/help-create-ticket.html 1 6136 0 0
+/betaadmin/help-dashboard.html 1 7031 0 0
+/masterapk/Android-Login-Register-MySQL-master/gradlew 1 4971 0 0
+/testing/CrudSqlite/ 1 455 0 0
+/betaadmin/dashboard-crm.html 1 8016 0 0
+/masterapk/Android-Login-Register-MySQL-master/android/ 1 493 0 0
+/KULIKPROJECT/BARCODEwAREHOUSE/CrudSqlite/app/ 1 595 0 0
+/testing/BARCODEwAREHOUSE/Sample-CRUD-Greendao-master/ 1 657 0 0
+/KULIKPROJECT/BARCODEwAREHOUSE/Sample-CRUD-Greendao-master/ 2 1336 0 1
+/betaadmin/dashboard-sale.html 2 15072 0 1
+/testing/BARCODEwAREHOUSE/CrudSqlite/ 1 658 0 0
+/masterapk/Android-Login-Register-MySQL-master/build.gradle 1 690 0 0
+/masterapk/Android-Login-Register-MySQL-master/regisuserkedai.php 1 0 0 1
+/betaadmin/school-parents.html 1 6661 0 0
+/register.php 2 158 0 0
+/betaadmin/dashboard-analytics.html 2 13252 0 0
+/beta/neworder.html 2 5009 0 0
+/beta/settings.html 3 6573 0 0
+/betaadmin/hospital-dashboard.html 1 7496 0 0
+/beta/intro.html 3 2847 0 0
+/beta/message.html 3 6375 0 1
+/masterapk/Android-Login-Register-MySQL-master/gradlew.bat 1 2314 0 0
+/koneksi.php 1 0 0 0
+/regisuserkedai.php 2 218 0 0
+/beta/ 3 6261 0 0
+/KULIKPROJECT/BARCODEwAREHOUSE/ 4 2336 0 0
+/beta/notifications.html 2 4142 0 0
+/testing/ 2 1190 0 0
+/betaadmin/file-upload.html 1 5737 0 0
+/registerxxx.php 2 52 0 0
+/beta/fonts/LineIcons.woff 1 64732 0 1
+/beta/checkout-bank.html 4 6054 0 0
+/DatabaseConfig.php 2 0 0 0
+/beta/fonts/fontawesome-webfont.woff 1 98024 0 0
+/login.php 2 140 0 0
+/masterapk/ 2 958 0 0
+/masterapk/Android-Login-Register-MySQL-master/gradle/ 1 482 0 0
+/masterapk/Android-Login-Register-MySQL-master/gradle.properties 1 730 0 0
+/betaadmin/member-dashboard.html 1 6913 0 0
+/masterapk/Android-Login-Register-MySQL-master/local.properties 1 368 0 0
+/testing/CrudSqlite/CrudSqlite/ 1 659 0 0
+/home.htm 2 252 0 0
+/beta/pages.html 3 6951 0 0
+/regiskedai.php 2 160 0 0
+/beta/edit-profile.html 2 4284 0 0
+/UserLogin.php 2 62 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/ 1 561 0 0
+/betaadmin/school-teacher.html 1 6700 0 0
+END_SIDER

@@ -1,0 +1,493 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202102 will be lost/reset.
+# Last config file used to build this data file was /home/qedy1629/tmp/awstats/awstats.qedai.id.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2005                
+POS_TIME 2687                
+POS_VISITOR 9342                
+POS_DAY 11392               
+POS_DOMAIN 3432                
+POS_LOGIN 3714                
+POS_ROBOT 3869                
+POS_WORMS 4132                
+POS_EMAILSENDER 4263                
+POS_EMAILRECEIVER 4406                
+POS_SESSION 12018               
+POS_SIDER 12224               
+POS_FILETYPES 4541                
+POS_DOWNLOADS 4872                
+POS_OS 4920                
+POS_BROWSER 5133                
+POS_SCREENSIZE 5749                
+POS_UNKNOWNREFERER 5823                
+POS_UNKNOWNREFERERBROWSER 6315                
+POS_ORIGIN 6699                
+POS_SEREFERRALS 6841                
+POS_PAGEREFS 6985                
+POS_SEARCHWORDS 7204                
+POS_KEYWORDS 7356                
+POS_MISC 2350                
+POS_ERRORS 7415                
+POS_CLUSTER 3570                
+POS_SIDER_404 7559                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210301061419 285 68664 2924070442009
+FirstTime 20210201153345
+LastTime 20210228234121
+LastUpdate 20210301192352 285 0 284 0 0
+TotalVisits 82                  
+TotalUnique 50                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 52                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 50 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 165 195 230712 190 192 236480
+1 7 8 10418 12 12 14844
+2 224 274 1030160 10 11 11839
+3 4 4 0 20 20 24722
+4 0 0 0 0 0 0
+5 1 1 0 6 6 0
+6 1 1 0 67 68 2474
+7 3 3 0 6 9 3711
+8 2 2 0 0 0 0
+9 6 29 2415981 6 7 2640
+10 27 72 847205 2 6 5654
+11 24 92 808558 24 24 29688
+12 15 51 787227 12 12 14844
+13 21 105 11127772 10 13 13607
+14 29 58 839470 49 51 60425
+15 146 292 3134809 108 109 133596
+16 390 584 6025172 265 269 329633
+17 34 42 135985 40 42 48949
+18 92 242 14407906 3 11 8283
+19 132 214 1673777 110 113 136050
+20 57 98 804888 0 1 0
+21 13 47 669524 2 4 2465
+22 93 163 3445667 31 56 27662
+23 151 281 6958919 139 161 151313
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+id 1609 2830 55353802
+us 15 15 348
+ru 6 6 0
+gb 3 3 0
+se 3 3 0
+fr 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+no_user_agent 81 0 20210228062609 0
+Dalvik/ 1 2565 20210224161530 0
+bingbot/ 1 0 20210217133041 0
+bingpreview 1 0 20210218181647 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+php 753 161263 0 0
+woff2 54 3355272 0 0
+html 728 1412564 0 0
+gif 2 16952 0 0
+svg 18 126621 0 0
+jpg 266 38659806 0 0
+json 7 2490 0 0
+ttf 1 26941 0 0
+woff 11 362340 0 0
+Unknown 79 691086 0 0
+js 432 4630297 0 0
+png 344 1640872 0 0
+css 159 2098870 0 0
+map 4 2168776 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+macosx10 1 1
+Unknown 19 19
+linuxandroid 1897 1183
+macosx8 1 1
+macosx 513 264
+linux 181 85
+macosx12 1 1
+winlong 1 1
+unix 1 1
+winxp 3 3
+win10 240 78
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 26
+chrome71.0.3578.98 2 2
+chrome80.0.3987.149 3 3
+chrome26.0.1410.65 1 1
+firefox58.0 1 1
+msie9.0 1 1
+chrome83.0.4103.106 856 535
+firefox82.0 1 1
+mozilla 4 4
+firefox59.0 1 1
+Unknown 15 15
+chrome76.0.3809.146 50 50
+chrome88.0.4324.150 357 148
+msie8.0 1 1
+chrome84.0.4147.89 1 1
+chrome15.0.874.121 2 2
+chrome88.0.4324.182 403 295
+chrome87.0.4280.141 301 152
+chrome88.0.4324.146 278 164
+chrome88.0.4324.181 186 36
+firefox79.0 2 2
+firefox84.0 36 31
+chrome88.0.4324.96 45 11
+chrome79.0.3945.88 1 1
+chrome88.0.4324.190 29 6
+chrome51.0.2704.64 1 1
+chrome88.0.4324.104 280 172
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Go-http-client/1.1 20210208100501
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20210222154132
+WhatsApp/2.21.3.19_A 20210228232326
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210224212521
+Cpanel-HTTP-Client/1.0 20210222153323
+WhatsApp/2.20.206.24_A 20210205104019
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+Go-http-client/1.1 20210208100501
+Cpanel-HTTP-Client/1.0 20210222153323
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210224212521
+WhatsApp/2.20.206.24_A 20210205104019
+WhatsApp/2.21.3.19_A 20210228232326
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 180 180
+From1 0 0
+From2 0 0
+From3 12 12
+From4 1445 2666
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://localhost:8080 10 10
+https://maruta.iixcp.rumahweb.com:2083 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+303 6 0
+404 1012 1218694
+307 4 0
+301 15 10590
+403 7 8596
+206 2 1459
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 42
+/admin/index.html 1 http://qedai.id/admin/dashboard
+/beta/js/jarallax.min.js.map 301 -
+/beta/js/bootstrap.bundle.min.js.map 301 -
+/wp-login.php 5 -
+/website/wp-includes/wlwmanifest.xml 1 -
+/admin/layout-box.html 1 http://qedai.id/admin/dashboard
+/shop/wp-includes/wlwmanifest.xml 1 -
+/web/wp-includes/wlwmanifest.xml 1 -
+/admin 1 -
+/wp2/wp-includes/wlwmanifest.xml 1 -
+/humans.txt 4 -
+/wp/wp-includes/wlwmanifest.xml 1 -
+/login 1 -
+/admin/assets/js/plugins/bootstrap.min.js.map 43 -
+/admin/member-dashboard.html 1 http://qedai.id/admin/dashboard
+/admin/ecom-customers.html 1 http://qedai.id/admin/dashboard
+/ads.txt 4 -
+/wp-includes/wlwmanifest.xml 1 -
+/wp/wp-login.php 2 -
+/blog/wp-includes/wlwmanifest.xml 1 -
+/media/wp-includes/wlwmanifest.xml 1 -
+/wp1/wp-includes/wlwmanifest.xml 1 -
+/blog/wp-login.php 2 -
+/home 1 -
+/admin/auth-signin.html 1 http://qedai.id/admin/dashboard
+/2018/wp-includes/wlwmanifest.xml 1 -
+/beta/js/jarallax-video.min.js.map 301 -
+/admin/sis-dashboard.html 1 http://qedai.id/admin/dashboard
+/beta/admin 2 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/sito/wp-includes/wlwmanifest.xml 1 -
+/xmlrpc.php 1 -
+/admin/loginMe 9 http://qedai.id/admin/
+/2019/wp-includes/wlwmanifest.xml 1 -
+/wordpress/wp-login.php 2 -
+/test 1 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/news/wp-includes/wlwmanifest.xml 1 -
+/test/wp-includes/wlwmanifest.xml 1 -
+/admin/user-profile.html 1 http://qedai.id/admin/dashboard
+/robots.txt 7 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 52
+114.5.248.108 313 393 834415 20210221142334
+180.244.233.95 250 389 3901853 20210228162723
+180.244.234.113 187 234 989889 20210222121454
+180.244.24.110 182 321 2662033 20210201234127
+180.252.46.12 130 237 2484841 20210220221551
+125.161.184.84 127 238 3791583 20210211113818
+203.77.251.27 91 155 1107671 20210208140814
+114.5.215.255 81 160 7776931 20210228232541
+180.244.233.195 60 200 13752432 20210217183909
+114.5.251.76 43 105 1286779 20210224225234
+114.124.198.43 39 77 891356 20210217182655
+114.5.214.196 18 25 57973 20210204155104
+114.5.208.90 18 30 257321 20210204142717
+180.242.175.154 18 83 10761417 20210228234121
+114.5.254.241 14 52 972943 20210220191412
+103.253.212.234 8 8 512 20210222153323
+110.138.148.236 7 41 656336 20210228215505
+120.188.6.230 6 29 2415981 20210228095859
+125.160.233.245 5 5 13188 20210206163646
+114.5.210.251 4 6 9394 20210207120545
+129.146.61.189 3 3 0 20210211033705
+78.24.220.1 2 2 0 20210203075637
+182.0.197.60 2 8 176681 20210220202114
+182.0.198.48 2 9 262291 20210220202113
+51.15.127.88 2 2 0 20210220085238
+182.0.199.40 0 4 12164 
+34.96.130.65 1 1 0 20210217034841
+216.145.14.142 1 1 0 20210218180949
+114.5.214.252 1 1 13187 20210205104019
+114.124.161.1 1 1 0 20210208201350
+34.86.35.219 1 1 0 20210215050518
+206.81.12.65 1 1 0 20210209084347
+77.74.177.113 1 1 0 20210214152700
+34.96.130.234 1 1 0 20210224212521
+52.28.236.88 1 1 87 20210222154131
+163.172.5.15 1 1 0 20210212153435
+93.159.230.28 1 1 0 20210228153533
+182.0.231.172 1 7 55872 20210220202108
+182.0.197.36 1 9 179435 20210220202113
+192.71.224.240 1 1 0 20210228074224
+54.221.27.173 1 1 0 20210222205111
+62.4.14.198 1 1 0 20210223211238
+34.211.6.84 1 1 87 20210222154130
+54.189.230.128 1 1 0 20210209191951
+192.71.225.127 1 1 0 20210204181357
+64.78.149.164 1 1 87 20210222154132
+34.223.100.156 1 1 0 20210226063359
+192.71.38.71 1 1 0 20210208100501
+182.0.198.36 0 3 29324 
+185.204.0.106 1 1 0 20210203021519
+5.44.169.3 1 1 0 20210203021520
+3.22.70.135 1 1 87 20210222154131
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20210201 182 321 2662033 2
+20210202 3 28 235318 1
+20210203 4 4 0 3
+20210204 37 56 315294 3
+20210205 86 125 893190 5
+20210206 1 1 0 1
+20210207 4 6 9394 1
+20210208 9 9 5538 3
+20210209 33 100 3080984 3
+20210210 91 99 326450 1
+20210211 8 44 384149 2
+20210212 1 1 0 1
+20210214 12 57 812249 2
+20210215 3 3 836 2
+20210216 118 179 1123234 3
+20210217 86 219 13830703 3
+20210218 1 1 0 1
+20210219 12 58 1360771 3
+20210220 98 185 1817004 9
+20210221 423 535 1695957 7
+20210222 15 15 1749 7
+20210223 2 2 244 2
+20210224 265 389 3093337 4
+20210226 1 1 0 1
+20210228 142 420 23705716 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 9
+0s-30s 51
+30s-2mn 5
+2mn-5mn 3
+15mn-30mn 4
+30mn-1h 8
+1h+ 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 70
+/mobile/getDataTrans.php 285 64678 6 10
+/beta/gambar/ 250 122554 0 17
+/mobile/getprod.php 204 70584 6 3
+/mobile/getsingletrans.php 148 23635 1 4
+/beta/single-product.html 132 376447 3 2
+/mobile/setTrans.php 95 1890 0 0
+/beta/cart.html 85 204791 4 1
+/admin/dashboard 53 578661 0 3
+/beta/neworder.html 48 189048 1 0
+/beta/home.html 46 158420 11 1
+/ 37 0 26 25
+/mobile/setTransItem.php 21 476 0 0
+/beta/fonts/LineIcons.woff2 21 1085196 1 0
+/beta/fonts/fontawesome-webfont.woff2 20 1466040 0 2
+/beta/checkout-payment.html 16 28304 0 0
+/admin/ 13 14104 2 1
+/beta/intro.html 12 9490 1 0
+/beta/ 12 18783 5 0
+/betaadmin/ 11 106880 4 0
+/beta/login.html 10 10672 0 0
+/betaadmin/assets/fonts/feather.woff 8 211456 1 1
+/betaadmin/assets/fonts/fa-solid-900.woff2 8 603520 0 2
+/cpanel 8 105504 3 2
+/beta/manifest.json 7 2490 0 0
+/beta/checkout-paypal.html 6 12174 0 0
+/beta/register.html 1 1313 0 0
+/.well-known/acme-challenge/7LYY_-AF88I_6Z8V7EVPR8RWBUY44J_S 1 64 0 0
+/.well-known/acme-challenge/bg-1dR69eeRP4IMuCYBaDAWVzHE1WBlcJlxoWrTf7Ko 4 348 4 4
+/beta/checkout-cash.html 4 7632 0 0
+/admin/login 4 4361 1 0
+/beta/checkout-bank.html 5 10090 1 0
+/beta/my-order.html 1 2073 0 0
+/.well-known/acme-challenge/Y7K2JPGDOWIY9_JBIKRM8345PV5P3GYQ 1 64 0 1
+/admin/loginMe 2 1700 0 0
+/beta/payment-success.html 3 2808 0 0
+/beta/notifications.html 2 4142 0 0
+/betaadmin/dashboard-project.html 1 8688 0 0
+/beta/privacy-policy.html 2 6404 0 0
+/admin/assets/fonts/fa-solid-900.woff2 2 150880 0 0
+/.well-known/acme-challenge/RHZ0AVZZ2Q3LOIQ0Z1MT76CK0SYY2NUX 1 64 0 0
+/betaadmin/assets/fonts/fa-regular-400.woff2 1 13580 0 0
+/betaadmin/dashboard-sale.html 1 7536 0 0
+/beta/catagory.html 1 2740 0 0
+/.well-known/acme-challenge/QLCT-EG8ORZXFUJNGMR4KP2LRD39K1RB 1 64 0 0
+/.well-known/acme-challenge/TMBR66JVWO82S9D5ZBQPWPHYCJ-9DROA 1 64 0 0
+/betaadmin/assets/fonts/feather.ttf 1 26941 0 0
+/beta/settings.html 2 4382 0 0
+/betaadmin/assets/fonts/fa-solid-900.woff 1 98020 0 1
+/beta/profile.html 1 2213 0 0
+/beta/flash-sale.html 1 2412 0 0
+/betaadmin/dashboard-analytics.html 1 6642 0 0
+/beta/pages.html 2 4634 0 0
+/betaadmin/user-profile.html 2 19722 0 2
+/.well-known/acme-challenge/3USJ-D0WFHEVS7W_UGCES94HC7K8OL5F 1 64 0 0
+/beta/forget-password.html 1 1150 0 0
+/betaadmin/layout-static.html 1 6694 0 0
+/beta/featured-products.html 1 2402 0 0
+/betaadmin/todo.html 1 6802 0 0
+/beta/checkout-credit-card.html 4 8568 0 0
+/admin/assets/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 2 36056 0 0
+/betaadmin/member-mail-template.html 1 7520 0 0
+/.well-known/acme-challenge/X6QDEC0R8OG41CMH0UY_QSLRS09SGMJH 1 64 1 0
+/betaadmin/dashboard-crm.html 1 8016 0 0
+/beta/shop-list.html 1 2566 0 0
+/beta/message.html 4 8500 0 0
+/admin/assets/fonts/feather.woff 2 52864 0 0
+/betaadmin/hospital-dashboard.html 1 7496 0 0
+/admin/assets/bower_components/bootstrap/dist/css/bootstrap.min.css.map 4 2168776 0 0
+/.well-known/acme-challenge/PSSN2VJWG4YSWFMNG2PMF8P0DQYL20L3 1 64 0 0
+/beta/shop-grid.html 4 7752 0 0
+END_SIDER

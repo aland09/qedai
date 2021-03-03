@@ -1,0 +1,1139 @@
+Return-Path: <bounces+12691274-3b64-mauli=qedai.id@em7903.ads-service.tiktok.com>
+Delivered-To: mauli@qedai.id
+Received: from maruta.iixcp.rumahweb.com
+	by maruta.iixcp.rumahweb.com with LMTP
+	id QFWvC3XcPGD5tTMATxegfw
+	(envelope-from <bounces+12691274-3b64-mauli=qedai.id@em7903.ads-service.tiktok.com>)
+	for <mauli@qedai.id>; Mon, 01 Mar 2021 19:22:13 +0700
+Return-path: <bounces+12691274-3b64-mauli=qedai.id@em7903.ads-service.tiktok.com>
+Envelope-to: mauli@qedai.id
+Delivery-date: Mon, 01 Mar 2021 19:22:13 +0700
+Received: from o6.ptr690.bytedance.com ([149.72.233.113]:13401)
+	by maruta.iixcp.rumahweb.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <bounces+12691274-3b64-mauli=qedai.id@em7903.ads-service.tiktok.com>)
+	id 1lGhYr-00FBgx-54
+	for mauli@qedai.id; Mon, 01 Mar 2021 19:22:13 +0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; 
+	d=ads-service.tiktok.com; 
+	h=mime-version:subject:content-type:reply-to:from:to; s=s1; 
+	bh=lI8+TDmjKZjPeeH6M7yWvCtz9TxuifdQiBNOCwygI2Y=; b=UikvAuGX1rmk7
+	A/c26tDB6u8e1lZIyC0KzF6myzkg5eFmdY6MevrxIIvyxavJtG4bSxcjRtpz1QTw
+	1dysMUUi2BYB9n5LsKrFtRxXZE8JsdHhJJv7eARhUDq5Sf2cIQmP/wmZvpHq4a7b
+	RLdvMGGtDqAQwMnvqocvNz9/Tvqxck=
+Received: by filter1899p1iad2.sendgrid.net with SMTP id filter1899p1iad2-2767-603CDC41-C
+        2021-03-01 12:21:21.485999629 +0000 UTC m=+199345.313047503
+Received: from localhost (unknown)
+	by ismtpd0003p1hnd1.sendgrid.net (SG) with ESMTP id MnKivOn-RGOl9NkdldgWZA
+	for <mauli@qedai.id>; Mon, 01 Mar 2021 12:21:20.958 +0000 (UTC)
+Mime-Version: 1.0
+X-AliDM-Trace: eyJPcGVuVHJhY2UiOiIxIiwiVGFnTmFtZSI6Im9wZW50YWcifQ==
+Message-ID: <17163219-7f1c-48fe-a23e-8411decf9d8b.customersupport@ads-service.tiktok.com>
+Subject: Menuju Webinar: Mulai Beriklan di TikTok!
+Content-Type: multipart/alternative; boundary="GoBoundary"
+Date: Mon, 01 Mar 2021 12:21:21 +0000 (UTC)
+Reply-To: customersupport@ads-service.tiktok.com
+From: "TikTok For Business Customer Support"
+ <customersupport@ads-service.tiktok.com>
+To: mauli@qedai.id
+X-SG-EID: Ay1xJzuhf4WbXVyq+y9BTNfMm1oQt5aichLtOAS3JtOos7xkODUiPsLCz4Knhhi3okxtOWz5kCBuu0
+ kiOovtGpUYKbn6v5W/NGUDw2amTcgdPxQrHqdLDhJ/8GjxYGsiDCJ9zFy7VScQwZayv7OwhTZVRptf
+ YkNPaXdgq6Zwmd2Qb+1SW12Gj1nw8qu3TcKW235e+M3gs0yHihhPxqMa7wq//TceMwb2WLNlZDKSXc
+ QaSGPMJl1pv6zgsjpkMRlibI6MnnEZb2sN3PpLAzgCfA==
+X-Entity-ID: tA5guQVuwvWVR+akM6XsqQ==
+X-Spam-Status: No, score=2.7
+X-Spam-Score: 27
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "maruta.iixcp.rumahweb.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Halo, Terima kasih sudah mendaftar di Webinar: Mulai Beriklan
+    di TikTok, pada hari Rabu, 3 Maret 2021. Kurang dari 2 hari lagi, acara akan
+    berlangsung. Pada webinar mendatang, kamu akan mempelajari: - Bagaimana TikTok
+    dapat bermanfaat bagi UKM - Cerita sukses para UKM yang telah menggunakan
+    solusi marketing TikTok - Langkah demi langkah mulai berikla [...] 
+ Content analysis details:   (2.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: zjsms.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  2.0 URI_TRY_3LD            URI: "Try it" URI, suspicious hostname
+  0.7 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.0 MIME_HTML_ONLY_MULTI   Multipart message only has text/html MIME
+                             parts
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+X-Spam-Flag: NO
+
+--GoBoundary
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+>
+  <head>
+    <!--[if gte mso 9]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG />
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+    <![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<![endif]-->
+    <title></title>
+
+    <style type="text/css">
+            a { color: #3f71c3; text-decoration: none; }
+      [owa] .u-row .u-col {
+        display: table-cell;
+        float: none !important;
+        vertical-align: top;
+      }
+
+      .ie-container .u-row,
+      [owa] .u-row {
+        width: 620px !important;
+      }
+
+      .ie-container .u-col-25,
+      [owa] .u-col-25 {
+        width: 155px !important;
+      }
+
+      .ie-container .u-col-100,
+      [owa] .u-col-100 {
+        width: 620px !important;
+      }
+
+
+      @media only screen and (min-width: 640px) {
+        .u-row {
+          width: 620px !important;
+        }
+        .u-row .u-col {
+          vertical-align: top;
+        }
+
+        .u-row .u-col-25 {
+          width: 155px !important;
+        }
+
+        .u-row .u-col-100 {
+          width: 620px !important;
+        }
+
+      }
+
+      @media (max-width: 640px) {
+        .u-row-container {
+          max-width: 100% !important;
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+        }
+        .u-row .u-col {
+          min-width: 320px !important;
+          max-width: 100% !important;
+          display: block !important;
+        }
+        .u-row {
+          width: calc(100% - 40px) !important;
+        }
+        .u-col {
+          width: 100% !important;
+        }
+        .u-col > div {
+          margin: 0 auto;
+        }
+        .no-stack .u-col {
+          min-width: 0 !important;
+          display: table-cell !important;
+        }
+
+        .no-stack .u-col-25 {
+          width: 25% !important;
+        }
+
+        .no-stack .u-col-100 {
+          width: 100% !important;
+        }
+
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      table,
+      tr,
+      td {
+        vertical-align: top;
+        border-collapse: collapse;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .ie-container table,
+      .mso-container table {
+        table-layout: fixed;
+      }
+
+      * {
+        line-height: inherit;
+      }
+
+      a[x-apple-data-detectors='true'] {
+        color: inherit !important;
+        text-decoration: none !important;
+      }
+
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+
+      @media (max-width: 480px) {
+        .hide-mobile {
+          display: none !important;
+          max-height: 0px;
+          overflow: hidden;
+        }
+      }
+
+      @media (min-width: 481px) {
+        .hide-desktop {
+          display: none !important;
+          max-height: none !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body
+    class="clean-body"
+    style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: #e5e5e5"
+  >
+    <!--[if IE]><div class="ie-container"><![endif]-->
+    <!--[if mso]><div class="mso-container"><![endif]-->
+    <table
+      class="nl-container"
+      style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;min-width: 320px;Margin: 0 auto;background-color: #e5e5e5;width:100%"
+      cellpadding="0"
+      cellspacing="0"
+    >
+      <tbody>
+        <tr style="vertical-align: top">
+          <td
+            style="word-break: break-word;border-collapse: collapse !important;vertical-align: top"
+          >
+            <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" style="background-color: #e5e5e5;"><![endif]-->
+
+            <div
+              class="u-row-container"
+              style="padding: 0px;background-color: #ecf0f1"
+            >
+              <div
+                style="Margin: 0 auto;min-width: 320px;max-width: 620px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #1cd0ca;"
+                class="u-row"
+              >
+                <div
+                  style="border-collapse: collapse;display: table;width: 100%;background-color: #1cd0ca;"
+                >
+                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: #ecf0f1;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:620px;"><tr style="background-color: #1cd0ca;"><![endif]-->
+
+                  <!--[if (mso)|(IE)]><td align="center" width="620" style="width: 620px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+                  <div
+                    class="u-col u-col-100"
+                    style="max-width: 320px;min-width: 620px;display: table-cell;vertical-align: top;"
+                  >
+                    <div style="width: 100% !important;">
+                      <!--[if (!mso)&(!IE)]><!--><div
+                        style="padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"
+                      ><!--<![endif]-->
+                        <table
+                          id="u_content_image_17"
+                          class="u_content_image"
+                          style="font-family:arial,helvetica,sans-serif;"
+                          role="presentation"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                          border="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="overflow-wrap:break-word;word-break:break-word;padding:0px;font-family:arial,helvetica,sans-serif;"
+                                align="left"
+                              >
+                                <table
+                                  width="100%"
+                                  cellpadding="0"
+                                  cellspacing="0"
+                                  border="0"
+                                >
+                                  <tbody>
+                                    <tr>
+                                      <td
+                                        style="padding-right: 0px;padding-left: 0px;"
+                                        align="center"
+                                      >
+                                        <a
+                                          href="https://s.zjsms.com/ZSJR9GKPf/"
+                                          target="_blank"
+                                        >
+                                          <img
+                                            align="center"
+                                            border="0"
+                                            src="http://sf-tk-sg.ibytedtos.com/obj/ad-growth-us-internal-sg/email-temp/img-lib/c2836e8df1ac7cd295e00192e71d2e85_TikTok_Starter.png"
+                                            alt="Image"
+                                            title="Image"
+                                            style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;width: 100%;max-width: 620px;"
+                                            width="620"
+                                            class="v-src-width v-src-max-width"
+                                          />
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <!--[if (!mso)&(!IE)]><!-->
+                      </div>
+                      <!--<![endif]-->
+                    </div>
+                  </div>
+                  <!--[if (mso)|(IE)]></td><![endif]-->
+                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="u-row-container"
+              style="padding: 0px;background-color: #ecf0f1"
+            >
+              <div
+                style="Margin: 0 auto;min-width: 320px;max-width: 620px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+                class="u-row"
+              >
+                <div
+                  style="border-collapse: collapse;display: table;width: 100%;background-color: #ffffff;"
+                >
+                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: #ecf0f1;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:620px;"><tr style="background-color: #ffffff;"><![endif]-->
+
+                  <!--[if (mso)|(IE)]><td align="center" width="620" style="width: 620px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+                  <div
+                    class="u-col u-col-100"
+                    style="max-width: 320px;min-width: 620px;display: table-cell;vertical-align: top;"
+                  >
+                    <div style="width: 100% !important;">
+                      <!--[if (!mso)&(!IE)]><!--><div
+                        style="padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"
+                      ><!--<![endif]-->
+                        <table
+                          id="u_content_text_57"
+                          class="u_content_text"
+                          style="font-family:arial,helvetica,sans-serif;"
+                          role="presentation"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                          border="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="overflow-wrap:break-word;word-break:break-word;padding:20px 25px 10px 30px;font-family:arial,helvetica,sans-serif;"
+                                align="left"
+                              >
+                                <div
+                                  class="v-text-align"
+                                  style="color: #ffffff; line-height: 180%; text-align: left; word-wrap: break-word;"
+                                >
+                                  <p
+                                    style="font-size: 14px; line-height: 180%;"
+                                  >
+                                    <span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      >Halo,<br /> <br />Terima kasih sudah
+                                      mendaftar di Webinar: Mulai Beriklan di
+                                      TikTok, pada hari Rabu, 3 Maret 2021.
+                                      Kurang dari 2 hari lagi, acara akan
+                                      berlangsung.<br /> <br />Pada webinar
+                                      mendatang, kamu akan mempelajari:<br />-
+                                      Bagaimana TikTok dapat bermanfaat bagi
+                                      UKM<br />- Cerita sukses para UKM yang
+                                      telah menggunakan solusi marketing
+                                      TikTok<br />- Langkah demi langkah mulai
+                                      beriklan di TikTok<br />- Cara membuat
+                                      iklan yang menarik dan efektif untuk
+                                      bisnismu</span
+                                    ><br /><span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      > </span
+                                    ><br /><span
+                                      style="text-decoration: underline; font-size: 14px; line-height: 25.2px;"
+                                      ><strong
+                                        ><span
+                                          style="color: #000000; font-size: 14px; line-height: 25.2px; text-decoration: underline;"
+                                          >Detail acara:</span
+                                        ></strong
+                                      ></span
+                                    ><br /><span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      ><strong>Hari & tanggal:</strong> Rabu,
+                                      3 Maret 2021</span
+                                    ><br /><span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      ><strong>Waktu: </strong>14.00-15.00
+                                      WIB</span
+                                    ><br /><span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      ><strong>Platform</strong>: Zoom
+                                      webinar</span
+                                    ><br /><span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      > </span
+                                    ><br /><span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      >Kamu dapat akses webinar melalui link
+                                      di bawah pada Rabu, 3 Maret 2021:</span
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <table
+                          id="u_content_text_81"
+                          class="u_content_text"
+                          style="font-family:arial,helvetica,sans-serif;"
+                          role="presentation"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                          border="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="overflow-wrap:break-word;word-break:break-word;padding:20px 25px 10px 30px;font-family:arial,helvetica,sans-serif;"
+                                align="left"
+                              >
+                                <div
+                                  class="v-text-align"
+                                  style="color: #ffffff; line-height: 180%; text-align: left; word-wrap: break-word;"
+                                >
+                                  <p
+                                    style="font-size: 14px; line-height: 180%;"
+                                  >
+                                    <span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      >Kamu akan mempelajari:<br /></span
+                                    ><span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      >- Bagaimana TikTok dapat bermanfaat
+                                      bagi UKM</span
+                                    ><br /><span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      >- Cerita sukses para UKM yang telah
+                                      menggunakan solusi marketing
+                                      TikTok</span
+                                    ><br /><span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      >- Langkah demi langkah mulai beriklan
+                                      di TikTok</span
+                                    ><br /><span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      >- Cara membuat iklan yang menarik dan
+                                      efektif untuk bisnismu</span
+                                    ><br /><span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      > </span
+                                    ><br /><span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      >Slot terbatas, daftar sekarang untuk
+                                      amankan slot kamu!</span
+                                    ><br /><span
+                                      style="color: #000000; font-size: 14px; line-height: 25.2px;"
+                                      > </span
+                                    >
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <table
+                          id="u_content_button_6"
+                          class="u_content_button"
+                          style="font-family:arial,helvetica,sans-serif;"
+                          role="presentation"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                          border="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="overflow-wrap:break-word;word-break:break-word;padding:20px;font-family:arial,helvetica,sans-serif;"
+                                align="left"
+                              >
+                                <div class="v-text-align" align="center">
+                                  <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;font-family:arial,helvetica,sans-serif;"><tr><td class="v-text-align" style="font-family:arial,helvetica,sans-serif;" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://s.zjsms.com/ZSJR943M6/" style="height:36px; v-text-anchor:middle; width:142px;" arcsize="58.5%" stroke="f" fillcolor="#fd0a44"><w:anchorlock/><center style="color:#FFFFFF;font-family:arial,helvetica,sans-serif;"><![endif]-->
+                                  <a
+                                    href="https://s.zjsms.com/ZSJR978sw/"
+                                    target="_blank"
+                                    class="v-size-width"
+                                    style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #fd0a44; border-radius: 21px; -webkit-border-radius: 21px; -moz-border-radius: 21px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;"
+                                  >
+                                    <span
+                                      class="v-padding"
+                                      style="display:block;padding:10px 20px;line-height:120%;"
+                                      >Daftar Sekarang</span
+                                    >
+                                  </a>
+                                  <!--[if mso]></center></v:roundrect></td></tr></table><![endif]-->
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <!--[if (!mso)&(!IE)]><!-->
+                      </div>
+                      <!--<![endif]-->
+                    </div>
+                  </div>
+                  <!--[if (mso)|(IE)]></td><![endif]-->
+                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="u-row-container"
+              style="padding: 0px;background-color: #ecf0f1"
+            >
+              <div
+                style="Margin: 0 auto;min-width: 320px;max-width: 620px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;"
+                class="u-row"
+              >
+                <div
+                  style="border-collapse: collapse;display: table;width: 100%;background-color: #ffffff;"
+                >
+                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: #ecf0f1;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:620px;"><tr style="background-color: #ffffff;"><![endif]-->
+
+                  <!--[if (mso)|(IE)]><td align="center" width="620" style="width: 620px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+                  <div
+                    class="u-col u-col-100"
+                    style="max-width: 320px;min-width: 620px;display: table-cell;vertical-align: top;"
+                  >
+                    <div style="width: 100% !important;">
+                      <!--[if (!mso)&(!IE)]><!--><div
+                        style="padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"
+                      ><!--<![endif]-->
+                        <table
+                          id="u_content_text_82"
+                          class="u_content_text"
+                          style="font-family:arial,helvetica,sans-serif;"
+                          role="presentation"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                          border="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;"
+                                align="left"
+                              >
+                                <div
+                                  class="v-text-align"
+                                  style="color: #000000; line-height: 180%; text-align: left; word-wrap: break-word;"
+                                >
+                                  <p
+                                    style="font-size: 14px; line-height: 180%;"
+                                  >
+                                    *Pastikan kamu sudah mengunduh aplikasi
+                                    Zoom & login akun zoom di perangkat yang
+                                    kamu gunakan agar dapat mengikuti acara
+                                    ini. <br /> <br />Sampai jumpa!<br />TikTok
+                                    For Business
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <table
+                          id="u_content_text_70"
+                          class="u_content_text"
+                          style="font-family:arial,helvetica,sans-serif;"
+                          role="presentation"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                          border="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="overflow-wrap:break-word;word-break:break-word;padding:10px 20px 15px 30px;font-family:arial,helvetica,sans-serif;"
+                                align="left"
+                              >
+                                <div
+                                  class="v-text-align"
+                                  style="color: #000000; line-height: 140%; text-align: left; word-wrap: break-word;"
+                                ></div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <!--[if (!mso)&(!IE)]><!-->
+                      </div>
+                      <!--<![endif]-->
+                    </div>
+                  </div>
+                  <!--[if (mso)|(IE)]></td><![endif]-->
+                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="u-row-container"
+              style="padding: 0px;background-color: #ecf0f1"
+            >
+              <div
+                style="Margin: 0 auto;min-width: 320px;max-width: 620px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #000000;"
+                class="u-row no-stack"
+              >
+                <div
+                  style="border-collapse: collapse;display: table;width: 100%;background-color: #000000;"
+                >
+                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: #ecf0f1;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:620px;"><tr style="background-color: #000000;"><![endif]-->
+
+                  <!--[if (mso)|(IE)]><td align="center" width="155" style="width: 155px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+                  <div
+                    class="u-col u-col-25"
+                    style="max-width: 320px;min-width: 155px;display: table-cell;vertical-align: top;"
+                  >
+                    <div style="width: 100% !important;">
+                      <!--[if (!mso)&(!IE)]><!--><div
+                        style="padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"
+                      ><!--<![endif]-->
+                        <table
+                          id="u_content_image_16"
+                          class="u_content_image"
+                          style="font-family:arial,helvetica,sans-serif;"
+                          role="presentation"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                          border="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="overflow-wrap:break-word;word-break:break-word;padding:20px;font-family:arial,helvetica,sans-serif;"
+                                align="left"
+                              >
+                                <table
+                                  width="100%"
+                                  cellpadding="0"
+                                  cellspacing="0"
+                                  border="0"
+                                >
+                                  <tbody>
+                                    <tr>
+                                      <td
+                                        style="padding-right: 0px;padding-left: 0px;"
+                                        align="center"
+                                      >
+                                        <a
+                                          href="https://www.linkedin.com/showcase/tiktokbusiness/"
+                                          target="_blank"
+                                        >
+                                          <img
+                                            align="center"
+                                            border="0"
+                                            src="https://sf16-muse-va.ibytedtos.com/obj/eden-va2/uhnvseh7hbopogps/email/back_to_business_social1.png"
+                                            alt="TikTok For Business"
+                                            title="TikTok For Business"
+                                            style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;width: 40%;max-width: 46px;"
+                                            width="46"
+                                            class="v-src-width v-src-max-width"
+                                          />
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <!--[if (!mso)&(!IE)]><!-->
+                      </div>
+                      <!--<![endif]-->
+                    </div>
+                  </div>
+                  <!--[if (mso)|(IE)]></td><![endif]-->
+                  <!--[if (mso)|(IE)]><td align="center" width="155" style="width: 155px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+                  <div
+                    class="u-col u-col-25"
+                    style="max-width: 320px;min-width: 155px;display: table-cell;vertical-align: top;"
+                  >
+                    <div style="width: 100% !important;">
+                      <!--[if (!mso)&(!IE)]><!--><div
+                        style="padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"
+                      ><!--<![endif]-->
+                        <table
+                          id="u_content_image_13"
+                          class="u_content_image"
+                          style="font-family:arial,helvetica,sans-serif;"
+                          role="presentation"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                          border="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="overflow-wrap:break-word;word-break:break-word;padding:20px;font-family:arial,helvetica,sans-serif;"
+                                align="left"
+                              >
+                                <table
+                                  width="100%"
+                                  cellpadding="0"
+                                  cellspacing="0"
+                                  border="0"
+                                >
+                                  <tbody>
+                                    <tr>
+                                      <td
+                                        style="padding-right: 0px;padding-left: 0px;"
+                                        align="center"
+                                      >
+                                        <a
+                                          href="https://twitter.com/TikTokBusiness"
+                                          target="_blank"
+                                        >
+                                          <img
+                                            align="center"
+                                            border="0"
+                                            src="https://sf16-muse-va.ibytedtos.com/obj/eden-va2/uhnvseh7hbopogps/email/back_to_business_social2.png"
+                                            alt="TikTok For Business"
+                                            title="TikTok For Business"
+                                            style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;width: 40%;max-width: 46px;"
+                                            width="46"
+                                            class="v-src-width v-src-max-width"
+                                          />
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <!--[if (!mso)&(!IE)]><!-->
+                      </div>
+                      <!--<![endif]-->
+                    </div>
+                  </div>
+                  <!--[if (mso)|(IE)]></td><![endif]-->
+                  <!--[if (mso)|(IE)]><td align="center" width="155" style="width: 155px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+                  <div
+                    class="u-col u-col-25"
+                    style="max-width: 320px;min-width: 155px;display: table-cell;vertical-align: top;"
+                  >
+                    <div style="width: 100% !important;">
+                      <!--[if (!mso)&(!IE)]><!--><div
+                        style="padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"
+                      ><!--<![endif]-->
+                        <table
+                          id="u_content_image_14"
+                          class="u_content_image"
+                          style="font-family:arial,helvetica,sans-serif;"
+                          role="presentation"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                          border="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="overflow-wrap:break-word;word-break:break-word;padding:20px;font-family:arial,helvetica,sans-serif;"
+                                align="left"
+                              >
+                                <table
+                                  width="100%"
+                                  cellpadding="0"
+                                  cellspacing="0"
+                                  border="0"
+                                >
+                                  <tbody>
+                                    <tr>
+                                      <td
+                                        style="padding-right: 0px;padding-left: 0px;"
+                                        align="center"
+                                      >
+                                        <a
+                                          href="https://www.instagram.com/tiktok.forbusiness/"
+                                          target="_blank"
+                                        >
+                                          <img
+                                            align="center"
+                                            border="0"
+                                            src="https://sf16-muse-va.ibytedtos.com/obj/eden-va2/uhnvseh7hbopogps/email/back_to_business_social3.png"
+                                            alt="TikTok For Business"
+                                            title="TikTok For Business"
+                                            style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;width: 40%;max-width: 46px;"
+                                            width="46"
+                                            class="v-src-width v-src-max-width"
+                                          />
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <!--[if (!mso)&(!IE)]><!-->
+                      </div>
+                      <!--<![endif]-->
+                    </div>
+                  </div>
+                  <!--[if (mso)|(IE)]></td><![endif]-->
+                  <!--[if (mso)|(IE)]><td align="center" width="155" style="width: 155px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+                  <div
+                    class="u-col u-col-25"
+                    style="max-width: 320px;min-width: 155px;display: table-cell;vertical-align: top;"
+                  >
+                    <div style="width: 100% !important;">
+                      <!--[if (!mso)&(!IE)]><!--><div
+                        style="padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"
+                      ><!--<![endif]-->
+                        <table
+                          id="u_content_image_15"
+                          class="u_content_image"
+                          style="font-family:arial,helvetica,sans-serif;"
+                          role="presentation"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                          border="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="overflow-wrap:break-word;word-break:break-word;padding:20px;font-family:arial,helvetica,sans-serif;"
+                                align="left"
+                              >
+                                <table
+                                  width="100%"
+                                  cellpadding="0"
+                                  cellspacing="0"
+                                  border="0"
+                                >
+                                  <tbody>
+                                    <tr>
+                                      <td
+                                        style="padding-right: 0px;padding-left: 0px;"
+                                        align="center"
+                                      >
+                                        <a
+                                          href="https://www.facebook.com/TikTokForBusiness"
+                                          target="_blank"
+                                        >
+                                          <img
+                                            align="center"
+                                            border="0"
+                                            src="https://sf16-muse-va.ibytedtos.com/obj/eden-va2/uhnvseh7hbopogps/email/back_to_business_social4.png"
+                                            alt="TikTok For Business"
+                                            title="TikTok For Business"
+                                            style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;width: 40%;max-width: 46px;"
+                                            width="46"
+                                            class="v-src-width v-src-max-width"
+                                          />
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <!--[if (!mso)&(!IE)]><!-->
+                      </div>
+                      <!--<![endif]-->
+                    </div>
+                  </div>
+                  <!--[if (mso)|(IE)]></td><![endif]-->
+                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="u-row-container"
+              style="padding: 0px;background-color: #ecf0f1"
+            >
+              <div
+                style="Margin: 0 auto;min-width: 320px;max-width: 620px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #000000;"
+                class="u-row"
+              >
+                <div
+                  style="border-collapse: collapse;display: table;width: 100%;background-color: #000000;"
+                >
+                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: #ecf0f1;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:620px;"><tr style="background-color: #000000;"><![endif]-->
+
+                  <!--[if (mso)|(IE)]><td align="center" width="620" style="width: 620px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+                  <div
+                    class="u-col u-col-100"
+                    style="max-width: 320px;min-width: 620px;display: table-cell;vertical-align: top;"
+                  >
+                    <div style="width: 100% !important;">
+                      <!--[if (!mso)&(!IE)]><!--><div
+                        style="padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"
+                      ><!--<![endif]-->
+                        <table
+                          id="u_content_image_7"
+                          class="u_content_image"
+                          style="font-family:arial,helvetica,sans-serif;"
+                          role="presentation"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                          border="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;"
+                                align="left"
+                              >
+                                <table
+                                  width="100%"
+                                  cellpadding="0"
+                                  cellspacing="0"
+                                  border="0"
+                                >
+                                  <tbody>
+                                    <tr>
+                                      <td
+                                        style="padding-right: 0px;padding-left: 0px;"
+                                        align="center"
+                                      >
+                                        <a
+                                          href="https://s.zjsms.com/ZSJR9gnLT/"
+                                          target="_blank"
+                                        >
+                                          <img
+                                            align="center"
+                                            border="0"
+                                            src="https://sf16-muse-va.ibytedtos.com/obj/eden-va2/uhnvseh7hbopogps/email/back_to_business_logo.png"
+                                            alt="TikTok For Business"
+                                            title="TikTok For Business"
+                                            style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;width: 38%;max-width: 228px;"
+                                            width="228"
+                                            class="v-src-width v-src-max-width"
+                                          />
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <!--[if (!mso)&(!IE)]><!-->
+                      </div>
+                      <!--<![endif]-->
+                    </div>
+                  </div>
+                  <!--[if (mso)|(IE)]></td><![endif]-->
+                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="u-row-container"
+              style="padding: 0px;background-color: #ecf0f1"
+            >
+              <div
+                style="Margin: 0 auto;min-width: 320px;max-width: 620px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #000000;"
+                class="u-row"
+              >
+                <div
+                  style="border-collapse: collapse;display: table;width: 100%;background-color: #000000;"
+                >
+                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: #ecf0f1;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:620px;"><tr style="background-color: #000000;"><![endif]-->
+
+                  <!--[if (mso)|(IE)]><td align="center" width="620" style="width: 620px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+                  <div
+                    class="u-col u-col-100"
+                    style="max-width: 320px;min-width: 620px;display: table-cell;vertical-align: top;"
+                  >
+                    <div style="width: 100% !important;">
+                      <!--[if (!mso)&(!IE)]><!--><div
+                        style="padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"
+                      ><!--<![endif]-->
+                        <table
+                          id="u_content_text_62"
+                          class="u_content_text"
+                          style="font-family:arial,helvetica,sans-serif;"
+                          role="presentation"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                          border="0"
+                        >
+                          <tbody>
+                            <tr>
+                              <td
+                                style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;"
+                                align="left"
+                              >
+                                <div
+                                  class="v-text-align"
+                                  style="color: #000000; line-height: 200%; text-align: left; word-wrap: break-word;"
+                                >
+                                  <p
+                                    style="font-size: 14px; line-height: 200%; text-align: center;"
+                                  >
+                                    <span
+                                      style="color: #ffffff; font-size: 14px; line-height: 28px;"
+                                      >You can click here to
+                                      <a
+                                        href="http://getstarted.tiktok.com/unsubscription/lead?leadid=6934637825249771521&email_hash=8a5cc4abb0b43c9e4a465a9eeb6f76b4f320871bd66b7a9b003f26145f90f730"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >unsubscribe </a
+                                      >or update your preferences.</span
+                                    >
+                                  </p>
+                                  <p
+                                    style="font-size: 14px; line-height: 200%; text-align: center;"
+                                  >
+                                    <span
+                                      style="color: #ffffff; font-size: 14px; line-height: 28px;"
+                                      >12 East 48th Street, 11th floor, New
+                                      York, NY 10017, USA</span
+                                    >
+                                  </p>
+                                  <p
+                                    style="font-size: 14px; line-height: 200%; text-align: center;"
+                                  >
+                                    <span
+                                      style="color: #ffffff; font-size: 14px; line-height: 28px;"
+                                      >@ 2020 TikTok For Business, All rights
+                                      reserved.
+                                    </span>
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <!--[if (!mso)&(!IE)]><!-->
+                      </div>
+                      <!--<![endif]-->
+                    </div>
+                  </div>
+                  <!--[if (mso)|(IE)]></td><![endif]-->
+                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+                </div>
+              </div>
+            </div>
+
+            <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!--[if (mso)|(IE)]></div><![endif]-->
+
+    <table>
+      <tbody>
+        <tr>
+          <td
+            align="center"
+            height="1px"
+            style="height: 1px!important; line-height: 1px!important; margin:0px!important; padding:0px!important; visibility:hidden; "
+          >
+            <img
+              src="https://suggestions.tiktok.com/touch/mark_read.gif?scene_event_id=6934658894211956738&email_trace_id=6934659690416570369&email_scene_type=6934641424239427586"
+              width="1"
+              height="1"
+              alt
+              border="0"
+              style="box-sizing: border-box;outline: none;text-decoration: none;font-size: 12px;font-style: normal;font-variant-caps: normal;font-weight: normal;letter-spacing: normal;text-align: start;text-indent: 0px;text-transform: none;white-space: normal;word-spacing: 0px;border:0px!important;height:1px!important;width:1px!important;margin:0px!important;padding:0px!important;"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  
+<img src="http://url4077.ads-service.tiktok.com/wf/open?upn=xcZCD2tE0qQbfXpmQc1cqvqWK98wBG8D1Qlr-2F8zdp2pbyyaiysUi6ooQKw2LI69TytrStEZ5ysiMS96lXycCDRR07oh2i6SybaiMVrxOe1OcLML1e2Q21HQN35NjrhdfFIn2mNBsbIk-2BvEkudnZ-2BVuQn-2F-2F1cGTggBx9Gdg9tdQVcA2j5zr2fDwe2tnoAziP5T9-2FolGcEKpEN-2F2ipgYbNAg-3D-3D" alt="" width="1" height="1" border="0" style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;"/>
+</body>
+</html>
+
+
+
+--GoBoundary--

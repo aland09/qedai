@@ -1,0 +1,503 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202011 will be lost/reset.
+# Last config file used to build this data file was /home/qedy1629/tmp/awstats/awstats.qedai.id.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2005                
+POS_TIME 2676                
+POS_VISITOR 6933                
+POS_DAY 10489               
+POS_DOMAIN 3244                
+POS_LOGIN 3729                
+POS_ROBOT 3884                
+POS_WORMS 4082                
+POS_EMAILSENDER 4213                
+POS_EMAILRECEIVER 4356                
+POS_SESSION 10762               
+POS_SIDER 10969               
+POS_FILETYPES 4491                
+POS_DOWNLOADS 4640                
+POS_OS 4688                
+POS_BROWSER 4889                
+POS_SCREENSIZE 5482                
+POS_UNKNOWNREFERER 5556                
+POS_UNKNOWNREFERERBROWSER 5643                
+POS_ORIGIN 5725                
+POS_SEREFERRALS 5861                
+POS_PAGEREFS 6005                
+POS_SEARCHWORDS 6182                
+POS_KEYWORDS 6334                
+POS_MISC 2340                
+POS_ERRORS 6393                
+POS_CLUSTER 3585                
+POS_SIDER_404 6502                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201201132338 1 0 5939442629986
+FirstTime 20201101132904
+LastTime 20201129204912
+LastUpdate 20201201191255 1 0 0 0 0
+TotalVisits 101                 
+TotalUnique 89                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 89                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 340 340 709159 32 32 59058
+1 2 6 4754 0 0 0
+2 0 0 0 0 0 0
+3 2 2 1119 0 2 2474
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 6 6 5091 7 7 8596
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 1 1 683 0 0 0
+10 0 0 0 0 0 0
+11 1 1 2557 0 0 0
+12 0 0 0 0 0 0
+13 68 68 144560 6 6 7773
+14 331 331 699502 39 39 46554
+15 0 0 0 0 0 0
+16 0 0 0 3 3 241
+17 0 0 0 5 5 419
+18 0 0 0 1 1 76
+19 7 10 4434 8 11 10061
+20 14 15 15586 49 50 5267
+21 0 0 0 0 0 0
+22 0 0 0 1 1 80
+23 1 1 661 0 1 1237
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 20
+gb 367 367 765778
+us 130 134 268886
+in 101 101 226558
+br 71 71 131538
+id 19 23 19239
+it 16 16 31640
+ru 15 15 21671
+il 9 9 20231
+kz 8 8 22515
+ro 7 7 8194
+cz 7 7 9640
+dk 6 6 7607
+za 5 5 6677
+gr 3 3 33534
+pt 3 3 4382
+nl 2 2 4033
+fr 1 1 2557
+md 1 1 126
+no 1 1 2020
+de 1 1 1280
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+Dalvik/ 41 2697 20201125173641 0
+baidu 41 113225 20201110005245 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+php 30 343 0 0
+png 8 7104 0 0
+htm 4 504 0 0
+Unknown 1 13188 0 0
+html 738 1566967 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+win7 1 1
+macosx 34 34
+win10 232 224
+winxp 24 24
+win8.1 1 1
+macosx11 1 1
+linuxandroid 77 77
+macosx10 3 3
+ios_iphone 364 364
+linux 44 44
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 26
+firefox81.0 39 39
+chrome86.0.4240.75 24 24
+chrome79.0.3945.79 5 1
+safari14.0.1 16 16
+chrome83.0.4103.61 1 1
+msie8.0 24 24
+safari11.0 54 54
+safari13.0.1 7 7
+safari14.0 194 194
+chrome67.0.3396.99 1 1
+firefox59.0 1 1
+firefox82.0 42 42
+firefox78.0 15 15
+android 44 44
+chrome86.0.4240.198 1 1
+safari13.1.2 96 96
+chrome40.0.2214.115 1 1
+chrome51.0.2704.106 31 31
+chrome76.0.3809.71 30 30
+chrome86.0.4240.111 53 49
+chrome39.0.2171.95 2 2
+chrome50.0.2661.102 1 1
+chrome86.0.4240.183 8 8
+safari13.1.1 31 31
+chrome85.0.4183.121 31 31
+firefox68.0 29 29
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 21 21
+From1 0 0
+From2 0 0
+From3 1 1
+From4 751 759
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://itunes.apple.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+500 53 0
+404 14 17318
+403 7 8596
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 6
+/cpnel 1 -
+/wp-includes/css/buttons.css 2 -
+/login.php 5 -
+/media/system/js/core.js 2 -
+/robots.txt 1 -
+/register.php 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 89
+147.147.220.101 74 74 164357 20201103141909
+45.127.134.92 61 61 153095 20201110005340
+5.62.34.23 54 54 117447 20201103141910
+5.62.34.18 45 45 74828 20201110005304
+45.127.134.94 37 37 71477 20201103141854
+88.107.187.125 33 33 86182 20201110005304
+177.54.148.247 32 32 61322 20201110005305
+5.62.51.103 28 28 94483 20201103141851
+52.67.227.246 25 25 71886 20201110005359
+68.183.241.134 23 23 41141 20201110005304
+18.230.23.127 21 21 35007 20201103141842
+177.54.148.248 21 21 38574 20201103141910
+194.72.238.97 19 19 27454 20201110005211
+187.121.122.8 18 18 31642 20201110005300
+167.172.0.155 17 17 54114 20201110005159
+167.172.10.45 16 16 26189 20201110005209
+81.170.94.113 16 16 22758 20201103141902
+159.65.210.36 13 13 32642 20201103141815
+89.249.67.220 12 12 18572 20201110005316
+140.213.15.238 12 12 756 20201102203949
+185.104.184.119 10 10 14745 20201110005141
+2.58.29.26 9 9 20231 20201103141842
+89.238.139.56 8 8 10383 20201103141905
+51.75.141.254 8 8 11401 20201110005252
+5.253.206.114 8 8 22515 20201110005226
+120.188.93.152 5 8 3653 20201102190748
+217.138.255.190 7 7 11514 20201110005309
+197.242.157.255 1 1 1274 20201110004841
+172.241.250.174 4 4 8503 20201103141845
+84.17.42.36 5 5 12438 20201110005106
+195.181.170.244 4 4 4961 20201103141853
+23.105.170.185 7 7 14007 20201103141750
+185.206.225.142 1 1 1306 20201103141728
+159.242.234.187 1 1 1597 20201103141809
+193.36.118.248 1 1 993 20201101132904
+192.138.210.125 2 2 3026 20201110004915
+185.220.102.240 1 1 993 20201102130950
+77.247.181.163 1 1 1227 20201110005055
+129.88.46.51 1 1 2557 20201104111044
+185.220.100.243 1 1 1452 20201110005106
+64.246.165.160 1 1 661 20201113231207
+185.220.100.251 1 1 1252 20201103141721
+2.222.168.29 1 1 3739 20201110005221
+120.188.35.172 1 1 13188 20201129204912
+185.93.2.76 5 5 6841 20201110005107
+109.201.130.9 1 1 2806 20201110005008
+45.127.134.93 1 1 993 20201102061735
+196.251.250.177 1 1 1597 20201110005050
+72.11.157.83 1 1 993 20201102130940
+212.102.63.74 5 5 7034 20201110005308
+165.73.248.91 2 2 2799 20201103141717
+104.129.18.17 1 1 993 20201101132904
+217.182.192.217 1 1 1381 20201103141839
+45.154.35.236 1 1 0 20201103132910
+37.120.192.24 7 7 8194 20201103141829
+51.195.148.18 2 2 4008 20201103140930
+205.251.150.170 1 1 993 20201102061738
+185.220.100.255 1 1 1294 20201110004908
+51.195.166.160 3 3 3556 20201103141814
+199.115.96.94 7 7 18907 20201110005144
+45.127.134.91 1 1 993 20201101132905
+109.169.33.163 3 3 3890 20201110005130
+185.101.32.173 1 1 2020 20201110004705
+195.181.170.240 2 2 2646 20201110005300
+185.17.207.158 1 1 1280 20201110005208
+162.222.195.81 1 1 126 20201103060741
+74.81.88.66 1 1 1027 20201103141809
+182.2.136.140 1 2 1642 20201102201051
+178.17.174.198 1 1 126 20201102190624
+173.249.22.173 1 1 464 20201102035124
+185.220.102.4 1 1 1616 20201103141842
+107.150.31.12 7 7 9689 20201103141900
+51.75.144.43 1 1 1227 20201103141655
+52.252.97.130 1 1 655 20201108030853
+74.81.88.74 6 6 8110 20201110005227
+217.138.217.214 6 6 10909 20201110005245
+37.9.13.150 1 1 683 20201125094504
+84.17.46.227 5 5 11132 20201103141821
+109.228.35.162 1 1 655 20201106190934
+159.242.228.109 3 3 11747 20201103141843
+159.242.234.116 1 1 1958 20201103135834
+185.220.100.253 1 1 1498 20201110004618
+82.102.18.38 3 3 4382 20201103141728
+81.170.95.29 1 1 993 20201102061734
+185.130.184.200 7 7 11577 20201103141845
+205.169.39.188 2 6 4754 20201113012044
+212.102.35.102 1 1 1036 20201103141814
+178.128.140.117 3 3 33534 20201110004245
+196.251.250.124 3 3 3806 20201103141911
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 10
+20201101 4 4 3972 4
+20201102 29 33 15578 14
+20201103 392 392 836244 41
+20201104 1 1 2557 1
+20201106 1 1 655 1
+20201108 1 1 655 1
+20201110 340 340 709159 35
+20201113 3 7 5415 2
+20201125 1 1 683 1
+20201129 1 1 13188 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 7
+0s-30s 45
+15mn-30mn 5
+30s-2mn 8
+5mn-15mn 23
+1h+ 5
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 107
+/ 33 42497 31 21
+/UserLogin.php 12 192 5 2
+/register.php 11 151 0 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/ 11 48961 1 0
+/masterapk/Android-Login-Register-MySQL-master/gradle/ 10 11850 1 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/ 10 17520 3 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/source/buildConfig/ 10 13060 1 1
+/masterapk/Android-Login-Register-MySQL-master/app/src/main/res/mipmap-mdpi/ 9 13941 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/src/main/res/mipmap-hdpi/ 9 13941 0 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/expandedArchives/classes.jar_2myu2s6kzbvmeh8vdpgdtju75/ 9 12582 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/expandedArchives/classes.jar_67g01jkqvkyw0x9f1b0qw45o8/com/ 9 13068 1 2
+/masterapk/Android-Login-Register-MySQL-master/app/src/main/res/ 9 25254 1 1
+/masterapk/Android-Login-Register-MySQL-master/build/intermediates/dex-cache/ 9 11466 0 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/assets/shaders/ 9 11646 1 2
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/source/aidl/ 9 11565 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/blame/ 9 11466 2 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/source/r/debug/ 9 14139 0 2
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/classes/debug/com/dedykuncoro/ 9 12294 0 5
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/res/rs/ 9 11403 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/classes/debug/ 9 14274 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/expandedArchives/classes.jar_27hix6bdbi2lu1lguo17yguzl/ 9 12618 1 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/assets/ 9 11385 2 0
+/masterapk/Android-Login-Register-MySQL-master/app/src/main/java/com/dedykuncoro/ 9 11574 0 3
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/source/aidl/debug/ 9 9270 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/ 9 17622 2 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/res/rs/debug/ 8 8120 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/incremental/compileDebugAidl/ 8 10928 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/source/buildConfig/debug/ 6 8004 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/classes/debug/com/android/volley/ 4 5532 0 1
+/masterapk/Android-Login-Register-MySQL-master/app/src/ 8 13520 1 0
+/masterapk/Android-Login-Register-MySQL-master/app/src/main/java/ 7 8589 1 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/classes/debug/com/dedykuncoro/login/ 2 21302 0 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/expandedArchives/classes.jar_2myu2s6kzbvmeh8vdpgdtju75/com/android/ 5 7395 0 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/ 5 7270 0 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/res/resValues/ 4 5152 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/source/apt/debug/ 7 7189 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/expandedArchives/ 5 26405 1 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/outputs/ 7 10367 2 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/ 4 5680 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/assets/debug/ 8 8216 1 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/source/r/debug/android/ 4 5312 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/source/buildConfig/debug/com/dedykuncoro/login/ 5 7165 0 3
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/ 6 8994 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/src/androidTest/java/com/dedykuncoro/ 8 10512 0 4
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/classes/debug/android/ 7 9380 0 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/source/buildConfig/debug/com/dedykuncoro/ 3 4182 0 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/source/ 6 13962 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/outputs/apk/ 7 8764 0 0
+/masterapk/Android-Login-Register-MySQL-master/build/intermediates/ 7 8624 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/blame/res/debug/single/ 8 70632 0 2
+/masterapk/Android-Login-Register-MySQL-master/app/src/test/java/ 6 7362 1 1
+/masterapk/Android-Login-Register-MySQL-master/app/src/main/res/mipmap-xhdpi/ 6 9318 1 0
+/masterapk/Android-Login-Register-MySQL-master/app/src/test/ 8 9664 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/src/androidTest/java/com/dedykuncoro/login/ 4 5460 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/outputs/logs/ 6 7614 0 0
+/cpanel 1 13188 1 1
+/masterapk/Android-Login-Register-MySQL-master/app/src/main/java/com/dedykuncoro/login/ 4 9828 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/src/main/ 7 15764 1 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/incremental/mergeDebugAssets/ 6 8160 0 0
+/DatabaseConfig.php 7 0 3 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/expandedArchives/classes.jar_27hix6bdbi2lu1lguo17yguzl/android/support/ 7 12754 0 2
+/masterapk/Android-Login-Register-MySQL-master/app/src/androidTest/java/ 8 10040 1 0
+/masterapk/Android-Login-Register-MySQL-master/app/src/main/java/com/ 6 7512 1 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/expandedArchives/classes.jar_67g01jkqvkyw0x9f1b0qw45o8/com/android/ 8 11832 1 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/expandedArchives/classes.jar_2myu2s6kzbvmeh8vdpgdtju75/com/ 8 11616 0 3
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/expandedArchives/classes.jar_11zf3om0j3uwvdc1chg22h3zz/android/support/ 4 5964 0 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/blame/res/debug/ 8 12776 2 2
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/classes/ 8 10256 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/classes/debug/com/ 6 9696 1 3
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/res/resValues/debug/ 8 8288 1 3
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/source/r/debug/com/ 4 6404 0 1
+/masterapk/Android-Login-Register-MySQL-master/app/src/main/java/com/dedykuncoro/login/app/ 5 6725 0 2
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/classes/debug/android/support/ 5 18695 1 1
+/masterapk/ 6 6228 3 0
+/masterapk/Android-Login-Register-MySQL-master/app/src/main/res/layout/ 7 12572 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/assets/shaders/debug/ 8 8312 0 0
+/masterapk/Android-Login-Register-MySQL-master/gradle/wrapper/ 8 11984 1 1
+/masterapk/Android-Login-Register-MySQL-master/android/ 6 7164 1 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/incremental/mergeDebugResources/ 5 11430 0 0
+/home.htm 4 504 3 2
+/masterapk/Android-Login-Register-MySQL-master/build/android-profile/ 7 72884 2 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/incremental/mergeDebugResources/aapt-temp/ 3 3330 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/source/apt/ 8 10256 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/res/ 6 9114 2 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/classes/debug/com/android/ 7 9485 0 1
+/masterapk/Android-Login-Register-MySQL-master/app/src/test/java/com/dedykuncoro/ 2 2572 0 1
+/masterapk/Android-Login-Register-MySQL-master/app/src/test/java/com/ 4 5008 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/src/androidTest/java/com/ 8 10240 1 2
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/source/r/ 7 8932 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/blame/res/debug/multi/ 8 256352 0 2
+/masterapk/Android-Login-Register-MySQL-master/build/ 7 10108 4 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/expandedArchives/classes.jar_27hix6bdbi2lu1lguo17yguzl/android/ 8 11712 1 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/assets/ 6 7674 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/compileDebugJavaWithJavac/emptySourcePathRef/ 8 8640 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/src/androidTest/ 7 8603 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/compileDebugJavaWithJavac/ 8 10472 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/incremental/mergeDebugJniLibFolders/ 8 11048 1 2
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/expandedArchives/classes.jar_11zf3om0j3uwvdc1chg22h3zz/android/ 3 4392 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/expandedArchives/classes.jar_67g01jkqvkyw0x9f1b0qw45o8/com/android/volley/ 3 38469 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/ 8 15360 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/blame/res/ 7 9058 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/intermediates/incremental/ 8 28944 0 0
+/masterapk/Android-Login-Register-MySQL-master/ 8 28584 6 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/expandedArchives/classes.jar_11zf3om0j3uwvdc1chg22h3zz/ 7 9814 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/generated/source/buildConfig/debug/com/ 9 12240 1 4
+/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/ 7 13084 2 1
+/masterapk/Android-Login-Register-MySQL-master/app/build/tmp/expandedArchives/classes.jar_67g01jkqvkyw0x9f1b0qw45o8/ 9 12582 0 0
+END_SIDER

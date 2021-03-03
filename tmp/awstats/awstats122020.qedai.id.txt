@@ -1,0 +1,392 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202012 will be lost/reset.
+# Last config file used to build this data file was /home/qedy1629/tmp/awstats/awstats.qedai.id.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2005                
+POS_TIME 2676                
+POS_VISITOR 7188                
+POS_DAY 8374                
+POS_DOMAIN 3254                
+POS_LOGIN 3542                
+POS_ROBOT 3697                
+POS_WORMS 3943                
+POS_EMAILSENDER 4074                
+POS_EMAILRECEIVER 4217                
+POS_SESSION 8733                
+POS_SIDER 8880                
+POS_FILETYPES 4352                
+POS_DOWNLOADS 4559                
+POS_OS 4607                
+POS_BROWSER 4784                
+POS_SCREENSIZE 5236                
+POS_UNKNOWNREFERER 5310                
+POS_UNKNOWNREFERERBROWSER 5572                
+POS_ORIGIN 5726                
+POS_SEREFERRALS 5860                
+POS_PAGEREFS 6004                
+POS_SEARCHWORDS 6152                
+POS_KEYWORDS 6304                
+POS_MISC 2340                
+POS_ERRORS 6363                
+POS_CLUSTER 3398                
+POS_SIDER_404 6463                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210101033451 1 0 8590640585384
+FirstTime 20201201132340
+LastTime 20201228195415
+LastUpdate 20210101192125 1 0 0 0 0
+TotalVisits 32                  
+TotalUnique 30                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 30                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 30 30 19572 4 4 2624
+1 1 1 13188 9 9 732
+2 2 2 1446 0 1 1237
+3 1 1 761 0 0 0
+4 1 1 761 29 29 35873
+5 2 2 1522 0 2 2474
+6 1 1 761 29 29 35873
+7 1 1 685 0 1 1237
+8 0 0 0 0 0 0
+9 2 6 5078 0 1 0
+10 0 0 0 2 2 150
+11 1 1 758 0 3 3711
+12 0 0 0 0 0 0
+13 3 3 14632 2 14 16322
+14 0 0 0 1 1 3354
+15 19 24 23005 3 6 1501
+16 1 1 758 1 1 84
+17 0 0 0 2 2 164
+18 0 0 0 0 0 0
+19 4 4 4111 0 0 0
+20 2 2 1522 0 3 3711
+21 0 0 0 0 1 1237
+22 0 0 0 1 1 1237
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 47 47 28209
+id 15 24 51070
+se 5 5 3724
+ru 2 2 1522
+gb 1 1 685
+fr 1 1 3350
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+Dalvik/ 19 1562 20201209011135 0
+bingpreview 5 4313 20201216133834 0
+bot[\s_+:,\.\;\/\\-] 2 6704 20201229144124 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+Unknown 18 46493 0 0
+html 39 27849 0 0
+gradle 3 1744 0 0
+php 7 286 0 0
+bat 1 2314 0 0
+sql 1 566 0 0
+pro 1 939 0 0
+png 9 8243 0 0
+htm 1 126 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+Unknown 17 17
+win10 6 6
+linuxandroid 15 6
+linux 3 3
+macosx12 1 1
+macosx8 1 1
+macosx10 1 1
+macosx 33 33
+win7 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 20
+firefox59.0 1 1
+firefox58.0 1 1
+chrome26.0.1410.65 1 1
+chrome41.0.2227.0 1 1
+chrome83.0.4103.61 1 1
+chrome80.0.3987.149 1 1
+firefox70.0 30 30
+firefox79.0 1 1
+chrome86.0.4240.198 2 2
+mozilla 4 4
+safari11.0 1 1
+chrome73.0.3683.90 2 2
+chrome84.0.4147.105 2 2
+chrome71.0.3578.98 2 2
+chrome41.0.2228.0 1 1
+chrome63.0.3239.84 1 1
+chrome62.0.3202.84 6 2
+Unknown 13 13
+firefox57.0 2 2
+chrome83.0.4103.106 7 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Cpanel-HTTP-Client/1.0 20201223153146
+Go-http-client/1.1 20201227133936
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20201223153839
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Cpanel-HTTP-Client/1.0 20201223153146
+Go-http-client/1.1 20201227133936
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 41 41
+From1 0 0
+From2 0 0
+From3 0 0
+From4 30 39
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 78 96486
+403 2 2456
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 34
+/blog/ 2 -
+/new/ 2 -
+/wordpress/ 2 -
+/dev/ 2 -
+/tmp/ 2 -
+/backup/ 2 -
+/.well-known/security.txt 1 -
+/2020/ 2 -
+/install/ 2 -
+/site/ 2 -
+/test/ 2 -
+/bk/ 2 -
+/home/ 2 -
+/bak/ 2 -
+/2018/ 2 -
+/v1/ 2 -
+/old-wp/ 2 -
+/new-site/ 2 -
+/old-site/ 2 -
+/demo/ 2 -
+/web/ 2 -
+/wp/ 2 -
+/v2/ 2 -
+/humans.txt 5 -
+/ads.txt 6 -
+/robots.txt 7 -
+/wp2/ 2 -
+/temp/ 2 -
+/wp-login.php 1 -
+/2019/ 2 -
+/wp1/ 2 -
+/cms/ 2 -
+/main/ 2 -
+/old/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 30
+3.17.210.127 30 30 19572 20201209001428
+103.253.212.234 8 8 512 20201223153146
+18.232.185.155 2 2 1522 20201214044942
+114.5.213.56 2 7 5916 20201220152242
+77.74.177.113 2 2 1522 20201220152624
+115.178.248.5 2 6 5078 20201212094758
+34.67.85.50 2 2 1522 20201226062744
+114.5.215.191 1 1 13188 20201209010732
+51.15.127.88 1 1 685 20201208070331
+34.82.148.35 1 1 0 20201224190745
+64.78.149.164 1 1 87 20201223153839
+54.221.27.173 1 1 761 20201223201336
+192.36.248.249 1 1 761 20201216200051
+182.0.198.9 1 1 13188 20201208150945
+54.188.2.27 1 1 761 20201226052854
+192.71.2.171 1 1 761 20201222054421
+35.197.15.147 1 1 0 20201224190745
+192.71.44.44 1 1 758 20201211110746
+192.71.36.158 1 1 683 20201201132340
+108.171.216.162 1 1 758 20201210164111
+64.246.165.190 1 1 685 20201208023400
+192.71.224.240 1 1 761 20201227133936
+3.22.70.135 1 1 87 20201223153839
+168.119.123.226 1 1 761 20201228195415
+18.197.193.89 1 1 761 20201220153246
+3.236.161.235 1 1 758 20201210154122
+203.77.251.27 1 1 13188 20201210132754
+34.211.6.84 1 1 87 20201223153838
+18.196.96.172 1 1 87 20201223153838
+212.83.146.233 1 1 3350 20201224192151
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20201201 1 1 683 1
+20201208 3 3 14558 3
+20201209 31 31 32760 2
+20201210 3 3 14704 3
+20201211 1 1 758 1
+20201212 2 6 5078 1
+20201214 2 2 1522 2
+20201216 1 1 761 1
+20201220 5 10 8199 3
+20201222 1 1 761 1
+20201223 13 13 1621 6
+20201224 3 3 3350 3
+20201226 3 3 2283 3
+20201227 1 1 761 1
+20201228 1 1 761 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 32
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 41
+/ 26 20539 24 22
+/.well-known/acme-challenge/p92PRBndC5TiJjjCGMmVnFhXkQBcMmks4ZdHyy5OjvI 4 348 4 4
+/cpanel 3 39564 3 3
+/masterapk/ 1 471 0 0
+/.well-known/acme-challenge/MDYYHV6DWTXJ738U-Z95W4U9-WN0DSLV 1 64 0 0
+/masterapk/Android-Login-Register-MySQL-master/local.properties 1 368 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/ 1 561 0 0
+/masterapk/Android-Login-Register-MySQL-master/build.gradle 1 690 0 0
+/KULIKPROJECT/ 1 464 0 1
+/masterapk/Android-Login-Register-MySQL-master/android/ 1 493 0 0
+/.well-known/acme-challenge/_Z9ZSM-9SZ55DT_6LRJOBFPZB06HGUUQ 1 64 0 0
+/masterapk/Android-Login-Register-MySQL-master/gradlew 1 4971 0 0
+/register.php 1 79 0 0
+/UserLogin.php 1 31 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/proguard-rules.pro 1 939 0 1
+/.well-known/acme-challenge/2L02CUPL4D9PV1472CA0YGBXGLPH8DQH 1 64 1 0
+/masterapk/Android-Login-Register-MySQL-master/kuncoro_login.sql 1 566 0 0
+/login.php 1 70 0 0
+/DatabaseConfig.php 1 0 0 0
+/masterapk/Android-Login-Register-MySQL-master/build/ 1 503 0 0
+/masterapk/Android-Login-Register-MySQL-master/gradle/ 1 482 0 0
+/registerxxx.php 1 26 0 0
+/home.htm 1 126 0 0
+/regiskedai.php 1 80 0 0
+/.well-known/acme-challenge/XAV3-2SPMVX9UYS-KE9XSYWIVQ74LHX_ 1 64 0 0
+/masterapk/Android-Login-Register-MySQL-master/ 1 658 0 0
+/.well-known/acme-challenge/Z_O5J-7A995FS-EJZZF-W_VBE28RY_73 1 64 0 0
+/.well-known/acme-challenge/NFMW0Y9WI3WYYX16HERZCOXNRKPNFQ2H 1 64 0 0
+/.well-known/acme-challenge/CBEBFEYFN5PO7ZNH89HD9NP-6WH-QGRX 1 64 0 1
+/masterapk/Android-Login-Register-MySQL-master/app/src/ 1 507 0 0
+/masterapk/Android-Login-Register-MySQL-master/settings.gradle 1 15 0 0
+/masterapk/Android-Login-Register-MySQL-master/build/android-profile/ 1 1042 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build/ 1 542 0 0
+/masterapk/Android-Login-Register-MySQL-master/app/build.gradle 1 1039 0 0
+/.well-known/acme-challenge/6P4KPHM3-BIDX7MVMOS6Q8H2X2724O9E 1 64 0 0
+/masterapk/Android-Login-Register-MySQL-master/gradlew.bat 1 2314 0 0
+/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/ 1 572 0 0
+/koneksi.php 1 0 0 0
+/masterapk/Android-Login-Register-MySQL-master/gradle/wrapper/ 1 522 0 0
+/masterapk/Android-Login-Register-MySQL-master/gradle.properties 1 730 0 0
+/masterapk/Android-Login-Register-MySQL-master/build/intermediates/ 1 493 0 0
+END_SIDER

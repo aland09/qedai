@@ -1,0 +1,15 @@
+[05-Feb-2021 21:42:59 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'qedy1629_admin'@'localhost' (using password: YES) in /home/qedy1629/public_html/testing/data/index.php on line 57
+[05-Feb-2021 21:42:59 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qedy1629/public_html/testing/data/index.php on line 58
+[05-Feb-2021 21:42:59 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/qedy1629/public_html/testing/data/index.php on line 59
+[09-Feb-2021 22:34:34 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'qedy1629_admin'@'localhost' (using password: YES) in /home/qedy1629/public_html/testing/data/index.php on line 57
+[09-Feb-2021 22:34:34 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qedy1629/public_html/testing/data/index.php on line 58
+[09-Feb-2021 22:34:34 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/qedy1629/public_html/testing/data/index.php on line 59
+[09-Feb-2021 22:34:36 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'qedy1629_admin'@'localhost' (using password: YES) in /home/qedy1629/public_html/testing/data/index.php on line 57
+[09-Feb-2021 22:34:36 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qedy1629/public_html/testing/data/index.php on line 58
+[09-Feb-2021 22:34:36 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/qedy1629/public_html/testing/data/index.php on line 59
+[09-Feb-2021 22:35:13 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'qedy1629_admin'@'localhost' (using password: YES) in /home/qedy1629/public_html/testing/data/index.php on line 57
+[09-Feb-2021 22:35:13 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qedy1629/public_html/testing/data/index.php on line 58
+[09-Feb-2021 22:35:13 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/qedy1629/public_html/testing/data/index.php on line 59
+[09-Feb-2021 22:35:19 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'qedy1629_admin'@'localhost' (using password: YES) in /home/qedy1629/public_html/testing/data/index.php on line 57
+[09-Feb-2021 22:35:19 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qedy1629/public_html/testing/data/index.php on line 58
+[09-Feb-2021 22:35:19 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/qedy1629/public_html/testing/data/index.php on line 59

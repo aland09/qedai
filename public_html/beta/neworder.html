@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, shrink-to-fit=no">
+    <meta name="description" content="Suha - Multipurpose Ecommerce Mobile HTML Template">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#100DD1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- The above tags *must* come first in the head, any other head content must come *after* these tags-->
+    <!-- Title-->
+    <title></title>
+    <!-- Favicon-->
+    <link rel="icon" href="img/icons/icon-72x72.png">
+    <!-- Apple Touch Icon-->
+    <link rel="apple-touch-icon" href="img/icons/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/icons/icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/icon-180x180.png">
+    <!-- Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Web App Manifest-->
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:200,400,700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <style media="screen">
+    .top-products-area.clearfix.py-3 {
+  background: #666 !important;
+}
+.lni {
+    display: inline-block;
+    font: normal normal normal 1em/1 'LineIcons';
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+div#popup {
+    width: 100%;
+    background: rgb(102 102 102 / 77%);
+    position: absolute;
+    /* top: 0px; */
+    z-index: 9999;
+    height: 100px;
+    bottom: 60px;
+    border-radius: 20px;
+}
+div#totalharga {
+    width: 38%;
+    float: right;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding-top: 8px;
+}
+div#totalitem {
+    color: #fff;
+    font-size: 30px;
+    width: 50%;
+    float: left;
+    padding: 9px;
+    text-align: center;
+}
+div#popup {
+    width: 90%;
+    background: rgb(65 65 65);
+    position: absolute;
+    /* top: 0px; */
+    z-index: 9999;
+    height: 60px;
+    bottom: 10px;
+    border-radius: 20px;
+    position: fixed;
+    margin-left: 5%;
+        /* display: none; */
+    /* margin-right: auto; */
+}
+div#footerNav {
+    display: none;
+}
+.night-mode-view-card.pb-3 {
+    display: none;
+}
+@media (max-width: 600px) {
+  div#popup {
+      width: 90%;
+      background: rgb(254 175 2);
+      position: absolute;
+      /* top: 0px; */
+      z-index: 9999;
+      height: 50px;
+      bottom: 10px;
+      border-radius: 20px;
+      position: fixed;
+      margin-left: 5%;
+      /* margin-right: auto; */
+  }
+  div#totalitem {
+    color: #303030;
+    font-size: 20px;
+    width: 50%;
+    float: left;
+    padding: 12px;
+    text-align: center;
+}
+div#totalharga {
+    width: 38%;
+    float: right;
+    font-size: 18px;
+    color:#303030;
+    text-align: center;
+    padding-top: 14px;
+}
+}
+    </style>
+
+    <script type="text/javascript">
+    var item = 0;
+    var totharga = 0;
+    const IDR = value => currency(value, { precision: 0, symbol: 'Rp. ' });
+    // var queryString = decodeURIComponent(window.location.search);
+    // queryString = queryString.substring(1);
+    // var datanyaa = queryString.replace("datanya=", "");
+    // var pecah1 = datanyaa.split("@|@");
+    // var spbunya = pecah1[0];
+    // var pecah2 = pecah1[1].split("|@|");
+    // var grade = pecah2[0];
+    // var IDnya = pecah2[1];
+
+
+      $(document).ready(function() {
+          // alert(spbunya);
+          // var dataString = "IDnya=" + res[1]  + "&insert=";
+          var queryString = decodeURIComponent(window.location.search);
+          queryString = queryString.substring(1);
+          var datanyaa = queryString.replace("datanya=", "");
+          const IDR = value => currency(value, { precision: 0, symbol: 'Rp. ' });
+          // alert(datanyaa);
+          var dataString = "IDnya=" + datanyaa  + "&insert=";
+
+              $.ajax({
+                  type: "POST",
+                  url: "http://qedai.id/mobile/getprod.php",
+                  data: dataString,
+                  crossDomain: true,
+                  cache: false,
+                  beforeSend: function() {
+                      // $("#btnLogin").val('Connecting...');
+                       // document.getElementById("loadingscreen").style.display = "block";
+                  },
+                  success: function(data) {
+                    // alert(data);
+                      // if (data != "error") {
+                          // alert(data);
+
+                          var dataSrv = data.split("|@|");
+
+                          var prod = JSON.parse(dataSrv[0]);
+                          // var totPemasukan = dataSrv[1];
+                          // var totPenjualan = dataSrv[2];
+                          // var saldoAkhir = dataSrv[3];
+                          // var bln = dataSrv[4];
+                          // var thn = dataSrv[5];
+                          // var dataStock = JSON.parse(dataSrv[0]);
+                          // alert(data);
+                           // alert(prod.length);
+                          var konten ="";
+                          // var datenya;
+                          // var cont=0;
+                          // for (var i = 0; i < datagroupdate.length; i++) {
+                          //   if (datenya != datastok[i].dataupdate) {
+
+                            for (var i = 0; i < prod.length; i++) {
+                              konten +='<div class="col-6 col-md-4 col-lg-3">';
+                                konten +='<div class="card top-product-card">';
+                                konten +='  <div class="card-body"><span class="badge badge-success"></span><a class="product-thumbnail d-block" href="single-product.html"><img class="mb-2" src="gambar/'+prod[i].image+'" alt=""></a><a class="product-title d-block" href="single-product.html">'+prod[i].nama+'</a>';
+                                konten +='    <p class="sale-price">'+IDR(prod[i].harga).format()+'</p>';
+                                konten +='    <div class="btn btn-success btn-sm add2cart-notify"  onclick="addcart(\''+prod[i].id+'\',\''+prod[i].nama+'\',\''+prod[i].harga+'\');"><i class="lni lni-plus"></i></div>';
+                                konten +='  </div>';
+                              konten +='  </div>';
+                              konten +='</div>';
+                            }
+
+                          $("#prodlist").append(konten);
+
+                          // var datst="";
+
+
+
+
+
+                  }
+
+              });
+
+
+              $.ajax({
+                  type: "POST",
+                  url: "http://qedai.id/mobile/getDataTrans.php",
+                  data: dataString,
+                  crossDomain: true,
+                  cache: false,
+                  beforeSend: function() {
+                      // $("#btnLogin").val('Connecting...');
+                       // document.getElementById("loadingscreen").style.display = "block";
+                  },
+                  success: function(data) {
+                    // alert(data);
+                      // if (data != "error") {
+                          // alert(data);
+
+                          // var dataSrv = data.split("|@|");
+                          //
+                          var itemx = JSON.parse(data);
+                          // alert(itemx.length);
+                          // var totPemasukan = dataSrv[1];
+                          // var totPenjualan = dataSrv[2];
+                          // var saldoAkhir = dataSrv[3];
+                          // var bln = dataSrv[4];
+                          // var thn = dataSrv[5];
+                          // var dataStock = JSON.parse(dataSrv[0]);
+                          // alert(data);
+                           // alert(prod.length);
+                          var konten ="";
+                          // var datenya;
+                          // var cont=0;
+                          // for (var i = 0; i < datagroupdate.length; i++) {
+                          //   if (datenya != datastok[i].dataupdate) {
+
+                            for (var i = 0; i < itemx.length; i++) {
+                              totharga=totharga+parseInt(itemx[i].total);
+                              item=item+parseInt(itemx[i].item);
+
+
+
+                              // konten +='<div class="col-6 col-md-4 col-lg-3">';
+                              //   konten +='<div class="card top-product-card">';
+                              //   konten +='  <div class="card-body"><span class="badge badge-success"></span><a class="product-thumbnail d-block" href="single-product.html"><img class="mb-2" src="gambar/'+prod[i].image+'" alt=""></a><a class="product-title d-block" href="single-product.html">'+prod[i].nama+'</a>';
+                              //   konten +='    <p class="sale-price">'+IDR(prod[i].harga).format()+'</p>';
+                              //   konten +='    <div class="btn btn-success btn-sm add2cart-notify"  onclick="addcart(\''+prod[i].id+'\',\''+prod[i].nama+'\',\''+prod[i].harga+'\');"><i class="lni lni-plus"></i></div>';
+                              //   konten +='  </div>';
+                              // konten +='  </div>';
+                              // konten +='</div>';
+                            }
+                            document.getElementById('totalitem').innerHTML = '<b>'+item+'</b> Items';
+                            var hartotx =  IDR(totharga).format();
+                            document.getElementById('totalharga').innerHTML = '<b>'+hartotx+'</b>';
+
+                          // $("#prodlist").append(konten);
+
+                          // var datst="";
+
+
+
+
+
+                  }
+
+              });
+        });
+
+
+
+    </script>
+
+
+
+  </head>
+  <body>
+
+
+
+
+    <!-- Preloader-->
+    <div class="preloader" id="preloader">
+      <div class="spinner-grow text-secondary" role="status">
+        <div class="sr-only">Loading...</div>
+      </div>
+    </div>
+    <!-- Header Area-->
+    <div class="header-area" id="headerArea">
+      <div class="container h-100 d-flex align-items-center justify-content-between">
+        <!-- Logo Wrapper-->
+        <div class="logo-wrapper"><a href="home.html"  style="color:#666;"><b>QEDAI.ID</b></a></div>
+        <!-- Search Form-->
+        <div class="top-search-form">
+          <form action="" method="">
+            <input class="form-control" type="search" placeholder="Enter your keyword">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+        <!-- Navbar Toggler-->
+        <div class="suha-navbar-toggler d-flex flex-wrap" id="suhaNavbarToggler"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+    <!-- Sidenav Black Overlay-->
+    <div class="sidenav-black-overlay"></div>
+    <!-- Side Nav Wrapper-->
+    <div class="suha-sidenav-wrapper" id="sidenavWrapper">
+      <!-- Sidenav Profile-->
+      <div class="sidenav-profile">
+        <div class="user-profile"><img src="img/bg-img/9.jpg" alt=""></div>
+        <div class="user-info">
+          <h6 class="user-name mb-0">Suha Jannat</h6>
+          <p class="available-balance">Balance <span>$<span class="counter">523.98</span></span></p>
+        </div>
+      </div>
+      <!-- Sidenav Nav-->
+      <ul class="sidenav-nav pl-0">
+        <li><a href="profile.html"><i class="lni lni-user"></i>My Profile</a></li>
+        <li><a href="notifications.html"><i class="lni lni-alarm lni-tada-effect"></i>Notifications<span class="ml-3 badge badge-warning">3</span></a></li>
+        <li class="suha-dropdown-menu"><a href="#"><i class="lni lni-cart"></i>Shop Pages</a>
+          <ul>
+            <li><a href="shop-grid.html">- Shop Grid</a></li>
+            <li><a href="shop-list.html">- Shop List</a></li>
+            <li><a href="single-product.html">- Product Details</a></li>
+            <li><a href="featured-products.html">- Featured Products</a></li>
+            <li><a href="flash-sale.html">- Flash Sale</a></li>
+          </ul>
+        </li>
+        <li><a href="pages.html"><i class="lni lni-empty-file"></i>All Pages</a></li>
+        <li class="suha-dropdown-menu"><a href="wishlist-grid.html"><i class="lni lni-heart"></i>My Wishlist</a>
+          <ul>
+            <li><a href="wishlist-grid.html">- Wishlist Grid</a></li>
+            <li><a href="wishlist-list.html">- Wishlist List</a></li>
+          </ul>
+        </li>
+        <li><a href="settings.html"><i class="lni lni-cog"></i>Settings</a></li>
+        <li><a href="intro.html"><i class="lni lni-power-switch"></i>Sign Out</a></li>
+      </ul>
+      <!-- Go Back Button-->
+      <div class="go-home-btn" id="goHomeBtn"><i class="lni lni-arrow-left"></i></div>
+    </div>
+    <!-- PWA Install Alert-->
+
+    <div class="page-content-wrapper">
+      <!-- Hero Slides-->
+      <div class="hero-slides owl-carousel">
+        <!-- Single Hero Slide-->
+        <div class="single-hero-slide" style="background-image: url('img/bg-img/1.jpg')">
+          <div class="slide-content h-100 d-flex align-items-center">
+            <div class="container">
+              <h4 class="text-white mb-0" data-animation="fadeInUp" data-delay="100ms" data-wow-duration="1000ms">Amazon Echo</h4>
+              <p class="text-white" data-animation="fadeInUp" data-delay="400ms" data-wow-duration="1000ms">3rd Generation, Charcoal</p><a class="btn btn-primary btn-sm" href="#" data-animation="fadeInUp" data-delay="800ms" data-wow-duration="1000ms">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Single Hero Slide-->
+        <div class="single-hero-slide" style="background-image: url('img/bg-img/2.jpg')">
+          <div class="slide-content h-100 d-flex align-items-center">
+            <div class="container">
+              <h4 class="text-white mb-0" data-animation="fadeInUp" data-delay="100ms" data-wow-duration="1000ms">Our Menu</h4>
+              <p class="text-white" data-animation="fadeInUp" data-delay="400ms" data-wow-duration="1000ms">Start From Rp10,000</p><a class="btn btn-success btn-sm" href="#" data-animation="fadeInUp" data-delay="500ms" data-wow-duration="1000ms">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Single Hero Slide-->
+        <div class="single-hero-slide" style="background-image: url('img/bg-img/3.jpg')">
+          <div class="slide-content h-100 d-flex align-items-center">
+            <div class="container">
+              <h4 class="text-white mb-0" data-animation="fadeInUp" data-delay="100ms" data-wow-duration="1000ms">Best Furniture</h4>
+              <p class="text-white" data-animation="fadeInUp" data-delay="400ms" data-wow-duration="1000ms">3 years warranty</p><a class="btn btn-danger btn-sm" href="#" data-animation="fadeInUp" data-delay="800ms" data-wow-duration="1000ms">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Product Catagories-->
+
+      <!-- Flash Sale Slide-->
+
+      <!-- Top Products-->
+      <div class="top-products-area clearfix py-3">
+        <div class="container">
+          <div class="section-heading d-flex align-items-center justify-content-between">
+            <h6 class="ml-1" style="color:#fff">Best Seller</h6><a class="btn btn-danger btn-sm" href="shop-grid.html">View All</a>
+          </div>
+          <div class="row g-3">
+            <!-- Single Top Product Card-->
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card top-product-card">
+                <div class="card-body"><span class="badge badge-success">Best Seller</span><a class="wishlist-btn" href="#"><i class="lni lni-heart"></i></a><a class="product-thumbnail d-block" href="single-product.html"><img class="mb-2" src="img/product/11.png" alt=""></a><a class="product-title d-block" href="single-product.html">Kosuren</a>
+                  <p class="sale-price">Rp. 15,000</p>
+                  <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify" href="" onclick="addcart('prod1','15000');"><i class="lni lni-plus"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Single Top Product Card-->
+            <!-- <div class="col-6 col-md-4 col-lg-3">
+              <div class="card top-product-card">
+                <div class="card-body"><span class="badge badge-primary">New</span><a class="wishlist-btn" href="#"><i class="lni lni-heart"></i></a><a class="product-thumbnail d-block" href="single-product.html"><img class="mb-2" src="img/product/5.png" alt=""></a><a class="product-title d-block" href="single-product.html">Wooden Sofa</a>
+                  <p class="sale-price">$74<span>$99</span></p>
+                  <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify" href="#"  onclick="addcart('prod1','15000');"><i class="lni lni-plus"></i></a>
+                </div>
+              </div>
+            </div> -->
+            <!-- Single Top Product Card-->
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card top-product-card">
+                <div class="card-body"><span class="badge badge-success">Best Seller</span><a class="wishlist-btn" href="#"><i class="lni lni-heart"></i></a><a class="product-thumbnail d-block" href="single-product.html"><img class="mb-2" src="img/product/6.png" alt=""></a><a class="product-title d-block" href="single-product.html">Creamy Coffee</a>
+                  <p class="sale-price">Rp. 12,000</p>
+                  <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify" href="#"><i class="lni lni-plus"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Single Top Product Card-->
+
+          </div>
+        </div>
+      </div>
+      <!-- Cool Facts Area-->
+
+
+      <!-- Featured Products Wrapper-->
+      <div class="featured-products-wrapper py-3">
+        <div class="container">
+          <div class="section-heading d-flex align-items-center justify-content-between">
+            <h6 class="pl-1">Our Products</h6>
+          </div>
+          <div class="row g-3" id="prodlist">
+            <!-- Featured Product Card-->
+
+
+          </div>
+        </div>
+      </div>
+      <!-- Night Mode View Card-->
+      <div class="night-mode-view-card pb-3">
+        <div class="container">
+          <div class="card settings-card">
+            <div class="card-body">
+              <div class="single-settings d-flex align-items-center justify-content-between">
+                <div class="title"><i class="lni lni-night"></i><span>Night Mode</span></div>
+                <div class="data-content">
+                  <div class="toggle-button-cover">
+                    <div class="button r">
+                      <input class="checkbox" id="darkSwitch" type="checkbox">
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Internet Connection Status-->
+    <div class="internet-connection-status" id="internetStatus"></div>
+    <!-- Footer Nav-->
+    <div class="footer-nav-area" id="footerNav">
+      <div class="container h-100 px-0">
+        <div class="suha-footer-nav h-100">
+          <ul class="h-100 d-flex align-items-center justify-content-between pl-0">
+            <li class="active"><a href="home.html"><i class="lni lni-home"></i>Home</a></li>
+            <li><a href="message.html"><i class="lni lni-life-ring"></i>Support</a></li>
+            <li><a href="cart.html"><i class="lni lni-shopping-basket"></i>Cart</a></li>
+            <li><a href="pages.html"><i class="lni lni-heart"></i>Pages</a></li>
+            <li><a href="settings.html"><i class="lni lni-cog"></i>Settings</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="popup" id="popup" onclick="senddata()"> -->
+     <div class="popup" id="popup" >
+      <div id="totalitem"></div>
+      <div id="totalharga"></div>
+      <input type="text" name="" value="" id="datax">
+    </div>
+
+    <script type="text/javascript">
+    var datanya="";
+    var queryString = decodeURIComponent(window.location.search);
+    queryString = queryString.substring(1);
+    var queries = queryString.split("=");
+     // alert(queries[1]);
+     var result = queries[1];
+
+     // alert(result);
+
+
+
+
+
+
+    function addcart(id,prod, harga) {
+      document.getElementById('popup').style.display = 'block';
+      document.getElementById('totalitem').innerHTML = '';
+      document.getElementById('totalharga').innerHTML = '';
+
+      datanya += id+"|@|"+prod+"|@|"+harga+"|@|||@@||"
+
+      // alert(prod+" ==== "+harga);
+      item += 1;
+      totharga += parseInt(harga);
+
+      if (item >= 2) {
+        document.getElementById('totalitem').innerHTML = '<b>'+item+'</b> Items';
+
+      }else {
+        document.getElementById('totalitem').innerHTML = '<b>'+item+'</b> Item';
+
+      }
+
+      var hartot =  IDR(totharga).format();
+      document.getElementById('totalharga').innerHTML = '<b>'+hartot+'</b>';
+
+      document.getElementById('datax').value = datanya;
+
+      // alert(datanya);
+
+    }
+
+
+    function senddata(){
+      var queryString = "?" + datanya;
+      window.location.href = "cart.html" + queryString;
+      // alert(datanya);
+      // $.post("cart.html",
+      // {
+      //   data: datanya
+      // });
+    }
+
+    $("#popup").click(function() {
+
+
+      var x = document.getElementById("datax").value;
+      // alert(x);
+      // alert(result);
+
+      var dataString = "prodnya=" + x + "&idtrans=" + result + "&insert=";
+          //alert(dataString);
+          $.ajax({
+              type: "POST",
+              url: "http://qedai.id/mobile/setTrans.php",
+              data: dataString,
+              crossDomain: true,
+              cache: false,
+              beforeSend: function() {
+                  // $("#btnLogin").val('Connecting...');
+                   // document.getElementById("loadingscreen").style.display = "block";
+              },
+              success: function(data) {
+                  //alert(data);
+                  // $("#hasilnya").append(data);
+                  // document.getElementById("loadingscreen").style.display = "none";
+                  // alert(data);
+                  if (data=="success") {
+                    var xxx = "?datanya=" + result;
+                    location.href = 'cart.html'+xxx;
+
+                  }
+                  else {
+                    // alert("Transaksi Gagal !!!");
+                    var xxx = "?datanya=" + result;
+                    location.href = 'cart.html'+xxx;
+                  }
+                  // $("#hasilnya3").append(data);
+                  // var xxx = "?datanya=" + IDnya;
+                  // location.href = 'main.html'+xxx;
+
+              }
+
+          });
+
+      return false;
+
+    });
+
+
+
+
+
+    </script>
+    <!-- All JavaScript Files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/default/jquery.passwordstrength.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jarallax.min.js"></script>
+    <script src="js/jarallax-video.min.js"></script>
+    <script src="js/default/dark-mode-switch.js"></script>
+    <script src="js/default/no-internet.js"></script>
+    <script src="js/default/active.js"></script>
+    <script src="js/pwa.js"></script>
+    <script src="js/currency.min.js"></script>
+  </body>
+</html>

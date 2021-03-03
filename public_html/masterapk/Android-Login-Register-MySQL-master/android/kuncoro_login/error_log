@@ -1,0 +1,178 @@
+[03-Nov-2020 14:09:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/register.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/register.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/register.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/register.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/register.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/register.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/register.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:09:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[03-Nov-2020 14:10:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/register.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/register.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:48:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8
+[10-Nov-2020 00:49:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php:8
+Stack trace:
+#0 /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/login.php(3): include()
+#1 {main}
+  thrown in /home/qedy1629/public_html/masterapk/Android-Login-Register-MySQL-master/android/kuncoro_login/koneksi.php on line 8

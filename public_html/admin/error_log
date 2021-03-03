@@ -1,0 +1,2 @@
+[22-Feb-2021 14:05:29 Asia/Jakarta] PHP Fatal error:  Cannot redeclare User::profile() in /home/aras2772/public_html/mlb/application/controllers/User.php on line 435
+[26-Feb-2021 10:35:10 Asia/Jakarta] PHP Fatal error:  Cannot redeclare User_model::getUserInfoWithRole() in /home/aras2772/public_html/mlb/application/models/User_model.php on line 331

@@ -1,0 +1,315 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202101 will be lost/reset.
+# Last config file used to build this data file was /home/qedy1629/tmp/awstats/ssl/awstats.qedai.id.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2680                
+POS_VISITOR 7816                
+POS_DAY 8208                
+POS_DOMAIN 3258                
+POS_LOGIN 3509                
+POS_ROBOT 3664                
+POS_WORMS 3912                
+POS_EMAILSENDER 4043                
+POS_EMAILRECEIVER 4186                
+POS_SESSION 8393                
+POS_SIDER 8568                
+POS_FILETYPES 4321                
+POS_DOWNLOADS 4596                
+POS_OS 4644                
+POS_BROWSER 4744                
+POS_SCREENSIZE 4894                
+POS_UNKNOWNREFERER 4968                
+POS_UNKNOWNREFERERBROWSER 5178                
+POS_ORIGIN 5298                
+POS_SEREFERRALS 5432                
+POS_PAGEREFS 5576                
+POS_SEARCHWORDS 7077                
+POS_KEYWORDS 7229                
+POS_MISC 2344                
+POS_ERRORS 7288                
+POS_CLUSTER 3365                
+POS_SIDER_404 7405                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210201030450 1 0 8993581099868
+FirstTime 20210103145554
+LastTime 20210130141011
+LastUpdate 20210201191030 1 0 0 0 0
+TotalVisits 10                  
+TotalUnique 8                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 8                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 8 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 1 1 3351
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 1 1 12274
+12 19 40 324579 8 9 13758
+13 44 44 15982 16 16 9407
+14 13 13 4550 8 8 4419
+15 14 45 548251 2 5 954
+16 21 59 754960 4 7 2314
+17 61 90 989615 27 28 15861
+18 10 10 33239 4 4 12710
+19 0 0 0 1 1 3351
+20 0 0 0 1 1 3351
+21 0 0 0 1 1 3355
+22 78 150 507950 11 13 8581
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+id 256 447 3175775
+de 3 3 0
+ca 1 1 3351
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+no_user_agent 7 13412 20210128163734 0
+bot[\s_+:,\.\;\/\\-] 4 13412 20210109205037 0
+bingbot/ 2 52 20210131153002 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+woff2 6 342744 0 0
+Unknown 10 3103 0 0
+tiff 2 540 0 0
+js 68 1309974 0 0
+png 73 89415 0 0
+css 34 392626 0 0
+webp 2 172 0 0
+woff 19 433016 0 0
+php 2 18016 0 0
+gif 1 13593 0 0
+html 219 555864 0 0
+svg 15 20063 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+win7 3 3
+Unknown 2 2
+win10 446 255
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 5
+mozilla 1 1
+chrome40.0.2214.85 3 3
+chrome88.0.4324.96 387 236
+Unknown 1 1
+chrome87.0.4280.141 59 19
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20210106145720
+WhatsApp/2.20.206.24_A 20210128164804
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+WhatsApp/2.20.206.24_A 20210128164804
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 8 8
+From1 0 0
+From2 0 0
+From3 252 443
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 16
+https://webmail.qedai.id/cpsess9830860838/3rdparty/roundcube/ 121 151
+https://webmail.qedai.id/cpsess1352958096/3rdparty/roundcube/ 72 92
+https://webmail.qedai.id 29 80
+https://webmail.qedai.id/cPanel_magic_revision_1586188272/webmail/paper_lantern/_assets/css/master-legacy-ltr.cmb.min.css 12 12
+https://webmail.qedai.id/cPanel_magic_revision_1386192030/unprotected/cpanel/fonts/open_sans/open_sans.min.css 9 9
+https://webmail.qedai.id/cpsess9830860838/3rdparty/roundcube/skins/elastic/styles/styles.css 4 4
+https://webmail.qedai.id/cpsess9830860838/3rdparty/roundcube/index.php 2 2
+http://webmail.qedai.id 2 2
+https://webmail.qedai.id/cpsess9830860838/horde/imp/dynamic.php 1 37
+https://webmail.qedai.id/cpsess9830860838/3rdparty/roundcube/skins/elastic/watermark.html 0 1
+https://webmail.qedai.id/cpsess9830860838/3rdparty/roundcube/plugins/return_to_webmail/skins/elastic/return_to_webmail.css 0 1
+https://webmail.qedai.id/cpsess9830860838/horde/imp/themes/default/screen.css 0 4
+https://webmail.qedai.id/cpsess9830860838/horde/imp/themes/default/dynamic/screen.css 0 6
+https://webmail.qedai.id/cpsess1352958096/3rdparty/roundcube/skins/elastic/watermark.html 0 1
+https://webmail.qedai.id/cpsess9830860838/horde/themes/default/screen.css 0 23
+https://webmail.qedai.id/cPanel_magic_revision_1592237376/unprotected/cpanel/style_v2_optimized.css 0 18
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 5 0
+302 8 40
+401 5 53431
+308 56 8336
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/cpsess9830860838/3rdparty/roundcube/ 5 https://webmail.qedai.id/cpsess9830860838/3rdparty/roundcube/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 8
+114.5.210.26 84 142 1623224 20210128180250
+114.5.211.105 78 150 507950 20210128224451
+36.88.142.134 74 95 341760 20210130141011
+114.4.212.35 15 46 570110 20210129160443
+203.77.251.27 4 13 120516 20210128164755
+138.246.253.24 3 3 0 20210129161040
+142.93.74.104 1 1 3351 20210106145720
+114.4.78.8 1 1 12215 20210128164804
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20210103 1 1 0 1
+20210106 1 1 3351 1
+20210121 1 1 0 1
+20210128 167 306 2263905 4
+20210129 16 47 570110 2
+20210130 74 95 341760 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 2
+5mn-15mn 1
+0s-30s 6
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 30
+/cpsess9830860838/3rdparty/roundcube/ 109 348217 0 1
+/cpsess1352958096/3rdparty/roundcube/ 69 29687 0 1
+/cpsess9830860838/3rdparty/roundcube/skins/elastic/watermark.html 15 3300 0 0
+/ 9 64424 8 5
+/cpsess9830860838/execute/Email/list_pops_with_disk 7 1866 0 0
+/cpsess9830860838/webmail/paper_lantern/ 7 76391 1 0
+/login/ 5 630 1 0
+/cPanel_magic_revision_1386192033/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.woff 3 68724 0 1
+/cPanel_magic_revision_1386192031/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.woff 3 67296 0 0
+/cPanel_magic_revision_1386192033/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.woff 3 67980 0 0
+/cpsess8658440148/webmail/paper_lantern/ 3 32775 0 1
+/cPanel_magic_revision_1386192033/webmail/paper_lantern/libraries/ui-fonts/open_sans/optimized/OpenSans-Semibold-webfont.woff 2 45816 0 0
+/cpsess9830860838/execute/Email/dispatch_client_settings 2 170 0 1
+/cpsess1352958096/3rdparty/roundcube/skins/elastic/watermark.html 2 440 0 0
+/cPanel_magic_revision_1386192031/webmail/paper_lantern/libraries/ui-fonts/open_sans/optimized/OpenSans-Bold-webfont.woff 2 44864 0 0
+/cPanel_magic_revision_1571849661/webmail/paper_lantern/libraries/fontawesome/webfonts/fa-solid-900.woff2 2 151520 0 0
+/cPanel_magic_revision_1410366077/webmail/paper_lantern/libraries/bootstrap/optimized/fonts/glyphicons-halflings-regular.woff 2 46640 0 0
+/cPanel_magic_revision_1386192033/webmail/paper_lantern/libraries/ui-fonts/open_sans/optimized/OpenSans-Regular-webfont.woff 2 45320 0 0
+/cPanel_magic_revision_1386192032/webmail/paper_lantern/libraries/ui-fonts/open_sans/optimized/OpenSans-Italic-webfont.woff 2 46376 0 0
+/cpsess1352958096/3rdparty/roundcube/program/resources/blank.tiff 1 270 0 0
+/cpsess1352958096/3rdparty/roundcube/program/resources/blank.webp 1 86 0 0
+/cpsess9830860838/3rdparty/roundcube/program/resources/blank.webp 1 86 0 0
+/cpsess9830860838/3rdparty/roundcube/program/resources/blank.tiff 1 270 0 0
+/cpsess9830860838/horde/imp/dynamic.php 1 8370 0 0
+/cPanel_magic_revision_1609105339/3rdparty/roundcube/skins/elastic/fonts/fa-solid-900.woff2 1 75440 0 0
+/cPanel_magic_revision_1609105339/3rdparty/roundcube/skins/elastic/fonts/roboto-v19-regular.woff2 1 51116 0 0
+/cpsess9830860838/3rdparty/roundcube/index.php 1 9646 0 0
+/cPanel_magic_revision_1609105339/3rdparty/roundcube/skins/elastic/fonts/roboto-v19-regular-700.woff2 1 51088 0 0
+/cPanel_magic_revision_1609105339/3rdparty/roundcube/skins/elastic/fonts/fa-regular-400.woff2 1 13580 0 0
+/cpsess9830860838/horde/services/ajax.php/imp/dynamicInit 1 1067 0 0
+END_SIDER

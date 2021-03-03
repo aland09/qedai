@@ -1,0 +1,2121 @@
+Return-Path: <bounces+6055632-1676-tools=qedai.id@e.engage.canva.com>
+Delivered-To: tools@qedai.id
+Received: from maruta.iixcp.rumahweb.com
+	by maruta.iixcp.rumahweb.com with LMTP
+	id EKCOIP4VMmC+XC4ATxegfw
+	(envelope-from <bounces+6055632-1676-tools=qedai.id@e.engage.canva.com>)
+	for <tools@qedai.id>; Sun, 21 Feb 2021 15:12:46 +0700
+Return-path: <bounces+6055632-1676-tools=qedai.id@e.engage.canva.com>
+Envelope-to: tools@qedai.id
+Delivery-date: Sun, 21 Feb 2021 15:12:46 +0700
+Received: from o1006.e.engage.canva.com ([167.89.70.132]:24734)
+	by maruta.iixcp.rumahweb.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <bounces+6055632-1676-tools=qedai.id@e.engage.canva.com>)
+	id 1lDjr0-00CosX-IN
+	for tools@qedai.id; Sun, 21 Feb 2021 15:12:46 +0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; 
+	d=engage.canva.com; 
+	h=content-type:from:mime-version:reply-to:to:subject:list-unsubscribe; 
+	s=s1; bh=6A7Z0sfT8fM7mpZC9xhL+Wv9Lbqda+FdyCsOc8csZdE=; b=CxqGYV8
+	d3jFi9VpQqcx3JFiiV+8JJsOj3+DI6PXpL/+t+16LPREo415kf1Q9zeB8kSKrjau
+	PwV9QCrlzR7Xbzrpv0IrAUTrT6ube0HtJTs+v5hB+IC6/UCNJvf8SRWjab2wnIad
+	AhEVraSPFC8YNDEU26jFERVmQ7pgikWTe4/I=
+Received: by filter1957p1las1.sendgrid.net with SMTP id filter1957p1las1-28146-603215C7-7
+        2021-02-21 08:11:51.390959346 +0000 UTC m=+227290.024957518
+Received: from NjA1NTYzMg (unknown)
+	by ismtpd0118p1mdw1.sendgrid.net (SG) with HTTP id aBOkW00XQCWtBpbcDxJjag
+	Sun, 21 Feb 2021 08:11:51.261 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=2160791d096cba42d94e0a1c4d1ca5055c650d20fe7393681c5063ef6bd7
+Date: Sun, 21 Feb 2021 08:11:51 +0000 (UTC)
+From: "Canva" <start@engage.canva.com>
+Mime-Version: 1.0
+Reply-to: no-reply@canva.com
+To: tools@qedai.id
+Message-ID: <aBOkW00XQCWtBpbcDxJjag@ismtpd0118p1mdw1.sendgrid.net>
+Subject: Desain dan cetak dengan Canva
+List-Unsubscribe: <mailto:v3_GU4TSNRVHFRGINLDGVQTMOBTGI4DGZDFGM2DSZC7GU4TSNRVMFRWKNJWMVRTGMJTGA2DMMZSGQ2DSZC7GU4WMNRXMNSWENJWMVRTGMJQGFRDAOBZGUYDCZS7JZVEC6KNIRVTET2EM4YE22THPFHFIWLYLJWUKNKOPJIXQWSENBUFQ6KSMZMTETLNLJDWWOKNNJITGWSELE2FURCGNFHGU2ZQLJWU43CPIRLGYT2UKJVE2V2ONRGUITJSJVKECM2OKRVW2YSYLE4U42SBPFGUI2ZSJ5CGGMCNNJTXSTSULF4FU3KFGVHHUULYLJCFC6CKNZBHAUCYMRWWG6K2GNIFIWLXJVVECNKONJTTGTSEJE2E22SVGJGVOWTIJ5KGGMCNK5IXOTLZLIZWI2RQGJGUISLXJ5KFSNCOPJIXST2EJEYU42SGNVMVI2ZTJZCEM22OIRTT2@unsubscribe.emailinboundprocessing.com>
+X-SG-EID: UPRg8px7/rvDa9NokikHn9/j0GdXa4s0lHP6nI+gb1uG0urL3x0iLuilCdMx9mff6xxxApej5bK9S9
+ SZL0SB4foUj4FfyDn+iFZBYvCqTWX+JQUGdzCh6x1xI+04GbKMLtziVv/NRSRun4o82O759a0D9E4h
+ ASGFCP9dcD1vIpsaQgZWPevKHGXzAszwCUBTXrCsWMlbgGD1grcYAejDow==
+X-SG-ID: dXNuuxiaeVPHPf1dZH02eNDQ3uJGIXjiQFdG6304MkdWw3LZLPOxL/qXGOwQsiaGpowefH9vkxtRNv
+ LCb+faqhtLfBaXz7Epol9RzY0SNhbTUVNfV5/anyo7ABKMl4ga1pbbDJ8fdcqq7WIj+wERfADdPgTP
+ Xga+DVQaVMm8buaSvi1drMrGGQpJMRqjxVqklTJJ0Q596mLO9LLAp3xbSmp36tSPYh0IBTLCEG0Ro5
+ uAfjnak/nOHyClK42ErSqM9Va62WOCfGJVwixRGnXIjb4o81TRza7TWX6JdpooSLYUn94e2apPY5ra
+ soWR/x7LQ08iOugrBKaJsregUDzwvtqUIHpKdD6L5qJw3nNqG1rf5P4xuYzXr/Nfe/EXd2RTzlEYIi
+ bgSN6oe/pQyZ7WI8k7tSgFdXb46o2Q92lvZvWVai6b1qpPf/FsdLAUbky/rMinPHmKcF22T9LHHe53
+ Z7Z4HTcXIR1gHvAnvBVF5OGvo7TkJ042R3Qf1bEOFPMXVnBdOYQN1M/Dclt8wvOEYA==
+X-Entity-ID: Ihjwe6fbPmb2n1jboNJwDQ==
+X-Spam-Status: No, score=-0.1
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "maruta.iixcp.rumahweb.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Cobalah Canva Print dan lihat sendiri apa yang dibicarakan
+    semua orang canva Print Cetak dengan kami dan nikmati diskon 10% ( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlcuNJ1Xss-hKgDe0qN385AvB4B-8uawG91yBqraQH3dh/39m/ZTZxrrW7RH-p5qIMMiWICA/t22/Rymt9hjU7mO2A_bTH_dOWTBIPe6KLttiCKU1R47KGbo
+    ) Anda pernah mendesain be [...] 
+ Content analysis details:   (-0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: fonts.googleapis.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_06    BODY: HTML has a low ratio of text to image
+                             area
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+X-Spam-Flag: NO
+
+--2160791d096cba42d94e0a1c4d1ca5055c650d20fe7393681c5063ef6bd7
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+Mime-Version: 1.0
+
+
+
+
+Cobalah Canva Print dan lihat sendiri apa yang dibicarakan semua orang
+canva Print
+Cetak dengan kami dan nikmati diskon 10%
+
+
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlcuNJ1Xss-hKgDe0qN385=
+AvB4B-8uawG91yBqraQH3dh/39m/ZTZxrrW7RH-p5qIMMiWICA/t22/Rymt9hjU7mO2A_bTH_dO=
+WTBIPe6KLttiCKU1R47KGbo )
+Anda pernah mendesain bersama kami, tetapi tahukah bahwa Anda juga dapat me=
+ncetak bersama kami? Ini saatnya menghidupkan desain Anda dengan Canva. Kam=
+i memiliki berbagai macam template yang dapat disesuaikan sepenuhnya dan di=
+cetak untuk Anda manfaatkan. Apabila Anda mencari kartu nama bisnis baru, k=
+artu pos unik, atau bahkan ide hadiah istimewa, Canva adalah cara termudah =
+untuk mendesain dan mencetak.
+
+Selain itu, Anda dapat menghemat 10% pada pesanan pertama Anda dengan mengg=
+unakan kode <strong>TRYPRINT21</strong> saat proses pembayaran. Kami bahkan=
+ akan mengirimkan pesanan langsung ke rumah Anda, gratis. Kami hanya bermit=
+ra dengan pemasok yang memenuhi standar etika dan lingkungan kami. Semua ya=
+ng Anda terima dicetak dengan bahan yang ramah lingkungan.
+Coba sekarang=20
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlcuNJ1Xss-hKgDe0qN385=
+AvB4B-8uawG91yBqraQH3dh/39m/ZTZxrrW7RH-p5qIMMiWICA/t23/RMsrORQYoJKs8m6fCSwJ=
+atWLk4FEXyI750_QjNLj_k0 )
+
+Desain dan cetak.
+
+=E2=80=8BPoster=20
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlZ8ZLt1PKVHyoU8DWXkqM=
+-uSYS3EYGtgSWzLpcGe-vV2yIMyRxqobvwAUoxDAFf-hg/39m/ZTZxrrW7RH-p5qIMMiWICA/t2=
+4/fCzr7DbqsgRLIHViehAXY5SwFheDyegznN1xe-opoZE )
+=E2=80=8B
+
+
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlX6ZZCWxVAWc-i9ih8udh=
+va67Ej0NstUfRMJ2Ty12k4of_DIhv14b_hYa3wYQJUnIswV2w7UEtnhRl4GnnFe_zxC7QXZl1Y1=
+MN9DHb_TGF54/39m/ZTZxrrW7RH-p5qIMMiWICA/t25/uCWzbPMrEyR8LaQNfAd6SWnGw2xUIot=
+sjEYFub3s1ww )
+=20=20=20=20=20=20=20=20=20=20
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlX6ZZCWxVAWc-i9ih8udh=
+va67Ej0NstUfRMJ2Ty12k4of_DIhv14b_hYa3wYQJUnIswV2w7UEtnhRl4GnnFe_zywV6od2gBu=
+b3WM5e8ZNcSH/39m/ZTZxrrW7RH-p5qIMMiWICA/t26/oyo9oMd0DjLUPDgMVdEfZJBMDRx_Xea=
+pEDyZevZJdrc )
+
+=E2=80=8BKartu Bisnis=20
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlZ8ZLt1PKVHyoU8DWXkqM=
+-uSYS3EYGtgSWzLpcGe-vV2PcwbMXVhVrbY2f5X02R3bw/39m/ZTZxrrW7RH-p5qIMMiWICA/t2=
+7/6HGSnCDIUZY9QUFToAfvJUNWEPAE_scfNT1htLC3K5U )
+=E2=80=8B
+
+
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlX6ZZCWxVAWc-i9ih8udh=
+va67Ej0NstUfRMJ2Ty12k4o7RAcUqxpSz_EXU66l6-TA2vkTxec-SaGfb691Ahxy1uY1DnjHLk7=
+WSeOCk4Fch6j/39m/ZTZxrrW7RH-p5qIMMiWICA/t28/boNt3-WyO-Dz1LOZbnt4UvAOwPW_2jZ=
+wjW6S05FNo9A )
+=20=20=20=20=20=20=20=20=20=20
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlX6ZZCWxVAWc-i9ih8udh=
+va67Ej0NstUfRMJ2Ty12k4o7RAcUqxpSz_EXU66l6-TA2vkTxec-SaGfb691Ahxy1vH66bqhdz8=
+JYPuhM-7S8EW/39m/ZTZxrrW7RH-p5qIMMiWICA/t29/nvj35PkVWHMe5YXsz0L_5wtxjAuFhSq=
+2sloOsMFtw5Y )
+
+=E2=80=8BKartu pos=20
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlZ8ZLt1PKVHyoU8DWXkqM=
+-uSYS3EYGtgSWzLpcGe-vV2Zb4ajNGAATfATX5jYoX9KA/39m/ZTZxrrW7RH-p5qIMMiWICA/t3=
+0/HKGbaQCS0mcCjolnG-4FHaGRoK5eqGDFM0hNAXrhL-Q )
+=E2=80=8B
+
+
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlX6ZZCWxVAWc-i9ih8udh=
+va67Ej0NstUfRMJ2Ty12k4oAwuYIc7-r_jJen7jV8j5ArKw9Y2m4k6yqd5mxlvXXEpEjMnqC9rP=
+4HnUVJgnnvR8/39m/ZTZxrrW7RH-p5qIMMiWICA/t31/PGMm_NCPvawAbjZuehRaMpQsbiYyWLX=
+fSlszGjbzQjw )
+=20=20=20=20=20=20=20=20=20=20
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlX6ZZCWxVAWc-i9ih8udh=
+va67Ej0NstUfRMJ2Ty12k4oAwuYIc7-r_jJen7jV8j5ArKw9Y2m4k6yqd5mxlvXXEqc8RLRws-T=
+EpzbSvY9Pe4h/39m/ZTZxrrW7RH-p5qIMMiWICA/t32/6J5CfeDob8DzBYz4kBXvL0t_sgVvCxA=
+FhZhMLuIL9Ic )
+ Mulai mendesain=20
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlcuNJ1Xss-hKgDe0qN385=
+AvB4B-8uawG91yBqraQH3dh/39m/ZTZxrrW7RH-p5qIMMiWICA/t33/Vrw3BvSZ3hytgbcs2z98=
+TA9rcMZcH1BtUnRST6S39sk )
+
+---------------------------------
+Mencetak jadi mudah
+---------------------------------
+
+Setelah puas dengan desain Anda, cukup tekan Cetak di sudut kanan atas edit=
+or. Di sana Anda dapat melihat pratinjau desain, memilih kuantitas, dan men=
+gisi detail pengiriman dan pembayaran. Kemudian bersantailah karena kami ak=
+an mengirimkan pesanan langsung kepada Anda.
+
+Mulai mendesain=20
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlcuNJ1Xss-hKgDe0qN385=
+AvB4B-8uawG91yBqraQH3dh/39m/ZTZxrrW7RH-p5qIMMiWICA/t34/QYXaCEtEZ5xFAOZA0GWs=
+hKZhaq-bQVBEFg7GejFrCoQ )
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlcuNJ1Xss-hKgDe0qN385=
+AvB4B-8uawG91yBqraQH3dh/39m/ZTZxrrW7RH-p5qIMMiWICA/t35/DiipY4Ibhy_udfB2C7NG=
+2LXT9i9E841IWJXhQLD66uY )
+
+Alasan mencetak dengan Canva
+
+bullet
+Pengiriman gratis untuk semua pesanan
+Kirim pesanan Anda tanpa biaya tambahan. Anda juga dapat melacak pesanan An=
+da, sehingga Anda selalu tahu lokasinya.
+bullet
+Kepuasan 100%
+Jika Anda tidak puas, kami dapat memperbaikinya. Beri tahu kami dalam 30 ha=
+ri dan kami akan mencetak ulang desain tersebut tanpa biaya tambahan.
+bullet
+Profesional dan ramah lingkungan
+Kami telah bermitra dengan percetakan lokal yang peduli lingkungan untuk me=
+nghidupkan desain Anda dengan kualitas terjamin yang ramah lingkungan.
+bullet
+Desain mutakhir
+Ciptakan desain yang indah menggunakan alat bantu desain termudah di dunia.=
+ Template kami dapat disesuaikan sepenuhnya. Pilih font, warna, bingkai, da=
+n lebih banyak lagi.
+Mencetak jadi mudah=20
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlcuNJ1Xss-hKgDe0qN385=
+AvB4B-8uawG91yBqraQH3dh/39m/ZTZxrrW7RH-p5qIMMiWICA/t36/YnSjyyUZNA1sGr4WGiuM=
+H7b3O1HsRFepcVJ0HgpMNT0 )
+( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlcuNJ1Xss-hKgDe0qN385=
+AvB4B-8uawG91yBqraQH3dh/39m/ZTZxrrW7RH-p5qIMMiWICA/t37/NEfnId8MaiLEHilKTJFS=
+DBwVR5jH2tfofBVw8JLAnBc )
+
+Anda menerima email ini karena telah mendaftar ke Canva.
+<span>Dibuat oleh Canva <img src=3D'https://l.engage.canva.com/ss/c/qRmbTSn=
+7oLN7jYVy6cWsXndq3WuP8R6kTXR2T_WpE6l-7eq8mSmoP0wd0AI4u1l4b0XrHDFbIEHCXIrJzj=
+ENztRp7CbKOdy7dOONQgPErAAKYU7QimSek9vYwrS29E0hYLw5pw_Q9wXm-N3GUCms5Ivf3oYcK=
+6peYBnII6BbD1g4fg6i8kzhgwnT17QkmPfL/39m/ZTZxrrW7RH-p5qIMMiWICA/t38/b4OkxEOx=
+BHM_YCxXh8WLWYPwUCnBjtefTUxAM3eeeAA alt=3D'love' style=3D'transform: transl=
+ateY(2px)' />untuk Anda</span>
+Canva=C2=AE, 110 Kippax St, NSW 2010, Australia
+Kunjungi canva.com ( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumld=
+hWXdjEiY6blaOIqf4-eX4/39m/ZTZxrrW7RH-p5qIMMiWICA/t39/4GniXCMtjRCulruU59Xy5b=
+HT7rmgacQyxK2xF89ZvPU )
+Berhenti berlangganan (
+https://l.engage.canva.com/ss/c/SGIckvMXEMMWyyBsBumKhyFmXQQzIYONw2wHwEsCdVb=
+8K2IvTUG7e0wTxwiJNi6B24uCNaaiu2ebm9iNoKXl2ebsreAsqliFT65sner6606gCNZxP94Vj8=
+Ne4Ptn5_6MKgI1yU5niVRaLWBbsysphOy5TIM3YPMeIkZcX2RAkEIYV7roW9J33NJtJsI3FgLFj=
+RA3rpvIhQ2TdJai7GcyN9l7pvtkgXz5BIIaT_xy5wGeIKbOFT-bMoui65EVwH6Sg_vErFOHz7kT=
+aCBUFNPqALcBNSIqMFlR5FY0e0RSlCH0Gj8txoGWCc5Sewi17nK0IBVbJxGrEdH4kmkZVdYJJO0=
+UBGIun3hQo_KAB_JJeS0NStZ9aDRCwBxIWKmqjmErQLOHEo35Wa7b4lTNKyNCUToqPU58ADvI7X=
+ZANxJ6VHvG7tJq061-L3z6VvFtYxevcsALfWwEMVNxcFoFuCgsTSmoBK6yVTmMB54KW2BPRYdLu=
+2qF3XR5eRo40rQVC-gUG-Iw1afJ1X9TXeYhQCkj2aoSVkad3w440KBmSlN5RtFZHd05uafcaKrZ=
+oc3MkPWe4z8Izvtf_wJZMdNmgXRxEySo6Ys7kXb5R5s0eYmaNSUpIDFOuGtDxHqJNqzncTtaMJm=
+GNniICO72f9Ia3s4ZbEpNeHWzOa24YSDoZ9JfUJY/39m/ZTZxrrW7RH-p5qIMMiWICA/t40/LXC=
+8bX5pSPUcIpKQSMcR_y0ShfDlAKvKINOYO1HNG60 )              facebook (
+https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlX5OAtbCJMd_FPvwEHJJ-8-=
+_6RIJB-ToEejbLKxYPixt/39m/ZTZxrrW7RH-p5qIMMiWICA/t41/aa2eiOhchfH_nEU420c-sm=
+2slLW1g8nscFWHn39-gDE )    twitter=20
+( https://l.engage.canva.com/ss/c/mtWqLnqJK6aDQEpLGYS3ux9pLP57VNKLjQ65NmZu_=
+e4iijbSbAi9eW7qKtCtpW5SexzrlAJNlg5i_UDFzkfP6zYHnr30P_m8HrQ9IqcRPPp3G9Xgniyg=
+GeS6mXT-8E4Z/39m/ZTZxrrW7RH-p5qIMMiWICA/t42/TaegZWnHSNUt0HNsOupqifBZxZdvfqB=
+eY527BZioijw )
+    pinterest ( https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlVxO83W=
+ZsjMmrpdK0WEk-PxkEDVoBsoxNeFOEt8aV4eK/39m/ZTZxrrW7RH-p5qIMMiWICA/t43/VhSaCP=
+T2-H-Uhbx7l5eC0LB5on7ZgjaWsf8Uhjesn1g )    instagram (
+https://l.engage.canva.com/ss/c/lZ-GM7rMZ041tTtfCkoTKRXxFZvYdctphiqWkWaCzsl=
+k1Zyews0K8QpPhscpbWHk/39m/ZTZxrrW7RH-p5qIMMiWICA/t44/DtTkrt0bBOLB7Pcjlr9Std=
+1O8-Rau7CAFY8vM4o0xcM )=
+
+--2160791d096cba42d94e0a1c4d1ca5055c650d20fe7393681c5063ef6bd7
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+Mime-Version: 1.0
+
+<!DOCTYPE html>
+<html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:sch=
+emas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"=
+ dir=3D"ltr">
+<!--
+
+
+
+-->
+	<head>
+		<title></title>
+		<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+		<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+		<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1">
+		<style type=3D"text/css">
+			#outlook a{padding: 0;}
+			.ReadMsgBody{width: 100%;}
+			.ExternalClass{width: 100%;}
+			.ExternalClass *{line-height: 100%;}
+			body{margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%;}
+			table, td{border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;}
+			img{border: 0; height: auto; line-height: 100%; outline: none; text-deco=
+ration: none; -ms-interpolation-mode: bicubic;}
+			p{display: block; margin: 13px 0;}
+		</style>
+		<!--[if !mso]><!-->
+			<style type=3D"text/css">
+				@media only screen and (max-width:480px) {
+					@-ms-viewport {width: 320px;}
+					@viewport {	width: 320px; }
+				}
+			</style>
+		<!--<![endif]-->
+		<!--[if mso]>
+		<xml>
+			<o:OfficeDocumentSettings>
+				<o:AllowPNG/>
+				<o:PixelsPerInch>96</o:PixelsPerInch>
+			</o:OfficeDocumentSettings>
+		</xml>
+		<![endif]-->
+		<!--[if lte mso 11]>
+		<style type=3D"text/css">
+			.outlook-group-fix{width:100% !important;}
+		</style>
+		<![endif]-->
+		<style type=3D"text/css">
+@media only screen and (max-width:480px) {
+
+			  table.full-width-mobile { width: 100% !important; }
+				td.full-width-mobile { width: auto !important; }
+
+}
+@media only screen and (min-width:480px) {
+.dys-column-per-100 {
+	width: 100.000000% !important;
+	max-width: 100.000000%;
+}
+}
+a {color: #0E1318;text-decoration: underline;}
+    /* Buttery smooth fonts */ html { font-size: 100%; -webkit-text-size-ad=
+just:
+    100%; font-variant-ligatures: none; -webkit-font-variant-ligatures: non=
+e;
+    text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased; -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px; }
+=20=20
+    .button { background:#00C4CC !important; border-radius:4px; color:#ffff=
+ff !important; display:inline-block;
+    font-family:Open Sans, Helvetica, Arial, sans serif; font-size:14px;
+    font-weight:600;line-height:160%;margin:0;padding:9px 16px; }
+    .show-for-mobile table { mso-hide: all }
+    .monoGreyLight { color: #edf0f2; } .monoBlack { color: #0e1318; }
+    .colorCanvaBrand { color: #00c4cc; } .monoBlackA100 { color: #565a5d; }
+    .monoBlackA150 { color: #6e7174; } .monoBlackA200 { color: #939597; }
+    .monoBlackA400 { color: #E8E9E9 } .monoBlackA500 { color: #eeeeef; }
+    .monoWhite { color: #fff; } .monoGrey { color: #293039; } .show-for-lar=
+ge {
+    display: block } .hide-for-large { display: none } .wrapper {
+    background-color: #edf0f2; } .wrapper-padding { padding: 0 48px }
+    .wrapper-margin { width: 48px } .wrapper-typography { padding: 12px 48p=
+x }
+    .header-bottom { height: 36px }
+    .card-image { width: 38.8% } .card-content { width: 61.2% }
+    .grid-cta { background: #F8F9F9; border-radius: 4px; border:
+    1px solid #E8E9E9} .word-break, word-break > div { word-break: break-al=
+l }
+    .device-image-container table { margin: auto } .grid-cta-button { borde=
+r:
+    1px solid #EDF0F2; border-radius: 4px }
+=20=20
+    @media only screen and (max-width:480px) { .width-50-mobile { width: 50=
+% !important } .wrapper-margin-mobile {
+    width: 24px !important} .top-10-copy-padding {
+    padding-left: 16px
+    !important; padding-right: 16px
+    !important; } .top-10-copy-margin { height: 16px !important;
+    line-height: 16px
+    !important }
+    .card-horizontal .card-image { width: 30% }
+    .card-horizontal .card-content { width: 70% }
+    .card-contained .card-image { display: table-footer-group !important; w=
+idth: 100% !important}
+    .card-contained .card-content { display: table-caption; width: 100%
+    !important }
+    .card-template-stacked .card-image { width: calc(100% - 32px)
+    !important; display: table-caption !important; }
+    .card-template-stacked .card-content { display: table-footer-group !imp=
+ortant; width: 100%
+    !important; }
+    .card-template-stacked .gutter { display: none !important; }
+    .card-template-stacked .card-content > p { margin-top: 16px !important;=
+ }
+    .card-horizontal-stacked, .card-horizontal-stacked-reversed { display: =
+inline-block !important; width: 100%
+    !important } .card-horizontal-stacked .card-content { display: inline-b=
+lock
+    !important; width: 100% !important; } .card-horizontal-stacked .card-im=
+age {
+    display: inline-block !important; width: 100% !important; }
+    .card-horizontal-stacked .gutter { display: inline-block; width: 100%
+    !important; height: 16px !important }
+    .card-horizontal-stacked-reversed .card-content { display: table-caption
+    !important; width: 300px !important; }
+    .card-horizontal-stacked-reversed .card-image {
+    display: table-footer-group !important; width: 300px !important; }
+    .card-horizontal-stacked-reversed .gutter {
+    display: table-header-group !important; width: 300px !important;
+    }
+    .hide-for-mobile { display: none !important }
+    .show-for-mobile { display: block !important; max-height: none !importa=
+nt; }}
+=20=20
+    @media only screen and (max-width:648px) { body { background-color: #ff=
+ffff !important } body > div {
+    background-color: #ffffff !important } .wrapper { background-color: #ff=
+ffff !important }
+    .footer-bg-mobile { background-color: #ffffff !important }
+    .header-top-padding { border-radius: 0 !important } .header-top-padding=
+ td {
+    height: 24px !important; line-height: 24px } .show-for-large { display:=
+ none
+    !important } .hide-for-large { display: block !important } .wrapper-pad=
+ding
+    { padding: 0 24px !important } .wrapper-margin { width: 24px !important=
+ }
+    .header-bottom { height: 12px; line-height: 12px } .wrapper-typography {
+    padding: 12px 24px !important } .border-radius-for-large,
+    .border-radius-for-large img { border-radius: 0 !important }
+    .spacing-for-large { height: 1px !important; line-height: 0 !important }
+    .image_grid .col { width: 47% } .full-image-block-spacing { height: 24px
+    !important} .card-horizontal-image > table > tbody > tr > td { padding:=
+ 0px
+    24px 12px 24px !important } .card-horizontal-content > table > tbody > =
+tr >
+    td { padding: 12px 24px 0 24px !important } .header-left { display: tab=
+le-footer-group !important; width: 320px
+    !important } .header-right { width: 320px !important; display: table-ca=
+ption !important } .header-right th {
+    text-align: left
+    !important; } .card-left { padding: 0
+    12px 0 24px !important } .card-right { padding: 0 24px 0 12px !importan=
+t } }
+  </style>
+		<!--[if !mso]><!--><link href=3D"https://fonts.googleapis.com/css?family=
+=3DOpen+Sans:400,600,700" rel=3D"stylesheet" type=3D"text/css">
+<style type=3D"text/css">@import url(https://fonts.googleapis.com/css?famil=
+y=3DOpen+Sans:400,600,700);</style>
+<!--<![endif]-->
+	</head>
+	<body style=3D"background-color: #EDF0F2;">
+<div style=3D"display:none !important;visibility:hidden;mso-hide:all;font-s=
+ize:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:=
+0;overflow:hidden;">
+
+
+Cobalah Canva Print dan lihat sendiri apa yang dibicarakan semua orang</div>
+<div style=3D"background-color: #EDF0F2;">
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"wrapper-outlook" style=3D"width:600px;" width=3D"600"><tr><td style=
+=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+<![endif]--><div class=3D"wrapper" style=3D"margin:0px auto;max-width:600px=
+;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"direct=
+ion:ltr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <td>
+            <table cellpadding=3D"0" cellspacing=3D"0" class=3D"show-for-la=
+rge">
+              <tr>
+                <td height=3D"16" style=3D"line-height: 16px">&nbsp;</td>
+              </tr>
+            </table>
+
+            <table cellpadding=3D"0" cellspacing=3D"0" class=3D"header-top-=
+padding" style=3D"border-radius: 8px 8px 0 0; background: #ffffff; width: 1=
+00%">
+              <tr>
+                <td height=3D"46">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+f;background-color:#ffffff;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+          <th>
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;l=
+ine-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+              <tr>
+                <th height=3D"56" width=3D"56">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px=
+;"><tbody><tr><td style=3D"width:56px;"><img alt=3D"canva" height=3D"auto" =
+src=3D"https://appboy-images.com/appboy/communication/assets/image_assets/i=
+mages/5dc0e7c9c2b47709850997ab/original.png?1572923337" srcset=3D"https://a=
+ppboy-images.com/appboy/communication/assets/image_assets/images/5dc0e7c9c2=
+b47709850997ab/original.png?1572923337, https://appboy-images.com/appboy/co=
+mmunication/assets/image_assets/images/5e153c090464b92fdc5bb88f/original.pn=
+g?1578449929 2x" style=3D"border:none;display:block;font-size:13px;height:a=
+uto;outline:none;text-decoration:none;width:100%;" width=3D"56"></td></tr><=
+/tbody></table>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                </th>
+                <th width=3D"16px">&nbsp;</th>
+                <th style=3D"color:#0e1318; font-family:Open Sans, Helvetic=
+a, Arial, sans serif; text-align: left; text-align: start; font-size: 14px;=
+ font-weight: bold; ">
+                  <span style=3D"padding: 0 0 4px">Print</span>
+                  <span font-weight=3D"bold"> </span>
+                  <span style=3D"font-weight: normal"> </span>
+</th>
+              </tr>
+            </table>
+          </th>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+        </tr>
+        <tr>
+          <th class=3D"header-bottom" colspan=3D"4">&nbsp;</th>
+        </tr>
+      </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+und-color:#fff;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size=
+:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"background-c=
+olor:#fff;padding:0;vertical-align:top;"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" class=3D"wrapper-typography" style=3D"font-siz=
+e:0px;padding:10px 25px;padding-bottom:12px;padding-left:48px;padding-right=
+:48px;padding-top:12px;word-break:break-word;"><div style=3D"color:#0E1318;=
+font-family:Open Sans, Helvetica, Arial, sans serif;font-size:24px;font-wei=
+ght:700;letter-spacing:-0.3px;line-height:130%;text-align:left;"><p style=
+=3D"margin-top:0;margin-bottom:0">Cetak dengan kami dan nikmati diskon 10%<=
+/p></div></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+und-color:#fff;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size=
+:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;pa=
+dding-bottom:36px;padding-top:36px;vertical-align:top;"><table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=
+=3D"100%">
+      <tr><td align=3D"center" style=3D"font-size:0px;padding:0;word-break:=
+break-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;"><t=
+body><tr><td style=3D"width:600px;"><a href=3D"https://l.engage.canva.com/s=
+s/c/N56jrjxtajclrFz56qumlcuNJ1Xss-hKgDe0qN385Au1P2LHbj_j75dZdkKJS9sc_PIl3ko=
+pFEZnbUrk8BQ7VkOiM0P00EE2oqQV_isPeysfn9Qs-Mq2OC8RTb5b4IOSi_NWSfOAnKBLDhTdc3=
+FqTg/39m/ZTZxrrW7RH-p5qIMMiWICA/h0/61mCGll5qIzkA82rLnO53pQlqD52C32qaL5P2RIu=
+oyo" target=3D"_blank"><img alt height=3D"auto" src=3D"https://appboy-image=
+s.com/appboy/communication/assets/image_assets/images/602369fb26e78f68ae867=
+b43/original.gif?1612933627" style=3D"border:none;display:block;font-size:1=
+3px;height:auto;outline:none;text-decoration:none;width:100%;" title width=
+=3D"600"></a></td></tr></tbody></table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+und-color:#fff;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size=
+:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;pa=
+dding-bottom:12px;padding-top:12px;vertical-align:top;"><table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=
+=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+          <th style=3D"color:#0e1318;font-family:Open Sans, Helvetica, Aria=
+l, sans serif;font-size:14px;font-weight: 400;line-height:160%;text-align:l=
+eft;text-align:start;">Anda pernah mendesain bersama kami, tetapi tahukah b=
+ahwa Anda juga dapat mencetak bersama kami? Ini saatnya menghidupkan desain=
+ Anda dengan Canva. Kami memiliki berbagai macam template yang dapat disesu=
+aikan sepenuhnya dan dicetak untuk Anda manfaatkan. Apabila Anda mencari ka=
+rtu nama bisnis baru, kartu pos unik, atau bahkan ide hadiah istimewa, Canv=
+a adalah cara termudah untuk mendesain dan mencetak.  <br><br>Selain itu, A=
+nda dapat menghemat 10% pada pesanan pertama Anda dengan menggunakan kode <=
+strong>TRYPRINT21</strong> saat proses pembayaran. Kami bahkan akan mengiri=
+mkan pesanan langsung ke rumah Anda, gratis. Kami hanya bermitra dengan pem=
+asok yang memenuhi standar etika dan lingkungan kami. Semua yang Anda terim=
+a dicetak dengan bahan yang ramah lingkungan.</th>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+        </tr>
+      </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+f;background-color:#ffffff;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:=
+center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <th class=3D"wrapper-margin" width=3D"48px">&nbsp;</th>
+          <th style=3D"text-align: left; text-align: start">
+            <a href=3D"https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qum=
+lcuNJ1Xss-hKgDe0qN385Au1P2LHbj_j75dZdkKJS9sc_PIl3kopFEZnbUrk8BQ7VkOiM0P00EE=
+2oqQV_isPeysfn9Qs-Mq2OC8RTb5b4IOSi_NWSfOAnKBLDhTdc3FqTg/39m/ZTZxrrW7RH-p5qI=
+MMiWICA/h1/oc0pSf2cDIuWBZwJn53Nv6h02HVoUQ3IlUxrq0LP_nA" style=3D"background=
+:#7d2ae8;border-radius:4px;color:#ffffff;display:inline-block;font-family:O=
+pen Sans, Helvetica, Arial, sans serif;font-size:14px;font-weight:600;line-=
+height:160%;margin:0;mso-padding-alt:0px;padding:9px 16px;text-decoration:n=
+one;text-transform:none;" target=3D"_blank">Coba sekarang</a>
+          </th>
+          <th class=3D"wrapper-margin" width=3D"48px">&nbsp;</th>
+        </tr>=20
+        </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#edf0f2;background-color:#edf0f2;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#edf0f=
+2;background-color:#edf0f2;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <td>
+            <table class=3D"border-radius-for-large" style=3D"border-radius=
+: 0 0 8px 8px; background: #ffffff; width: 100%">
+              <tr>
+                <td height=3D"36" style=3D"padding:0;">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class=3D"spacing-for-large" height=3D"24"></td>
+        </tr>
+        <tr>
+          <td>
+            <table class=3D"border-radius-for-large" style=3D"border-radius=
+: 8px 8px 0 0; background: #ffffff; width: 100%">
+              <tr>
+                <td height=3D"36" style=3D"padding:0;">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+und-color:#fff;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size=
+:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"background-c=
+olor:#fff;padding:0;vertical-align:top;"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" class=3D"wrapper-typography" style=3D"font-siz=
+e:0px;padding:10px 25px;padding-bottom:12px;padding-left:48px;padding-right=
+:48px;padding-top:12px;word-break:break-word;"><div style=3D"color:#0E1318;=
+font-family:Open Sans, Helvetica, Arial, sans serif;font-size:24px;font-wei=
+ght:700;letter-spacing:-0.3px;line-height:130%;text-align:left;"><p style=
+=3D"margin-top:0;margin-bottom:0">Desain dan cetak.</p></div></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+und-color:#fff;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size=
+:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+      <tr><td align=3D"left" class=3D"wrapper-typography monoBlack" style=
+=3D"font-size:0px;padding:10px 25px;padding-bottom:0;padding-left:48px;padd=
+ing-right:48px;padding-top:0;word-break:break-word;"><div style=3D"color:#0=
+E1318;font-family:Open Sans, Helvetica, Arial, sans serif;font-size:12px;fo=
+nt-weight:600;letter-spacing:1px;line-height:160%;text-align:left;text-tran=
+sform:uppercase;"><p style=3D"margin-top:0;margin-bottom:0">=E2=80=8B<a hre=
+f=3D"https://l.engage.canva.com/uni/ss/c/N56jrjxtajclrFz56qumlZ8ZLt1PKVHyoU=
+8DWXkqM-uSYS3EYGtgSWzLpcGe-vV2JBRfJwcfNV9egovQxbVNcWEuFakmWuG3Ftm9jLCpc-5jS=
+yXz9z-ZqC0vKf8qFXHbcrC3VoT4isUi_SNI-B-M_3vsCIXeIsFTS0Qx4sqjceI/39m/ZTZxrrW7=
+RH-p5qIMMiWICA/h2/vcHcQRKbIXnhj_zZyyIfEnQrZ27sknSzyWpuO8DCB64" universal=3D=
+"true" target=3D"_blank">Poster</a>=E2=80=8B</p></div></td></tr>
+    </table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+und-color:#fff;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size=
+:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:center;verti=
+cal-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+     <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:bre=
+ak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-=
+height:22px;table-layout:auto;width:100%;" width=3D"100%">
+       <tr>
+         <th class=3D"card-left" style=3D"padding-left: 48px; padding-right=
+: 12px; max-width: 50% !important; width: 50% !important; vertical-align: t=
+op">
+           <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+             <tr>
+               <th style=3D"line-height: 0">
+                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"full-width-mobile" role=3D"presentation" style=3D"border-collapse:co=
+llapse;border-spacing:0px;"><tbody><tr><td class=3D"full-width-mobile" styl=
+e=3D"width:240px;"><a href=3D"https://l.engage.canva.com/uni/ss/c/N56jrjxta=
+jclrFz56qumlX6ZZCWxVAWc-i9ih8udhva67Ej0NstUfRMJ2Ty12k4of_DIhv14b_hYa3wYQJUn=
+IswV2w7UEtnhRl4GnnFe_zzgH7qIDtXHk4YIwbqaWiZgNXDF_XtM9f5_ytcRtj9Lc3DzZL8s-Ws=
+HYfjr7vy-tqlvqhsI1W10LKy1cLeUraWiCkvWdznxUuuuYSEY_PHGNg/39m/ZTZxrrW7RH-p5qI=
+MMiWICA/h3/Q_ptlh5pW-kQAiI8ee_swV4w6bythivTmIwr3JH-EUA" universal=3D"true" =
+target=3D"_blank"><img alt height=3D"auto" src=3D"https://appboy-images.com=
+/appboy/communication/assets/image_assets/images/60236adb141af469132da80f/o=
+riginal.png?1612933851" style=3D"border:none;border-radius:4px;display:bloc=
+k;font-size:13px;outline:none;text-decoration:none;width:100%;" title width=
+=3D"240"></a></td></tr></tbody></table>
+               </th>
+             </tr>
+           </table>
+         </th>
+         <th class=3D"card-right" style=3D"padding-left: 12px; padding-righ=
+t: 48px; max-width: 50% !important; width: 50% !important; vertical-align: =
+top">
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-=
+height:22px;table-layout:auto;width:100%;" width=3D"100%">
+            <tr>
+              <th style=3D"line-height: 0">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"full-width-mobile" role=3D"presentation" style=3D"border-collapse:col=
+lapse;border-spacing:0px;"><tbody><tr><td class=3D"full-width-mobile" style=
+=3D"width:240px;"><a href=3D"https://l.engage.canva.com/uni/ss/c/N56jrjxtaj=
+clrFz56qumlX6ZZCWxVAWc-i9ih8udhva67Ej0NstUfRMJ2Ty12k4of_DIhv14b_hYa3wYQJUnI=
+swV2w7UEtnhRl4GnnFe_zzeV6lRy_7PQ6X3aC9qAIKNPuHKj7FJ-qC8cUAavC862LAMaZgywSvw=
+4q1SEkwA73vpwqpbSJ_4rcDyZ6J04o5QL-O6wJ_Rrqynj1uEZklqYQ/39m/ZTZxrrW7RH-p5qIM=
+MiWICA/h4/E0XgCkpQWXskBHvwHxbEXjBKB1Jc1OTO0CZ-Geo9ykI" universal=3D"true" t=
+arget=3D"_blank"><img alt height=3D"auto" src=3D"https://appboy-images.com/=
+appboy/communication/assets/image_assets/images/60236adbe16e172b1f8a9e9d/or=
+iginal.png?1612933851" style=3D"border:none;border-radius:4px;display:block=
+;font-size:13px;outline:none;text-decoration:none;width:100%;" title width=
+=3D"240"></a></td></tr></tbody></table>
+              </th>
+            </tr>
+          </table>
+         </th>
+       </tr>
+     </table></td></tr>
+   </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"margin:0px auto;max-width:600px;"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:=
+0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"background-c=
+olor:#fff;padding:0;vertical-align:top;"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <th height=3D"8" style=3D"line-height: 0"></th>
+        </tr>
+      </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+und-color:#fff;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size=
+:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+      <tr><td align=3D"left" class=3D"wrapper-typography monoBlack" style=
+=3D"font-size:0px;padding:10px 25px;padding-bottom:0;padding-left:48px;padd=
+ing-right:48px;padding-top:0;word-break:break-word;"><div style=3D"color:#0=
+E1318;font-family:Open Sans, Helvetica, Arial, sans serif;font-size:12px;fo=
+nt-weight:600;letter-spacing:1px;line-height:160%;text-align:left;text-tran=
+sform:uppercase;"><p style=3D"margin-top:0;margin-bottom:0">=E2=80=8B<a hre=
+f=3D"https://l.engage.canva.com/uni/ss/c/N56jrjxtajclrFz56qumlZ8ZLt1PKVHyoU=
+8DWXkqM-uSYS3EYGtgSWzLpcGe-vV2FndzJeArrPgEYymMQTgG_f3yv3koLM6RtGi6tN_noxLjG=
+b3lJSK4hvIqaCXNH-NwF8wzHUR77i3JiZKj7FByQ2pILdFkpAE5CnJbwMiYBBE/39m/ZTZxrrW7=
+RH-p5qIMMiWICA/h5/jNYkBc58I1p_B_0scuxh4M2XYgjApnSnjiJ3HekaVpQ" universal=3D=
+"true" target=3D"_blank">Kartu Bisnis</a>=E2=80=8B</p></div></td></tr>
+    </table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+und-color:#fff;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size=
+:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:center;verti=
+cal-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+     <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:bre=
+ak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-=
+height:22px;table-layout:auto;width:100%;" width=3D"100%">
+       <tr>
+         <th class=3D"card-left" style=3D"padding-left: 48px; padding-right=
+: 12px; max-width: 50% !important; width: 50% !important; vertical-align: t=
+op">
+           <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+             <tr>
+               <th style=3D"line-height: 0">
+                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"full-width-mobile" role=3D"presentation" style=3D"border-collapse:co=
+llapse;border-spacing:0px;"><tbody><tr><td class=3D"full-width-mobile" styl=
+e=3D"width:240px;"><a href=3D"https://l.engage.canva.com/uni/ss/c/N56jrjxta=
+jclrFz56qumlX6ZZCWxVAWc-i9ih8udhva67Ej0NstUfRMJ2Ty12k4o7RAcUqxpSz_EXU66l6-T=
+A2vkTxec-SaGfb691Ahxy1t5e4WzbLjy00yjH4H96_Qvdv-e4tv58odL2PdzEZGojiOmmueoGZS=
+dXYiYUJpr9DCeBbouYEhv_OO2K_JMCdFDTV86mSDwD0oVJrNtltzXjQ/39m/ZTZxrrW7RH-p5qI=
+MMiWICA/h6/zJrxR898WJM0QsWy3B7z7aQ_a19JFRzs2FpvwW3bpmA" universal=3D"true" =
+target=3D"_blank"><img alt height=3D"auto" src=3D"https://appboy-images.com=
+/appboy/communication/assets/image_assets/images/60236a4a798dc816054d999d/o=
+riginal.png?1612933706" style=3D"border:none;border-radius:4px;display:bloc=
+k;font-size:13px;outline:none;text-decoration:none;width:100%;" title width=
+=3D"240"></a></td></tr></tbody></table>
+               </th>
+             </tr>
+           </table>
+         </th>
+         <th class=3D"card-right" style=3D"padding-left: 12px; padding-righ=
+t: 48px; max-width: 50% !important; width: 50% !important; vertical-align: =
+top">
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-=
+height:22px;table-layout:auto;width:100%;" width=3D"100%">
+            <tr>
+              <th style=3D"line-height: 0">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"full-width-mobile" role=3D"presentation" style=3D"border-collapse:col=
+lapse;border-spacing:0px;"><tbody><tr><td class=3D"full-width-mobile" style=
+=3D"width:240px;"><a href=3D"https://l.engage.canva.com/uni/ss/c/N56jrjxtaj=
+clrFz56qumlX6ZZCWxVAWc-i9ih8udhva67Ej0NstUfRMJ2Ty12k4o7RAcUqxpSz_EXU66l6-TA=
+2vkTxec-SaGfb691Ahxy1sMGAXvq_NXlWArGoeMKGhcmXwcAaO_Pm3dnxlUHFqNMXD5c47e4Q3h=
+HeU3k8VOcn4L_uOE7V5avyfoRhbrwTA8LhN0e9UBthSUbbXw2FsKEA/39m/ZTZxrrW7RH-p5qIM=
+MiWICA/h7/ay0UOz3gVvUJsuADOx7NZk5cRjmAeax2uMWwTE96jxo" universal=3D"true" t=
+arget=3D"_blank"><img alt height=3D"auto" src=3D"https://appboy-images.com/=
+appboy/communication/assets/image_assets/images/60236a4a95927445ca727464/or=
+iginal.png?1612933706" style=3D"border:none;border-radius:4px;display:block=
+;font-size:13px;outline:none;text-decoration:none;width:100%;" title width=
+=3D"240"></a></td></tr></tbody></table>
+              </th>
+            </tr>
+          </table>
+         </th>
+       </tr>
+     </table></td></tr>
+   </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"margin:0px auto;max-width:600px;"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:=
+0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"background-c=
+olor:#fff;padding:0;vertical-align:top;"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <th height=3D"8" style=3D"line-height: 0"></th>
+        </tr>
+      </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+und-color:#fff;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size=
+:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+      <tr><td align=3D"left" class=3D"wrapper-typography monoBlack" style=
+=3D"font-size:0px;padding:10px 25px;padding-bottom:0;padding-left:48px;padd=
+ing-right:48px;padding-top:0;word-break:break-word;"><div style=3D"color:#0=
+E1318;font-family:Open Sans, Helvetica, Arial, sans serif;font-size:12px;fo=
+nt-weight:600;letter-spacing:1px;line-height:160%;text-align:left;text-tran=
+sform:uppercase;"><p style=3D"margin-top:0;margin-bottom:0">=E2=80=8B<a hre=
+f=3D"https://l.engage.canva.com/uni/ss/c/N56jrjxtajclrFz56qumlZ8ZLt1PKVHyoU=
+8DWXkqM-uSYS3EYGtgSWzLpcGe-vV27TCi6pMflm8qKmRCAuhrlBOdo6z_xracezQQRkqvOKWFx=
+wpV0giVRLQUFhwY2-hPuOLhgS7gJd_jCuEaYxTGEQGqeR_D3t8iY4_4xcuR-3s/39m/ZTZxrrW7=
+RH-p5qIMMiWICA/h8/FgKAcuiEaEcQIbwTEWzYnzYR6kGH8DU955Gk-YqyVY8" universal=3D=
+"true" target=3D"_blank">Kartu pos</a>=E2=80=8B</p></div></td></tr>
+    </table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+und-color:#fff;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size=
+:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:center;verti=
+cal-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+     <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:bre=
+ak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-=
+height:22px;table-layout:auto;width:100%;" width=3D"100%">
+       <tr>
+         <th class=3D"card-left" style=3D"padding-left: 48px; padding-right=
+: 12px; max-width: 50% !important; width: 50% !important; vertical-align: t=
+op">
+           <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+             <tr>
+               <th style=3D"line-height: 0">
+                 <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"full-width-mobile" role=3D"presentation" style=3D"border-collapse:co=
+llapse;border-spacing:0px;"><tbody><tr><td class=3D"full-width-mobile" styl=
+e=3D"width:240px;"><a href=3D"https://l.engage.canva.com/uni/ss/c/N56jrjxta=
+jclrFz56qumlX6ZZCWxVAWc-i9ih8udhva67Ej0NstUfRMJ2Ty12k4oAwuYIc7-r_jJen7jV8j5=
+ArKw9Y2m4k6yqd5mxlvXXEpImCE-DIRxuZEF3xwhMT_Q5F3OxSsh9DUsubWAxKbiJx_la-0rTZc=
+GRvNGDtWiskmSe7mUiTG_yByNhJPPZ7rlvu46Q7ILnnFmYj7NE5cdaQ/39m/ZTZxrrW7RH-p5qI=
+MMiWICA/h9/lubt_szwtGmaXoeTGGWy-rwise2agqwahSkrOnhAhWE" universal=3D"true" =
+target=3D"_blank"><img alt height=3D"auto" src=3D"https://appboy-images.com=
+/appboy/communication/assets/image_assets/images/60236aa4a907417c065c0e14/o=
+riginal.png?1612933796" style=3D"border:none;border-radius:4px;display:bloc=
+k;font-size:13px;outline:none;text-decoration:none;width:100%;" title width=
+=3D"240"></a></td></tr></tbody></table>
+               </th>
+             </tr>
+           </table>
+         </th>
+         <th class=3D"card-right" style=3D"padding-left: 12px; padding-righ=
+t: 48px; max-width: 50% !important; width: 50% !important; vertical-align: =
+top">
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-=
+height:22px;table-layout:auto;width:100%;" width=3D"100%">
+            <tr>
+              <th style=3D"line-height: 0">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"full-width-mobile" role=3D"presentation" style=3D"border-collapse:col=
+lapse;border-spacing:0px;"><tbody><tr><td class=3D"full-width-mobile" style=
+=3D"width:240px;"><a href=3D"https://l.engage.canva.com/uni/ss/c/N56jrjxtaj=
+clrFz56qumlX6ZZCWxVAWc-i9ih8udhva67Ej0NstUfRMJ2Ty12k4oAwuYIc7-r_jJen7jV8j5A=
+rKw9Y2m4k6yqd5mxlvXXEqSMC8baCYkIWO44YF5jYsRxdW8dLr-0PpHuKxgimjGWO0M3ApZiP0A=
+3YxkF5Zr1gpDgG08I-wiRBHySsCo1D2KPJTCZbMFSB9pdKkUMUaoug/39m/ZTZxrrW7RH-p5qIM=
+MiWICA/h10/RlCU1s48WUL86-Ui4T7_DzrBu2Q1h3VoMnHcwlPrVAQ" universal=3D"true" =
+target=3D"_blank"><img alt height=3D"auto" src=3D"https://appboy-images.com=
+/appboy/communication/assets/image_assets/images/60236aa583566832dc8ad91a/o=
+riginal.png?1612933797" style=3D"border:none;border-radius:4px;display:bloc=
+k;font-size:13px;outline:none;text-decoration:none;width:100%;" title width=
+=3D"240"></a></td></tr></tbody></table>
+              </th>
+            </tr>
+          </table>
+         </th>
+       </tr>
+     </table></td></tr>
+   </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+f;background-color:#ffffff;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:=
+center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <th class=3D"wrapper-margin" width=3D"48px">&nbsp;</th>
+          <th style=3D"text-align: left; text-align: start">
+            <a href=3D"https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qum=
+lcuNJ1Xss-hKgDe0qN385Au1P2LHbj_j75dZdkKJS9sc_PIl3kopFEZnbUrk8BQ7VkOiM0P00EE=
+2oqQV_isPeysfn9Qs-Mq2OC8RTb5b4IOSi_NWSfOAnKBLDhTdc3FqTg/39m/ZTZxrrW7RH-p5qI=
+MMiWICA/h11/C5z_67VU1tR-qQiOvmmMiBqNcKkYwdUyk0cLayr5YRc" style=3D"backgroun=
+d:#7d2ae8;border-radius:4px;color:#ffffff;display:inline-block;font-family:=
+Open Sans, Helvetica, Arial, sans serif;font-size:14px;font-weight:600;line=
+-height:160%;margin:0;mso-padding-alt:0px;padding:9px 16px;text-decoration:=
+none;text-transform:none;" target=3D"_blank">Mulai mendesain</a>
+          </th>
+          <th class=3D"wrapper-margin" width=3D"48px">&nbsp;</th>
+        </tr>=20
+        </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#edf0f2;background-color:#edf0f2;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#edf0f=
+2;background-color:#edf0f2;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <td>
+            <table class=3D"border-radius-for-large" style=3D"border-radius=
+: 0 0 8px 8px; background: #ffffff; width: 100%">
+              <tr>
+                <td height=3D"36" style=3D"padding:0;">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class=3D"spacing-for-large" height=3D"24"></td>
+        </tr>
+        <tr>
+          <td>
+            <table class=3D"border-radius-for-large" style=3D"border-radius=
+: 8px 8px 0 0; background: #ffffff; width: 100%">
+              <tr>
+                <td height=3D"36" style=3D"padding:0;">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+f;background-color:#ffffff;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:=
+center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+          <th>
+            <h2 style=3D"font-family: Open Sans, Helvetica, Arial, sans ser=
+if; font-size: 24px; font-weight: 700; line-height: 130%; color: #0E1318; l=
+etter-spacing: -0.3px; margin: 0 0 16px; text-align: left; text-align: star=
+t">Mencetak jadi mudah</h2>
+            <p style=3D"color: #0E1318; font-family: Open Sans, Helvetica, =
+Arial, sans serif; font-weight: 400; line-height: 160%; font-size: 14px; ma=
+rgin: 0; text-align: left; text-align: start">Setelah puas dengan desain An=
+da, cukup tekan Cetak di sudut kanan atas editor. Di sana Anda dapat meliha=
+t pratinjau desain, memilih kuantitas, dan mengisi detail pengiriman dan pe=
+mbayaran. Kemudian bersantailah karena kami akan mengirimkan pesanan langsu=
+ng kepada Anda.</p>
+          </th>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+        </tr>
+      </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+f;background-color:#ffffff;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:=
+center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <th class=3D"wrapper-margin" width=3D"48px">&nbsp;</th>
+          <th style=3D"text-align: left; text-align: start">
+            <a href=3D"https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qum=
+lcuNJ1Xss-hKgDe0qN385Au1P2LHbj_j75dZdkKJS9sc_PIl3kopFEZnbUrk8BQ7VkOiM0P00EE=
+2oqQV_isPeysfn9Qs-Mq2OC8RTb5b4IOSi_NWSfOAnKBLDhTdc3FqTg/39m/ZTZxrrW7RH-p5qI=
+MMiWICA/h12/Fo5euRDPoY61Dyrm7-gv3InmlXqGLh_HgtAXspdbCcw" style=3D"backgroun=
+d:#7d2ae8;border-radius:4px;color:#ffffff;display:inline-block;font-family:=
+Open Sans, Helvetica, Arial, sans serif;font-size:14px;font-weight:600;line=
+-height:160%;margin:0;mso-padding-alt:0px;padding:9px 16px;text-decoration:=
+none;text-transform:none;" target=3D"_blank">Mulai mendesain</a>
+          </th>
+          <th class=3D"wrapper-margin" width=3D"48px">&nbsp;</th>
+        </tr>=20
+        </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+f;background-color:#ffffff;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:=
+center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;padding-botto=
+m:0;padding-top:0;word-break:break-word;"><div style=3D'color:#0E1318;font-=
+family:"Open Sans", Helvetica, Arial, sans-serif;font-size:16px;line-height=
+:1.6;text-align:left;'>
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"colo=
+r:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;width:100=
+%;" width=3D"100%">
+        <tr>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+          <th>
+          <a href=3D"https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qumlc=
+uNJ1Xss-hKgDe0qN385Au1P2LHbj_j75dZdkKJS9sc_PIl3kopFEZnbUrk8BQ7VkOiM0P00EE2o=
+qQV_isPeysfn9Qs-Mq2OC8RTb5b4IOSi_NWSfOAnKBLDhTdc3FqTg/39m/ZTZxrrW7RH-p5qIMM=
+iWICA/h13/ivuzWVyE978faYITH71dMa5Hi0L_YPLYiGqmHITgUAY" target=3D"_blank">  =
+<img alt src=3D"https://appboy-images.com/appboy/communication/assets/image=
+_assets/images/602369fd45732b2d736015ea/original.gif?1612933629" style=3D"m=
+ax-width: 100%; border-radius: 4px"></a>
+          </th>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+        </tr>
+      </table>
+        </div></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#edf0f2;background-color:#edf0f2;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#edf0f=
+2;background-color:#edf0f2;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <td>
+            <table class=3D"border-radius-for-large" style=3D"border-radius=
+: 0 0 8px 8px; background: #ffffff; width: 100%">
+              <tr>
+                <td height=3D"36" style=3D"padding:0;">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class=3D"spacing-for-large" height=3D"24"></td>
+        </tr>
+        <tr>
+          <td>
+            <table class=3D"border-radius-for-large" style=3D"border-radius=
+: 8px 8px 0 0; background: #ffffff; width: 100%">
+              <tr>
+                <td height=3D"36" style=3D"padding:0;">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#fff;background-color:#fff;margin:0px =
+auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fff;backgro=
+und-color:#fff;width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size=
+:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"background-c=
+olor:#fff;padding:0;vertical-align:top;"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" class=3D"wrapper-typography" style=3D"font-siz=
+e:0px;padding:10px 25px;padding-bottom:12px;padding-left:48px;padding-right=
+:48px;padding-top:12px;word-break:break-word;"><div style=3D"color:#0E1318;=
+font-family:Open Sans, Helvetica, Arial, sans serif;font-size:24px;font-wei=
+ght:700;letter-spacing:-0.3px;line-height:130%;text-align:left;"><p style=
+=3D"margin-top:0;margin-bottom:0">Alasan mencetak dengan Canva</p></div></t=
+d></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+f;background-color:#ffffff;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;pa=
+dding-bottom:12px;padding-top:12px;vertical-align:top;"><table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=
+=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+          <th>
+            <div style=3D'color:#0E1318;font-family:"Open Sans", Helvetica,=
+ Arial, sans-serif;font-size:16px;line-height:1.6;text-align:left;'>
+              <table cellpadding=3D"0" cellspacing=3D"0">
+                <tr>
+                  <td style=3D"line-height: 0; padding-top: 6px; padding-le=
+ft: 8px; padding-right: 8px" valign=3D"top">
+                    <img alt=3D"bullet" src=3D"https://appboy-images.com/ap=
+pboy/communication/assets/image_assets/images/5fa0bf1f01bc31513b9ece3d/orig=
+inal.png?1604370207">
+                  </td>
+                  <td style=3D"padding: 0 8px;color:#0e1318;font-family:Ope=
+n Sans, Helvetica, Arial, sans serif;font-size:14px;font-weight:400;line-he=
+ight:160%;text-align:left;text-align:start;">
+<strong>Pengiriman gratis untuk semua pesanan </strong><br>Kirim pesanan An=
+da tanpa biaya tambahan. Anda juga dapat melacak pesanan Anda, sehingga And=
+a selalu tahu lokasinya.<br>
+</td>
+                </tr>
+              </table>
+            </div>
+          </th>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+        </tr>
+      </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+f;background-color:#ffffff;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;pa=
+dding-bottom:12px;padding-top:0;vertical-align:top;"><table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=3D=
+"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+          <th>
+            <div style=3D'color:#0E1318;font-family:"Open Sans", Helvetica,=
+ Arial, sans-serif;font-size:16px;line-height:1.6;text-align:left;'>
+              <table cellpadding=3D"0" cellspacing=3D"0">
+                <tr>
+                  <td style=3D"line-height: 0; padding-top: 6px; padding-le=
+ft: 8px; padding-right: 8px" valign=3D"top">
+                    <img alt=3D"bullet" src=3D"https://appboy-images.com/ap=
+pboy/communication/assets/image_assets/images/5fa0bf1f01bc31513b9ece3d/orig=
+inal.png?1604370207">
+                  </td>
+                  <td style=3D"padding: 0 8px;color:#0e1318;font-family:Ope=
+n Sans, Helvetica, Arial, sans serif;font-size:14px;font-weight:400;line-he=
+ight:160%;text-align:left;text-align:start;">
+<strong>Kepuasan 100% </strong><br>Jika Anda tidak puas, kami dapat memperb=
+aikinya. Beri tahu kami dalam 30 hari dan kami akan mencetak ulang desain t=
+ersebut tanpa biaya tambahan.<br>
+</td>
+                </tr>
+              </table>
+            </div>
+          </th>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+        </tr>
+      </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+f;background-color:#ffffff;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;pa=
+dding-bottom:12px;padding-top:0;vertical-align:top;"><table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=3D=
+"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+          <th>
+            <div style=3D'color:#0E1318;font-family:"Open Sans", Helvetica,=
+ Arial, sans-serif;font-size:16px;line-height:1.6;text-align:left;'>
+              <table cellpadding=3D"0" cellspacing=3D"0">
+                <tr>
+                  <td style=3D"line-height: 0; padding-top: 6px; padding-le=
+ft: 8px; padding-right: 8px" valign=3D"top">
+                    <img alt=3D"bullet" src=3D"https://appboy-images.com/ap=
+pboy/communication/assets/image_assets/images/5fa0bf1f01bc31513b9ece3d/orig=
+inal.png?1604370207">
+                  </td>
+                  <td style=3D"padding: 0 8px;color:#0e1318;font-family:Ope=
+n Sans, Helvetica, Arial, sans serif;font-size:14px;font-weight:400;line-he=
+ight:160%;text-align:left;text-align:start;">
+<strong>Profesional dan ramah lingkungan</strong><br>Kami telah bermitra de=
+ngan percetakan lokal yang peduli lingkungan untuk menghidupkan desain Anda=
+ dengan kualitas terjamin yang ramah lingkungan. <br>
+</td>
+                </tr>
+              </table>
+            </div>
+          </th>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+        </tr>
+      </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+f;background-color:#ffffff;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;pa=
+dding-bottom:12px;padding-top:0;vertical-align:top;"><table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=3D=
+"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+          <th>
+            <div style=3D'color:#0E1318;font-family:"Open Sans", Helvetica,=
+ Arial, sans-serif;font-size:16px;line-height:1.6;text-align:left;'>
+              <table cellpadding=3D"0" cellspacing=3D"0">
+                <tr>
+                  <td style=3D"line-height: 0; padding-top: 6px; padding-le=
+ft: 8px; padding-right: 8px" valign=3D"top">
+                    <img alt=3D"bullet" src=3D"https://appboy-images.com/ap=
+pboy/communication/assets/image_assets/images/5fa0bf1f01bc31513b9ece3d/orig=
+inal.png?1604370207">
+                  </td>
+                  <td style=3D"padding: 0 8px;color:#0e1318;font-family:Ope=
+n Sans, Helvetica, Arial, sans serif;font-size:14px;font-weight:400;line-he=
+ight:160%;text-align:left;text-align:start;">
+<strong>Desain mutakhir</strong><br>Ciptakan desain yang indah menggunakan =
+alat bantu desain termudah di dunia. Template kami dapat disesuaikan sepenu=
+hnya. Pilih font, warna, bingkai, dan lebih banyak lagi.<br>
+</td>
+                </tr>
+              </table>
+            </div>
+          </th>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+        </tr>
+      </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+f;background-color:#ffffff;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:=
+center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <th class=3D"wrapper-margin" width=3D"48px">&nbsp;</th>
+          <th style=3D"text-align: left; text-align: start">
+            <a href=3D"https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56qum=
+lcuNJ1Xss-hKgDe0qN385Au1P2LHbj_j75dZdkKJS9sc_PIl3kopFEZnbUrk8BQ7VkOiM0P00EE=
+2oqQV_isPeysfn9Qs-Mq2OC8RTb5b4IOSi_NWSfOAnKBLDhTdc3FqTg/39m/ZTZxrrW7RH-p5qI=
+MMiWICA/h14/fxSPAsLIRB4ptdrlbi2CJp-V9bFvp2lFcZvAR7dBHIg" style=3D"backgroun=
+d:#7d2ae8;border-radius:4px;color:#ffffff;display:inline-block;font-family:=
+Open Sans, Helvetica, Arial, sans serif;font-size:14px;font-weight:600;line=
+-height:160%;margin:0;mso-padding-alt:0px;padding:9px 16px;text-decoration:=
+none;text-transform:none;" target=3D"_blank">Mencetak jadi mudah </a>
+          </th>
+          <th class=3D"wrapper-margin" width=3D"48px">&nbsp;</th>
+        </tr>=20
+        </table></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"background:#ffffff;background-color:#ffffff;margi=
+n:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#fffff=
+f;background-color:#ffffff;width:100%;"><tbody><tr><td style=3D"direction:l=
+tr;font-size:0px;padding:0;padding-bottom:12px;padding-top:12px;text-align:=
+center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;padding-botto=
+m:0;padding-top:0;word-break:break-word;"><div style=3D'color:#0E1318;font-=
+family:"Open Sans", Helvetica, Arial, sans-serif;font-size:16px;line-height=
+:1.6;text-align:left;'>
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"colo=
+r:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;width:100=
+%;" width=3D"100%">
+        <tr>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+          <th>
+           <a href=3D"https://l.engage.canva.com/ss/c/N56jrjxtajclrFz56quml=
+cuNJ1Xss-hKgDe0qN385Au1P2LHbj_j75dZdkKJS9sc_PIl3kopFEZnbUrk8BQ7VkOiM0P00EE2=
+oqQV_isPeysfn9Qs-Mq2OC8RTb5b4IOSi_NWSfOAnKBLDhTdc3FqTg/39m/ZTZxrrW7RH-p5qIM=
+MiWICA/h15/x3v5-cvyUyJKPCe8dzmG4xKXVx7dR_eqGwVmCd0r0z8" target=3D"_blank"> =
+<img alt src=3D"https://appboy-images.com/appboy/communication/assets/image=
+_assets/images/60236a0326e78f68ae867b45/original.png?1612933635" style=3D"m=
+ax-width: 100%; border-radius: 4px">
+          </a>
+</th>
+          <th class=3D"wrapper-margin" width=3D"48">&nbsp;</th>
+        </tr>
+      </table>
+        </div></td></tr>
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+
+  <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"margin:0px auto;max-width:600px;"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:=
+0px;padding:0;text-align:center;vertical-align:top;">
+<!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding:0;ve=
+rtical-align:top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"" width=3D"100%">
+      <tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-break:br=
+eak-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line=
+-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+        <tr>
+          <td colspan=3D"3">
+            <table cellpadding=3D"0" cellspacing=3D"0" class=3D"border-radi=
+us-for-large" style=3D"border-radius: 0 0 8px 8px; background: #ffffff; wid=
+th: 100%">
+              <tr>
+                <td height=3D"36">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan=3D"3">
+            <div class=3D"footer-bg-mobile" style=3D"background-color: #edf=
+0f2">
+
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;l=
+ine-height:22px;table-layout:auto;width:100%;" width=3D"100%">
+                <tr>
+                  <td height=3D"24">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width=3D"24">&nbsp;</td>
+                  <td>
+                    <div style=3D"color:#565a5d;font-family:Open Sans, Helv=
+etica, Arial, sans serif;font-size:14px;line-height:160%;text-align:center;=
+">Anda menerima email ini karena telah mendaftar ke Canva.</div>
+                  </td>
+                  <td width=3D"24">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan=3D"3" height=3D"24" style=3D"border-bottom: 1=
+px solid #DDE1E3">
+                    &nbsp;
+                  </td>
+                </tr>
+
+                <tr>
+                  <td height=3D"24">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width=3D"24">&nbsp;</td>
+                  <td>
+                    <div style=3D"color:#565a5d;font-family:Open Sans, Helv=
+etica, Arial, sans serif;font-size:14px;line-height:160%;text-align:center;=
+">
+                      <span>Dibuat oleh Canva <img src=3D'https://appboy-im=
+ages.com/appboy/communication/assets/image_assets/images/5e0190dc6a8d637c8d=
+d20cff/original.png?1577160924' alt=3D'love' style=3D'transform: translateY=
+(2px)' />untuk Anda</span><br><span>Canva=C2=AE</span>,
+                      <span>110 Kippax St, NSW 2010, Australia</span>
+                    </div>
+                  </td>
+                  <td width=3D"24">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan=3D"3">
+                    <table align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"auto">
+                      <tr>
+                        <th>
+                          <a href=3D"https://l.engage.canva.com/ss/c/N56jrj=
+xtajclrFz56qumlQutsr5J_0b-EtCZIlInmZSBn0wmQQjugutk0KKNp21266W0gVJp55cd5IMDY=
+fR5REB3frD9DcDNBs2uaOLPTdwPn8RcNFLyqOgvRiPM-8ue/39m/ZTZxrrW7RH-p5qIMMiWICA/=
+h16/UNwewcJEehaYwDEIlFKqQ0KPsGsJQjMjOvqIhkCT4Dw" style=3D"color: #565a5d;  =
+font-family: Open Sans, Helvetica, Arial, sans serif; font-size: 14px; font=
+-weight: 400; line-height: 160%">Kunjungi canva.com</a>
+                        </th>
+                        <th width=3D"16px"></th>
+                        <th>
+                          <a href=3D"https://l.engage.canva.com/ss/c/SGIckv=
+MXEMMWyyBsBumKhyFmXQQzIYONw2wHwEsCdVb8K2IvTUG7e0wTxwiJNi6B24uCNaaiu2ebm9iNo=
+KXl2ebsreAsqliFT65sner6606gCNZxP94Vj8Ne4Ptn5_6MKgI1yU5niVRaLWBbsysphOy5TIM3=
+YPMeIkZcX2RAkEIYV7roW9J33NJtJsI3FgLFjRA3rpvIhQ2TdJai7GcyN9l7pvtkgXz5BIIaT_x=
+y5wGeIKbOFT-bMoui65EVwH6Sg_vErFOHz7kTaCBUFNPqALcBNSIqMFlR5FY0e0RSlCH0Gj8txo=
+GWCc5Sewi17nK0IBVbJxGrEdH4kmkZVdYJJO0UBGIun3hQo_KAB_JJeS0NStZ9aDRCwBxIWKmqj=
+mErQLOHEo35Wa7b4lTNKyNCUToqPU58ADvI7XZANxJ6VHvG7tJq061-L3z6VvFtYxevcsALfWwE=
+MVNxcFoFuCgsTSmoBK6yVTmMB54KW2BPRYdLu2qF3XR5eRo40rQVC-gUG-Iw1afJ1X9TXeYhQCk=
+j2aoSVkad3w440KBmSlN5RtFZHd05uafcaKrZoc3MkPWe4z8Izvtf_wJZMdNmgXRxEySo6Ys7kX=
+b5R5s0eYmaNSUpIDFOuGtDxHqJNqzncTtaMJmGNniICO72f9Ia3s4ZbEpNeHWzOa24YSDoZ9JfU=
+JY/39m/ZTZxrrW7RH-p5qIMMiWICA/h17/wd6Qkf3scd_8QVeVEeaWh0P84a544kFntMeL82xpH=
+Zg" style=3D"color: #565a5d;  font-family: Open Sans, Helvetica, Arial, san=
+s serif; font-size: 14px; font-weight: 400; line-height: 160%">Berhenti ber=
+langganan</a>
+                        </th>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td height=3D"16"></td>
+                </tr>
+                <tr>
+                  <td align=3D"center" colspan=3D"3">
+                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:=
+13px;line-height:22px;table-layout:auto;width:144px;" width=3D"144">
+                <tr>
+                  <th width=3D"24px">
+                    <a href=3D"https://l.engage.canva.com/ss/c/N56jrjxtajcl=
+rFz56qumlX5OAtbCJMd_FPvwEHJJ-8-_6RIJB-ToEejbLKxYPixt/39m/ZTZxrrW7RH-p5qIMMi=
+WICA/h18/CeXRPV4KoGpe1y1KOAfG5U83lGK7BDWusft2x6QyXlQ" style=3D"line-height:=
+ 0; display: block">
+                      <img alt=3D"facebook" src=3D"https://appboy-images.co=
+m/appboy/communication/assets/image_assets/images/5e01866c167e920348c59e1f/=
+original.png?1577158252">
+                    </a>
+                  </th>
+                  <th width=3D"16px"></th>
+                  <th width=3D"24px">
+                    <a href=3D"https://l.engage.canva.com/ss/c/mtWqLnqJK6aD=
+QEpLGYS3ux9pLP57VNKLjQ65NmZu_e4iijbSbAi9eW7qKtCtpW5SexzrlAJNlg5i_UDFzkfP6zY=
+Hnr30P_m8HrQ9IqcRPPp3G9XgniygGeS6mXT-8E4Z/39m/ZTZxrrW7RH-p5qIMMiWICA/h19/i4=
+GTV6iGMOHBQSOOs--5lxA5BDq0G7pTRvBZHVqTAoc" style=3D"line-height: 0; display=
+: block">
+                      <img alt=3D"twitter" src=3D"https://appboy-images.com=
+/appboy/communication/assets/image_assets/images/5e01866ccda48838c1473107/o=
+riginal.png?1577158252">
+                    </a>
+                  </th>
+                  <th width=3D"16px"></th>
+                  <th width=3D"24px">
+                    <a href=3D"https://l.engage.canva.com/ss/c/N56jrjxtajcl=
+rFz56qumlVxO83WZsjMmrpdK0WEk-PxkEDVoBsoxNeFOEt8aV4eK/39m/ZTZxrrW7RH-p5qIMMi=
+WICA/h20/dIWND0jDE2WqnntxlvZZNem2s84XhwDtrdZUTylbDxc" style=3D"line-height:=
+ 0; display: block">
+                      <img alt=3D"pinterest" src=3D"https://appboy-images.c=
+om/appboy/communication/assets/image_assets/images/5e01866daf874e03968b2978=
+/original.png?1577158253">
+                    </a>
+                  </th>
+                  <th width=3D"16px"></th>
+                  <th width=3D"24px">
+                    <a href=3D"https://l.engage.canva.com/ss/c/lZ-GM7rMZ041=
+tTtfCkoTKRXxFZvYdctphiqWkWaCzslk1Zyews0K8QpPhscpbWHk/39m/ZTZxrrW7RH-p5qIMMi=
+WICA/h21/ro2Oa7dqDsy-CU2TMxlHwxaE5XtDekIMdqarNt2dBY8" style=3D"line-height:=
+ 0; display: block">
+                      <img alt=3D"instagram" src=3D"https://appboy-images.c=
+om/appboy/communication/assets/image_assets/images/5e01866d5b99ac6f6aaa44d0=
+/original.png?1577158253">
+                    </a>
+                  </th>
+                </tr>
+              </table>
+              </td>
+              </tr>
+              <tr>
+                <td height=3D"48px"></td>
+              </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+
+      </table></td></tr>
+
+    </table></td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</div>
+
+<img src=3D"https://l.engage.canva.com/ss/o/WidYBisxQHTw4AV5utnA-Q/39m/ZTZx=
+rrW7RH-p5qIMMiWICA/ho.gif" alt=3D"" width=3D"1" height=3D"1" border=3D"0" s=
+tyle=3D"height:1px !important;width:1px !important;border-width:0 !importan=
+t;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !import=
+ant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !imp=
+ortant;padding-right:0 !important;padding-left:0 !important;"/>
+</body> </html>
+
+
+--2160791d096cba42d94e0a1c4d1ca5055c650d20fe7393681c5063ef6bd7--

@@ -1,0 +1,21 @@
+[10-Dec-2020 15:34:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/qedy1629/public_html/testing/getdata.php:87
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/testing/getdata.php on line 87
+[10-Dec-2020 15:35:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/qedy1629/public_html/testing/getdata.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/testing/getdata.php on line 34
+[10-Dec-2020 15:36:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/qedy1629/public_html/testing/getdata.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/testing/getdata.php on line 34
+[10-Dec-2020 15:36:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/qedy1629/public_html/testing/getdata.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/qedy1629/public_html/testing/getdata.php on line 34
+[10-Dec-2020 15:37:21 Asia/Jakarta] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/qedy1629/public_html/testing/getdata.php on line 37
+[11-Dec-2020 13:56:19 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/qedy1629/public_html/testing/getdata.php on line 69
+[11-Dec-2020 13:56:21 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/qedy1629/public_html/testing/getdata.php on line 69
+[11-Dec-2020 13:56:25 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/qedy1629/public_html/testing/getdata.php on line 69
+[11-Dec-2020 13:56:32 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/qedy1629/public_html/testing/getdata.php on line 69

@@ -1,0 +1,121 @@
+Return-Path: <mauli.chrisman@gmail.com>
+Delivered-To: mauli@qedai.id
+Received: from maruta.iixcp.rumahweb.com
+	by maruta.iixcp.rumahweb.com with LMTP
+	id E63WFYyYEmCkYwAATxegfw
+	(envelope-from <mauli.chrisman@gmail.com>)
+	for <mauli@qedai.id>; Thu, 28 Jan 2021 17:57:16 +0700
+Return-path: <mauli.chrisman@gmail.com>
+Envelope-to: mauli@qedai.id
+Delivery-date: Thu, 28 Jan 2021 17:57:16 +0700
+Received: from mail-pl1-f172.google.com ([209.85.214.172]:40551)
+	by maruta.iixcp.rumahweb.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <mauli.chrisman@gmail.com>)
+	id 1l54z5-0000eg-ED
+	for mauli@qedai.id; Thu, 28 Jan 2021 17:57:16 +0700
+Received: by mail-pl1-f172.google.com with SMTP id j21so3110826pls.7
+        for <mauli@qedai.id>; Thu, 28 Jan 2021 02:56:46 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:date:from:subject:thread-topic:message-id:to
+         :content-transfer-encoding;
+        bh=71UzGLH+JlN1Xizjj/xP3OgNGTM2e3uwfbyPVKhXzQI=;
+        b=tqANjPKy2NQ7+yK/ZLFuCCNnYsHFHHzkiSA790M5a36jVaP1fuFcxdm+1x+HYV5p1V
+         XQJSaIdKuI+I2qOIZvfAM0ZNVLumA7Nrj9/WjtxyxbMkWkf/n9SNYd+uRqdh9sw2ILn/
+         skmVlRCYWf4ew2a8KLUOf0iM7pNDXddSE9+qw0boQeCANqhimyfVULAK79dHGBxxFMfv
+         rRBuYebsqd8Ej9A3iIN4BYI5EUWkggVIYW14JzpwdZ+1RRwG43W1yDLCxMgIVgJcw3c+
+         m1onWuR0hSPbJ+7pNjsvGl5np2o2lXe0rah540dNJ2v2Gn5/cSMyhM8JWM1y15wNNAp8
+         fX7g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:date:from:subject:thread-topic
+         :message-id:to:content-transfer-encoding;
+        bh=71UzGLH+JlN1Xizjj/xP3OgNGTM2e3uwfbyPVKhXzQI=;
+        b=Bm9dusczUYqtU6Z4o9yziD33s922vRFz6XENUcc3+HoBGjktpxbgaKV84YHjgz3vCa
+         ZAuBRw8jlrrGokk1LDpA5/UdGZvQfFUYaRULtU5TNypf1qkpP47VjKIxN/poMruzl6+Z
+         8Gg6yzq7jCcs6yZ2lohteJmvUGXJAEz4yNIkduZ7M78tarHggbbaR8erJUxQfYY25zgo
+         ZceoyjfbZcLEOkwmfyio9BY/ue+zE8sBy0XRPh6S7z3E87krFSF04HVbAUWLgaVjWSaI
+         UQRfVL+WWuAJWxaDrKtbE6/hprgoB+Sy3moheSKFokvrQyPytYaxqf8hbV7TaNsH1WjT
+         iADw==
+X-Gm-Message-State: AOAM531zePB2JE//ktFNte+yrsw+e74rfXcBKnDI7CEsOiYarMmWxxHE
+	560O3GlqvWlF9z/XJnPt4KmNKna/jAatSA==
+X-Google-Smtp-Source: ABdhPJwf6JZD6f87K0fPXkVgbZZuETe1Dw3tzmHyZQPQH1uwjZ7DVNXRKliFtJT5zkPUNjz2kID1VA==
+X-Received: by 2002:a17:90a:bf17:: with SMTP id c23mr10328995pjs.96.1611831384348;
+        Thu, 28 Jan 2021 02:56:24 -0800 (PST)
+Received: from DESKTOP-MK8A8A1 ([114.5.210.26])
+        by smtp.gmail.com with ESMTPSA id h190sm5595661pfe.158.2021.01.28.02.56.23
+        for <mauli@qedai.id>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 28 Jan 2021 02:56:23 -0800 (PST)
+MIME-Version: 1.0
+Date: Thu, 28 Jan 2021 17:56:17 +0700
+From: <mauli.chrisman@gmail.com>
+Subject: tes
+Thread-Topic: tes
+Message-ID: <AA4D8F7A-5B17-49EE-8C29-E3F6086453DC@hxcore.ol>
+To: <mauli@qedai.id>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+X-Spam-Status: No, score=-0.1
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "maruta.iixcp.rumahweb.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  tes Sent from Mail for Windows 10 
+ Content analysis details:   (-0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [mauli.chrisman[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta ht=
+tp-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta name=
+=3DGenerator content=3D"Microsoft Word 15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style></head><body lang=3DEN-US link=3Dblue vlink=3D"#954F72" style=3D=
+'word-wrap:break-word'><div class=3DWordSection1><p class=3DMsoNormal><span=
+ lang=3DEN-GB>tes</span></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p cl=
+ass=3DMsoNormal>Sent from <a href=3D"https://go.microsoft.com/fwlink/?LinkI=
+d=3D550986">Mail</a> for Windows 10</p><p class=3DMsoNormal><o:p>&nbsp;</o:=
+p></p></div></body></html>=
+
