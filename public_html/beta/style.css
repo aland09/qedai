@@ -119,6 +119,22 @@ img {
 .section-padding-30-14 {
   padding-top: 30px;
   padding-bottom: 14px; }
+  
+.slider {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 150px;
+  overflow: hidden;
+  background-color: #000; color: #FFF;
+  transition: all 1s;
+}
+
+.slider.close {
+  top: 100%;
+  height: 0;
+}
+
 
 /* Scrollup */
 #scrollUp {
@@ -831,7 +847,7 @@ textarea:invalid {
     min-width: 22px;
     width: 22px;
     height: 2px;
-    background-color: #747794;
+    background-color: #e41b00e1;
     margin-bottom: 4px; }
     .suha-navbar-toggler span:nth-child(2) {
       -webkit-box-flex: 0;
@@ -3656,3 +3672,4 @@ li.suha-dropdown-menu {
     background-color: #242644 !important; }
   [data-theme="dark"] .btn-warning {
     color: #020310; }
+
